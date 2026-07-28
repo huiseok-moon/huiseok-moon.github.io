@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download PDF    (see summary below)"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\n\nNov 2019 – Jan 2024\n\n\nPh.D. in Signal, Image and Control\n\nUniversity Paris-Est Créteil, Vitry-sur-Seine, France — Advisor: Dr. Samer Mohammed\n\nThesis: Human-in-the-loop Paradigms for Mobility Assistance Using Powered Exoskeleton\n\n\n\n\nMar 2017 – Feb 2019\n\n\nM.S. in Mechanical Engineering\n\nSogang University, Seoul, South Korea — Advisor: Dr. Kyoungchul Kong\n\nThesis: Control Algorithm of a Robotic Leg for Reducing Interaction Force Between a Load and the Human Body Graduate research fellowship, Ilwun Science and Technology Foundation, 2017–2019\n\n\n\n\nMar 2010 – Feb 2017\n\n\nB.S. in Robotics (Intelligence System)\n\nKwangwoon University, Seoul, South Korea\n\nThesis: Research on personal mobility using ball balancing robot"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\n\n\n\n\n\n\n\nProgramming\nPython, C, C++, MATLAB, LabVIEW, Solidworks\n\n\nFrameworks & Tools\nPyTorch, TensorFlow, Simulink\n\n\nKey Technical Expertise\nReal-time ML deployment, multi-modal sensor fusion, embedded systems, adaptive & impedance control, human-robot interaction, wearable robotics, signal processing\n\n\nLanguages\nKorean (Native), English (Fluent), French (Basic)"
+  },
+  {
+    "objectID": "cv.html#academic-service-teaching",
+    "href": "cv.html#academic-service-teaching",
+    "title": "Curriculum Vitae",
+    "section": "Academic Service & Teaching",
+    "text": "Academic Service & Teaching\nPeer review activities IEEE Transactions on Robotics, IROS, ICRA, Engineering Applications of Artificial Intelligence, Mechatronics, etc.\nInvited Talks & Seminars\n\n2025: REHAssist Visiting Seminar, EPFL (Switzerland)\n2024: LISSI–BIOTN Joint Seminar, UPEC (France)\n2020–2023: LISSI Research Seminars, UPEC (4 sessions, France)\n\nVolunteering\n\n2025: IFAC World Congress (Volunteer)\n2024: IUT Research Day (Poster Exhibition)\n2023: Fête de la Science (Public Outreach Exhibitor)\n2017: Korea Defense Science & Tech Fair (Exhibitor)\n\nTeaching Experience\nMay 2022 – Aug 2023: ATER (Temporary Lecturer and Research Assistant), Université Paris-Est Créteil (UPEC) — delivered core Python skills and lectures on the integration of multimodal sensors (EMG, IMU, FSR)."
+  },
+  {
+    "objectID": "cv.html#mentoring-graduate-students-m.s.",
+    "href": "cv.html#mentoring-graduate-students-m.s.",
+    "title": "Curriculum Vitae",
+    "section": "Mentoring — Graduate Students (M.S.)",
+    "text": "Mentoring — Graduate Students (M.S.)\n\nL. Marusu (2025) — Multi-sensor gait analysis\nA. A. Benhamlaoui (2024) — AI-based gait event detection\nD. Plet (2024) — Multi-sensor gait analysis\nW. Legendre (2023) — ‘Alternomètre’ Parkinson’s diagnostic tool\nJ. M. Fadous (2022) — Human activity recognition\nR. Ravaka & M. Diaby (2021) — Assistive robot control"
+  },
+  {
+    "objectID": "cv.html#references",
+    "href": "cv.html#references",
+    "title": "Curriculum Vitae",
+    "section": "References",
+    "text": "References\n\nJaegul Choo — Associate Professor, Kim Jaechul Graduate School of AI, KAIST Postdoc Advisor — jchoo@kaist.ac.kr\n\n\nSamer Mohammed — Associate Professor, LISSI, University of Paris-Est Créteil Ph.D. Advisor — samer.mohammed@u-pec.fr\n\n\nKyungchul Kong — Associate Professor, KAIST M.S. Advisor — kckong@kaist.ac.kr"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Full list also available on Google Scholar. Huiseok Moon is bolded in author lists below."
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "Journal Articles",
+    "text": "Journal Articles\n\n\n2025\n\n\n\nReal-Time LSTM-Driven Dynamic Gait Mode Detection for Enhanced Control of Actuated Ankle-Foot Orthosis\n\n\nHuiseok Moon, Oussama Bey, Abderrahmane Boubezoul, Latifa Oukhellou, and Samer Mohammed\n\n\nIEEE Transactions on Robotics, Vol. 41, pp. 4794–4809, July 2025 — doi.org/10.1109/TRO.2025.3593111\n\n\n\n\n\n2023\n\n\n\nFuzzy Convolutional Attention-based GRU Network for Human Activity Recognition\n\n\nGhazaleh Khodabandelou, Huiseok Moon, Yacine Amirat, and Samer Mohammed\n\n\nEngineering Applications of Artificial Intelligence, Vol. 118, pp. 105702, February 2023 — doi.org/10.1016/j.engappai.2022.105702\n\n\n\n\n\n2022\n\n\n\nHybrid Half-Gaussian Selectively Adaptive Fuzzy Control of an Actuated Ankle-Foot Orthosis\n\n\nHuiseok Moon, Roshni Maiti, Kaushik Das Sharma, Yacine Amirat, Patrick Siarry, and Samer Mohammed\n\n\nIEEE Robotics and Automation Letters, Vol. 7, pp. 9635–9642, October 2022 — doi.org/10.1109/LRA.2022.3191187\n\n\nPresented at IEEE ICRA 2023 (oral session)\n\n\n\n\n\n2022\n\n\n\nAn Assistive Explicit Model Predictive Control Framework for a Knee Rehabilitation Exoskeleton\n\n\nInes Jammeli, Ahmed Chemori, Huiseok Moon, Salwa Elloumi, and Samer Mohammed\n\n\nIEEE/ASME Transactions on Mechatronics, Vol. 27, pp. 3636–3647, October 2022 — doi.org/10.1109/TMECH.2021.3126674\n\n\n\n\n\n2022\n\n\n\nImpedance Modulation Control of a Lower-Limb Exoskeleton to Assist Sit-to-Stand Movements\n\n\nWeiguang Huo, Huiseok Moon, Mohamed Amine Alouane, Vincent Bonnet, Jian Huang, Yacine Amirat, Ravi Vaidyanathan, and Samer Mohammed\n\n\nIEEE Transactions on Robotics, Vol. 38, pp. 1230–1249, April 2022 — doi.org/10.1109/TRO.2021.3104244"
+  },
+  {
+    "objectID": "publications.html#proceeding-conferences",
+    "href": "publications.html#proceeding-conferences",
+    "title": "Publications",
+    "section": "Proceeding Conferences",
+    "text": "Proceeding Conferences\n\n\n2024\n\n\n\nA Novel Funnel-Based L1 Adaptive Fuzzy Approach for the Control of an Actuated Ankle Foot Orthosis\n\n\nOussama Bey, Rami Jradi, Huiseok Moon, Hala Rifai, Kaushik Das Sharma, Yacine Amirat, and Samer Mohammed\n\n\n2024 IEEE International Conference on Robotics and Automation (ICRA) — doi.org/10.1109/ICRA57147.2024.10610584\n\n\n\n\n\n2022\n\n\n\nOnline Human Intention Detection through Machine-learning based Algorithm for the Control of Lower-limbs Wearable Robot\n\n\nHuiseok Moon, Abderrahmane Boubezoul, Latifa Oukhellou, Yacine Amirat, and Samer Mohammed\n\n\n2022 IEEE-RAS 21st International Conference on Humanoid Robots (Humanoids) — doi.org/10.1109/Humanoids53995.2022.10000150\n\n\n\n\n\n2021\n\n\n\nA Novel Gait Phase Detection Algorithm for Foot Drop Correction through Optimal Hybrid FES-Orthosis Assistance\n\n\nPyeong-Gook Jung, Weiguang Huo, Huiseok Moon, Yacine Amirat, and Samer Mohammed\n\n\n2021 IEEE International Conference on Robotics and Automation (ICRA) — doi.org/10.1109/ICRA48506.2021.9561497"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My work sits at the intersection of assistive robotics and physical human-robot interaction: designing sensor-driven systems that infer what a person intends to do — from a gait mode to a sit-to-stand transition — and turning that inference into safe, adaptive robotic assistance in real time.\nKeywords: Wearable Robotics · Assistive Robotics · Multimodal Learning · Nonlinear Control"
+  },
+  {
+    "objectID": "research.html#professional-experience",
+    "href": "research.html#professional-experience",
+    "title": "Research",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\n\n\nJul 2026 – Present\n\n\nPostdoctoral Researcher\n\nUniversité Paris-Est Créteil, Vitry-sur-Seine, France\n\n\nDesigned a high-precision gait mode recognition system using LSTM networks, achieving 98% classification accuracy and enabling real-time intent detection for actuated ankle-foot orthoses.\nDeveloped an energy-efficient adaptive FES control strategy based on surface EMG signals, reducing stimulation energy consumption by 30% while significantly mitigating muscle fatigue in clinical trials.\nImplemented a multi-sensor fusion framework (7 IMUs) to extract kinematic metrics for lower-limb joint analysis and Parkinson’s disease diagnosis in a portable clinical device.\n\n\n\n\n\nSep 2025 – Mar 2026\n\n\nPostdoctoral Researcher\n\nKorea Advanced Institute of Science & Technology (KAIST), Daejeon, South Korea — Advisor: Dr. Jaegul Choo\n\n\nDeveloped physics-informed AI models for human motion intention inference, leveraging motion-primitive representations of wearable IMU signals.\n\n\n\n\n\nSep 2023 – Aug 2025\n\n\nResearch Engineer\n\nUniversité Paris-Est Créteil, Vitry-sur-Seine, France\n\n\nDesigned a high-precision gait mode recognition system using LSTM networks, achieving 98% classification accuracy and enabling real-time intent detection for actuated ankle-foot orthoses.\nDeveloped an energy-efficient adaptive FES control strategy based on surface EMG signals, reducing stimulation energy consumption by 30% while significantly mitigating muscle fatigue in clinical trials.\nImplemented a multi-sensor fusion framework (7 IMUs) to extract kinematic metrics for lower-limb joint analysis and Parkinson’s disease diagnosis in a portable clinical device.\n\n\n\n\n\nNov 2022 – Aug 2023\n\n\nATER (Teaching & Research Assistant)\n\nUniversité Paris-Est Créteil, Vitry-sur-Seine, France\n\n\nDelivered undergraduate lectures and hands-on labs on wearable sensor integration (EMG, IMU, FSR) and biomechanical signal processing using Python and MATLAB.\n\n\n\n\n\nNov 2019 – Oct 2022\n\n\nResearch Assistant\n\nUniversité Paris-Est Créteil, Vitry-sur-Seine, France\n\n\nDeveloped nonlinear control architectures (impedance control, reference tracking) for human-exoskeleton interaction, applied to lower-limb exoskeletons and sit-to-stand assistance robots.\nConstructed a real-time activity recognition pipeline combining Random Forests and Deep Learning with Kalman-filtered IMU features, enabling robust intent-based control for mobility assistance.\n\n\n\n\n\nMar 2017 – Feb 2019\n\n\nResearch Assistant\n\nSogang University, Seoul, South Korea\n\n\nDesigned interaction force control strategies for lower-limb exoskeletons to augment physical strength and endurance for load-carrying tasks.\n\n\n\n\n\nSee full publication list →"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Huiseok Moon",
+    "section": "",
+    "text": "Assistive Robotics · Physical Human–Robot Interaction · Wearable Robotics\n\n\n📍 Bourg-la-Reine, France  ·  Postdoctoral Researcher, Université Paris-Est Créteil (LISSI)\n\nI design clinically validated real-time intent detection frameworks and assistive robotic control systems built on multimodal sensing (EMG, IMU) — with the aim of building exoskeletons and orthoses that understand what a person is trying to do, before they finish doing it.\n\n  View CV   Publications   Google Scholar   GitHub   Email"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Huiseok Moon",
+    "section": "Research Interests",
+    "text": "Research Interests\nMy research combines Assistive Robotics and Physical Human-Robot Interaction, building on my experience designing clinically validated real-time intent detection frameworks and assistive robotic control based on sensor systems (EMG, IMU, etc.). I am interested in physics-based modeling and simulation, model-based control, and multimodal AI for understanding and predicting human motion — with a focus on mobility assistance for wearable robotics.\n\n\nWearable Robotics\nActuated ankle-foot orthoses and lower-limb exoskeletons for gait and mobility assistance.\n\n\nAssistive & Adaptive Control\nImpedance control, funnel-based and fuzzy-adaptive control for human-exoskeleton interaction.\n\n\nMultimodal Learning\nLSTM / GRU / attention-based models fusing EMG, IMU, and FSR signals for intent and gait recognition.\n\n\nNonlinear & Model-Based Control\nPhysics-based modeling and model predictive / reference-tracking control for rehabilitation robots."
+  },
+  {
+    "objectID": "index.html#recent-news",
+    "href": "index.html#recent-news",
+    "title": "Huiseok Moon",
+    "section": "Recent News",
+    "text": "Recent News\n\n\n\nJul 2026\n\nStarted as Postdoctoral Researcher at Université Paris-Est Créteil (LISSI), continuing work on gait mode recognition, adaptive FES control, and multi-sensor Parkinson’s diagnosis tools.\n\n\n\nJul 2025\n\nPublished “Real-Time LSTM-Driven Dynamic Gait Mode Detection for Enhanced Control of Actuated Ankle-Foot Orthosis” in IEEE Transactions on Robotics.\n\n\n\nSep 2025 – Mar 2026\n\nPostdoctoral research at KAIST, South Korea, with Dr. Jaegul Choo, developing physics-informed AI models for human motion intention inference from wearable IMU signals.\n\n\n\n2025\n\nVolunteered at the IFAC World Congress and gave an invited seminar at the REHAssist Visiting Seminar, EPFL (Switzerland).\n\n\n\nHuiseok Moon · Bourg-la-Reine, France · koipo1229@gmail.com"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m Huiseok Moon, a postdoctoral researcher at Université Paris-Est Créteil (LISSI), working on assistive robotics and physical human-robot interaction. My path has taken me through mechanical engineering (Sogang University), robotics (Kwangwoon University), and a Ph.D. on human-in-the-loop mobility assistance (UPEC), with a postdoctoral stay at KAIST along the way.\nI like building systems that sit at the boundary between a person and a machine — where a control law has to be both precise and forgiving, and where a model has to explain a limp, a hesitation, or a stumble in time to help."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: koipo1229@gmail.com\nPhone: (+33) 06 83 47 65 35\nLocation: Bourg-la-Reine, 92430, France\nGitHub: github.com/huiseok-moon\nGoogle Scholar: scholar profile"
+  },
+  {
+    "objectID": "about.html#elsewhere-on-this-site",
+    "href": "about.html#elsewhere-on-this-site",
+    "title": "About",
+    "section": "Elsewhere on this site",
+    "text": "Elsewhere on this site\n\nResearch — professional experience and research focus\nPublications — journal articles and conference papers\nCV — full curriculum vitae"
+  }
+]

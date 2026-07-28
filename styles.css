@@ -1,0 +1,285 @@
+/* ---------- General layout ---------- */
+body {
+  color: var(--ink, #1b1f23);
+}
+
+.content {
+  max-width: 900px;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.01em;
+}
+
+.section-title {
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e2e6ea;
+}
+
+.muted {
+  color: #5b6470;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 2rem 0 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.hero-photo {
+  flex: 0 0 auto;
+}
+
+.hero-photo img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 24px rgba(31, 78, 121, 0.25);
+}
+
+.hero-text {
+  flex: 1 1 380px;
+}
+
+.hero-text h1 {
+  margin-bottom: 0.15rem;
+  font-size: 2.1rem;
+}
+
+.hero-tagline {
+  font-size: 1.15rem;
+  color: #1f4e79;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.hero-location {
+  color: #5b6470;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+}
+
+.hero-buttons .btn {
+  border-radius: 999px;
+  font-size: 0.9rem;
+  padding: 0.45rem 1.1rem;
+}
+
+/* ---------- Stats ---------- */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.stat-card {
+  background: #f4f6f8;
+  border-radius: 12px;
+  padding: 1.1rem 0.5rem;
+}
+
+.stat-number {
+  font-family: "Lora", Georgia, serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1f4e79;
+  display: block;
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 0.82rem;
+  color: #5b6470;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ---------- Research interest cards ---------- */
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.interest-card {
+  border: 1px solid #e2e6ea;
+  border-left: 4px solid #2a9d8f;
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  background: #fff;
+}
+
+.interest-card h4 {
+  margin: 0 0 0.35rem 0;
+  font-size: 1rem;
+  color: #1f4e79;
+}
+
+.interest-card p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: #444b52;
+}
+
+/* ---------- Timeline (news / experience) ---------- */
+.timeline {
+  position: relative;
+  margin: 1.5rem 0;
+  padding-left: 1.6rem;
+  border-left: 2px solid #e2e6ea;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 1.6rem;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -1.87rem;
+  top: 0.2rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #2a9d8f;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #2a9d8f;
+}
+
+.timeline-date {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #1f4e79;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.timeline-item h3,
+.timeline-item h4 {
+  margin: 0.15rem 0 0.35rem 0;
+}
+
+.timeline-item .org {
+  color: #5b6470;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-bottom: 0.35rem;
+}
+
+/* ---------- Publications ---------- */
+.pub-group-title {
+  margin-top: 2rem;
+  color: #1f4e79;
+}
+
+.pub-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e2e6ea;
+}
+
+.pub-year {
+  flex: 0 0 3.2rem;
+  font-family: "Lora", Georgia, serif;
+  font-weight: 600;
+  color: #2a9d8f;
+  font-size: 1.05rem;
+}
+
+.pub-body p {
+  margin: 0.15rem 0;
+}
+
+.pub-title {
+  font-weight: 600;
+  color: #1b1f23;
+}
+
+.pub-venue {
+  font-size: 0.9rem;
+  color: #5b6470;
+}
+
+.pub-authors {
+  font-size: 0.9rem;
+}
+
+.pub-note {
+  font-size: 0.85rem;
+  color: #2a9d8f;
+  font-style: italic;
+}
+
+/* ---------- CV page ---------- */
+.cv-entry {
+  margin-bottom: 1.3rem;
+}
+
+.cv-entry .cv-dates {
+  font-size: 0.85rem;
+  color: #5b6470;
+  font-weight: 600;
+}
+
+.cv-entry h4 {
+  margin: 0.1rem 0 0.1rem 0;
+}
+
+.cv-entry .cv-org {
+  font-style: italic;
+  color: #5b6470;
+  font-size: 0.92rem;
+  margin-bottom: 0.3rem;
+}
+
+.skills-table th {
+  width: 220px;
+  color: #1f4e79;
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e2e6ea;
+  color: #5b6470;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-buttons {
+    justify-content: center;
+  }
+  .pub-item {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+}

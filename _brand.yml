@@ -1,0 +1,33 @@
+meta:
+  name: "Huiseok Moon"
+
+color:
+  palette:
+    navy: "#1f4e79"
+    teal: "#2a9d8f"
+    ink: "#1b1f23"
+    slate: "#5b6470"
+    mist: "#f4f6f8"
+    line: "#e2e6ea"
+  foreground: ink
+  background: white
+  primary: navy
+  secondary: teal
+  link: navy
+
+typography:
+  fonts:
+    - family: "Inter"
+      source: google
+      weight: [400, 500, 600, 700]
+    - family: "Lora"
+      source: google
+      weight: [500, 600, 700]
+  base:
+    family: Inter
+    size: 1rem
+  headings:
+    family: Lora
+    weight: 600
+  link:
+    weight: 500

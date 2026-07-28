@@ -1,0 +1,117 @@
+---
+title: ""
+page-layout: article
+---
+
+::: {.hero}
+::: {.hero-photo}
+![](images/avatar-placeholder.svg){alt="Placeholder portrait of Huiseok Moon"}
+:::
+
+::: {.hero-text}
+# Huiseok Moon
+
+<div class="hero-tagline">Assistive Robotics · Physical Human–Robot Interaction · Wearable Robotics</div>
+
+<div class="hero-location">📍 Bourg-la-Reine, France &nbsp;·&nbsp; Postdoctoral Researcher, Université Paris-Est Créteil (LISSI)</div>
+
+I design clinically validated real-time intent detection frameworks and assistive
+robotic control systems built on multimodal sensing (EMG, IMU) — with the aim of
+building exoskeletons and orthoses that understand what a person is trying to do,
+before they finish doing it.
+
+<div class="hero-buttons">
+  <a class="btn btn-outline-primary btn-sm" href="cv.qmd"><i class="bi bi-file-earmark-person"></i>&nbsp; View CV</a>
+  <a class="btn btn-outline-primary btn-sm" href="publications.qmd"><i class="bi bi-journal-text"></i>&nbsp; Publications</a>
+  <a class="btn btn-outline-primary btn-sm" href="https://scholar.google.com" target="_blank"><i class="bi bi-mortarboard-fill"></i>&nbsp; Google Scholar</a>
+  <a class="btn btn-outline-primary btn-sm" href="https://github.com/MOONWalker-O" target="_blank"><i class="bi bi-github"></i>&nbsp; GitHub</a>
+  <a class="btn btn-outline-primary btn-sm" href="mailto:koipo1229@gmail.com"><i class="bi bi-envelope"></i>&nbsp; Email</a>
+</div>
+:::
+:::
+
+::: {.stats-grid}
+::: {.stat-card}
+<span class="stat-number">5</span>
+<span class="stat-label">Journal Papers</span>
+:::
+
+::: {.stat-card}
+<span class="stat-number">4</span>
+<span class="stat-label">Conference Papers</span>
+:::
+
+::: {.stat-card}
+<span class="stat-number">3</span>
+<span class="stat-label">Countries · 4 Labs</span>
+:::
+
+::: {.stat-card}
+<span class="stat-number">6</span>
+<span class="stat-label">Students Mentored</span>
+:::
+:::
+
+## Research Interests {.section-title}
+
+My research combines **Assistive Robotics** and **Physical Human-Robot Interaction**,
+building on my experience designing clinically validated real-time intent detection
+frameworks and assistive robotic control based on sensor systems (EMG, IMU, etc.). I
+am interested in physics-based modeling and simulation, model-based control, and
+multimodal AI for understanding and predicting human motion — with a focus on
+mobility assistance for wearable robotics.
+
+::: {.interest-grid}
+::: {.interest-card}
+#### Wearable Robotics
+Actuated ankle-foot orthoses and lower-limb exoskeletons for gait and mobility assistance.
+:::
+
+::: {.interest-card}
+#### Assistive & Adaptive Control
+Impedance control, funnel-based and fuzzy-adaptive control for human-exoskeleton interaction.
+:::
+
+::: {.interest-card}
+#### Multimodal Learning
+LSTM / GRU / attention-based models fusing EMG, IMU, and FSR signals for intent and gait recognition.
+:::
+
+::: {.interest-card}
+#### Nonlinear & Model-Based Control
+Physics-based modeling and model predictive / reference-tracking control for rehabilitation robots.
+:::
+:::
+
+## Recent News {.section-title}
+
+::: {.timeline}
+::: {.timeline-item}
+<div class="timeline-date">Jul 2026</div>
+Started as **Postdoctoral Researcher** at Université Paris-Est Créteil (LISSI),
+continuing work on gait mode recognition, adaptive FES control, and multi-sensor
+Parkinson's diagnosis tools.
+:::
+
+::: {.timeline-item}
+<div class="timeline-date">Jul 2025</div>
+Published **"Real-Time LSTM-Driven Dynamic Gait Mode Detection for Enhanced Control
+of Actuated Ankle-Foot Orthosis"** in *IEEE Transactions on Robotics*.
+:::
+
+::: {.timeline-item}
+<div class="timeline-date">Sep 2025 – Mar 2026</div>
+Postdoctoral research at **KAIST**, South Korea, with Dr. Jaegul Choo, developing
+physics-informed AI models for human motion intention inference from wearable IMU signals.
+:::
+
+::: {.timeline-item}
+<div class="timeline-date">2025</div>
+Volunteered at the **IFAC World Congress** and gave an invited seminar at the
+**REHAssist Visiting Seminar, EPFL** (Switzerland).
+:::
+:::
+
+::: {.site-footer}
+Huiseok Moon · Bourg-la-Reine, France · [koipo1229@gmail.com](mailto:koipo1229@gmail.com)
+:::

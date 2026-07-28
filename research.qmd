@@ -1,0 +1,85 @@
+---
+title: "Research"
+---
+
+My work sits at the intersection of **assistive robotics** and **physical
+human-robot interaction**: designing sensor-driven systems that infer what a
+person intends to do — from a gait mode to a sit-to-stand transition — and
+turning that inference into safe, adaptive robotic assistance in real time.
+
+**Keywords:** Wearable Robotics · Assistive Robotics · Multimodal Learning · Nonlinear Control
+
+## Professional Experience {.section-title}
+
+::: {.timeline}
+
+::: {.timeline-item}
+<div class="timeline-date">Jul 2026 – Present</div>
+### Postdoctoral Researcher
+<div class="org">Université Paris-Est Créteil, Vitry-sur-Seine, France</div>
+- Designed a high-precision gait mode recognition system using LSTM networks,
+  achieving **98% classification accuracy** and enabling real-time intent
+  detection for actuated ankle-foot orthoses.
+- Developed an energy-efficient adaptive FES control strategy based on surface
+  EMG signals, **reducing stimulation energy consumption by 30%** while
+  significantly mitigating muscle fatigue in clinical trials.
+- Implemented a multi-sensor fusion framework (7 IMUs) to extract kinematic
+  metrics for lower-limb joint analysis and Parkinson's disease diagnosis in a
+  portable clinical device.
+:::
+
+::: {.timeline-item}
+<div class="timeline-date">Sep 2025 – Mar 2026</div>
+### Postdoctoral Researcher
+<div class="org">Korea Advanced Institute of Science & Technology (KAIST), Daejeon, South Korea — Advisor: Dr. Jaegul Choo</div>
+- Developed physics-informed AI models for human motion intention inference,
+  leveraging motion-primitive representations of wearable IMU signals.
+:::
+
+::: {.timeline-item}
+<div class="timeline-date">Sep 2023 – Aug 2025</div>
+### Research Engineer
+<div class="org">Université Paris-Est Créteil, Vitry-sur-Seine, France</div>
+- Designed a high-precision gait mode recognition system using LSTM networks,
+  achieving **98% classification accuracy** and enabling real-time intent
+  detection for actuated ankle-foot orthoses.
+- Developed an energy-efficient adaptive FES control strategy based on surface
+  EMG signals, reducing stimulation energy consumption by 30% while
+  significantly mitigating muscle fatigue in clinical trials.
+- Implemented a multi-sensor fusion framework (7 IMUs) to extract kinematic
+  metrics for lower-limb joint analysis and Parkinson's disease diagnosis in a
+  portable clinical device.
+:::
+
+::: {.timeline-item}
+<div class="timeline-date">Nov 2022 – Aug 2023</div>
+### ATER (Teaching & Research Assistant)
+<div class="org">Université Paris-Est Créteil, Vitry-sur-Seine, France</div>
+- Delivered undergraduate lectures and hands-on labs on wearable sensor
+  integration (EMG, IMU, FSR) and biomechanical signal processing using
+  Python and MATLAB.
+:::
+
+::: {.timeline-item}
+<div class="timeline-date">Nov 2019 – Oct 2022</div>
+### Research Assistant
+<div class="org">Université Paris-Est Créteil, Vitry-sur-Seine, France</div>
+- Developed nonlinear control architectures (impedance control, reference
+  tracking) for human-exoskeleton interaction, applied to lower-limb
+  exoskeletons and sit-to-stand assistance robots.
+- Constructed a real-time activity recognition pipeline combining Random
+  Forests and Deep Learning with Kalman-filtered IMU features, enabling
+  robust intent-based control for mobility assistance.
+:::
+
+::: {.timeline-item}
+<div class="timeline-date">Mar 2017 – Feb 2019</div>
+### Research Assistant
+<div class="org">Sogang University, Seoul, South Korea</div>
+- Designed interaction force control strategies for lower-limb exoskeletons to
+  augment physical strength and endurance for load-carrying tasks.
+:::
+
+:::
+
+<p><a class="btn btn-outline-primary btn-sm" href="publications.qmd">See full publication list →</a></p>

@@ -1,0 +1,97 @@
+---
+title: "Curriculum Vitae"
+---
+
+<p>
+<a class="btn btn-primary btn-sm" href="files/CV_Moon.pdf" target="_blank">
+<i class="bi bi-download"></i>&nbsp; Download PDF
+</a>
+<span class="muted" style="font-size:0.85rem;">&nbsp; (see summary below)</span>
+</p>
+
+## Education {.section-title}
+
+::: {.cv-entry}
+<div class="cv-dates">Nov 2019 – Jan 2024</div>
+#### Ph.D. in Signal, Image and Control
+<div class="cv-org">University Paris-Est Créteil, Vitry-sur-Seine, France — Advisor: Dr. Samer Mohammed</div>
+Thesis: *Human-in-the-loop Paradigms for Mobility Assistance Using Powered Exoskeleton*
+:::
+
+::: {.cv-entry}
+<div class="cv-dates">Mar 2017 – Feb 2019</div>
+#### M.S. in Mechanical Engineering
+<div class="cv-org">Sogang University, Seoul, South Korea — Advisor: Dr. Kyoungchul Kong</div>
+Thesis: *Control Algorithm of a Robotic Leg for Reducing Interaction Force Between a
+Load and the Human Body*
+Graduate research fellowship, Ilwun Science and Technology Foundation, 2017–2019
+:::
+
+::: {.cv-entry}
+<div class="cv-dates">Mar 2010 – Feb 2017</div>
+#### B.S. in Robotics (Intelligence System)
+<div class="cv-org">Kwangwoon University, Seoul, South Korea</div>
+Thesis: *Research on personal mobility using ball balancing robot*
+:::
+
+## Skills {.section-title}
+
+| | |
+|---|---|
+| **Programming** | Python, C, C++, MATLAB, LabVIEW, Solidworks |
+| **Frameworks & Tools** | PyTorch, TensorFlow, Simulink |
+| **Key Technical Expertise** | Real-time ML deployment, multi-modal sensor fusion, embedded systems, adaptive & impedance control, human-robot interaction, wearable robotics, signal processing |
+| **Languages** | Korean (Native), English (Fluent), French (Basic) |
+
+: {.skills-table}
+
+## Academic Service & Teaching {.section-title}
+
+**Peer review activities**
+IEEE Transactions on Robotics, IROS, ICRA, Engineering Applications of Artificial
+Intelligence, Mechatronics, etc.
+
+**Invited Talks & Seminars**
+
+- 2025: REHAssist Visiting Seminar, EPFL (Switzerland)
+- 2024: LISSI–BIOTN Joint Seminar, UPEC (France)
+- 2020–2023: LISSI Research Seminars, UPEC (4 sessions, France)
+
+**Volunteering**
+
+- 2025: IFAC World Congress (Volunteer)
+- 2024: IUT Research Day (Poster Exhibition)
+- 2023: Fête de la Science (Public Outreach Exhibitor)
+- 2017: Korea Defense Science & Tech Fair (Exhibitor)
+
+**Teaching Experience**
+
+May 2022 – Aug 2023: ATER (Temporary Lecturer and Research Assistant), Université
+Paris-Est Créteil (UPEC) — delivered core Python skills and lectures on the
+integration of multimodal sensors (EMG, IMU, FSR).
+
+## Mentoring — Graduate Students (M.S.) {.section-title}
+
+- L. Marusu (2025) — Multi-sensor gait analysis
+- A. A. Benhamlaoui (2024) — AI-based gait event detection
+- D. Plet (2024) — Multi-sensor gait analysis
+- W. Legendre (2023) — 'Alternomètre' Parkinson's diagnostic tool
+- J. M. Fadous (2022) — Human activity recognition
+- R. Ravaka & M. Diaby (2021) — Assistive robot control
+
+## References {.section-title}
+
+::: {.cv-entry}
+**Jaegul Choo** — Associate Professor, Kim Jaechul Graduate School of AI, KAIST
+*Postdoc Advisor* — [jchoo@kaist.ac.kr](mailto:jchoo@kaist.ac.kr)
+:::
+
+::: {.cv-entry}
+**Samer Mohammed** — Associate Professor, LISSI, University of Paris-Est Créteil
+*Ph.D. Advisor* — [samer.mohammed@u-pec.fr](mailto:samer.mohammed@u-pec.fr)
+:::
+
+::: {.cv-entry}
+**Kyungchul Kong** — Associate Professor, KAIST
+*M.S. Advisor* — [kckong@kaist.ac.kr](mailto:kckong@kaist.ac.kr)
+:::

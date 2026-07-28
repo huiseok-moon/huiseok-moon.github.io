@@ -1,0 +1,83 @@
+---
+title: "Publications"
+---
+
+Full list also available on [Google Scholar](https://scholar.google.com).
+**Huiseok Moon** is bolded in author lists below.
+
+## Journal Articles {.pub-group-title}
+
+::: {.pub-item}
+<div class="pub-year">2025</div>
+<div class="pub-body">
+<p class="pub-title">Real-Time LSTM-Driven Dynamic Gait Mode Detection for Enhanced Control of Actuated Ankle-Foot Orthosis</p>
+<p class="pub-authors"><strong>Huiseok Moon</strong>, Oussama Bey, Abderrahmane Boubezoul, Latifa Oukhellou, and Samer Mohammed</p>
+<p class="pub-venue">IEEE Transactions on Robotics, Vol. 41, pp. 4794–4809, July 2025 — <a href="https://doi.org/10.1109/TRO.2025.3593111" target="_blank">doi.org/10.1109/TRO.2025.3593111</a></p>
+</div>
+:::
+
+::: {.pub-item}
+<div class="pub-year">2023</div>
+<div class="pub-body">
+<p class="pub-title">Fuzzy Convolutional Attention-based GRU Network for Human Activity Recognition</p>
+<p class="pub-authors">Ghazaleh Khodabandelou, <strong>Huiseok Moon</strong>, Yacine Amirat, and Samer Mohammed</p>
+<p class="pub-venue">Engineering Applications of Artificial Intelligence, Vol. 118, pp. 105702, February 2023 — <a href="https://doi.org/10.1016/j.engappai.2022.105702" target="_blank">doi.org/10.1016/j.engappai.2022.105702</a></p>
+</div>
+:::
+
+::: {.pub-item}
+<div class="pub-year">2022</div>
+<div class="pub-body">
+<p class="pub-title">Hybrid Half-Gaussian Selectively Adaptive Fuzzy Control of an Actuated Ankle-Foot Orthosis</p>
+<p class="pub-authors"><strong>Huiseok Moon</strong>, Roshni Maiti, Kaushik Das Sharma, Yacine Amirat, Patrick Siarry, and Samer Mohammed</p>
+<p class="pub-venue">IEEE Robotics and Automation Letters, Vol. 7, pp. 9635–9642, October 2022 — <a href="https://doi.org/10.1109/LRA.2022.3191187" target="_blank">doi.org/10.1109/LRA.2022.3191187</a></p>
+<p class="pub-note">Presented at IEEE ICRA 2023 (oral session)</p>
+</div>
+:::
+
+::: {.pub-item}
+<div class="pub-year">2022</div>
+<div class="pub-body">
+<p class="pub-title">An Assistive Explicit Model Predictive Control Framework for a Knee Rehabilitation Exoskeleton</p>
+<p class="pub-authors">Ines Jammeli, Ahmed Chemori, <strong>Huiseok Moon</strong>, Salwa Elloumi, and Samer Mohammed</p>
+<p class="pub-venue">IEEE/ASME Transactions on Mechatronics, Vol. 27, pp. 3636–3647, October 2022 — <a href="https://doi.org/10.1109/TMECH.2021.3126674" target="_blank">doi.org/10.1109/TMECH.2021.3126674</a></p>
+</div>
+:::
+
+::: {.pub-item}
+<div class="pub-year">2022</div>
+<div class="pub-body">
+<p class="pub-title">Impedance Modulation Control of a Lower-Limb Exoskeleton to Assist Sit-to-Stand Movements</p>
+<p class="pub-authors">Weiguang Huo, <strong>Huiseok Moon</strong>, Mohamed Amine Alouane, Vincent Bonnet, Jian Huang, Yacine Amirat, Ravi Vaidyanathan, and Samer Mohammed</p>
+<p class="pub-venue">IEEE Transactions on Robotics, Vol. 38, pp. 1230–1249, April 2022 — <a href="https://doi.org/10.1109/TRO.2021.3104244" target="_blank">doi.org/10.1109/TRO.2021.3104244</a></p>
+</div>
+:::
+
+## Proceeding Conferences {.pub-group-title}
+
+::: {.pub-item}
+<div class="pub-year">2024</div>
+<div class="pub-body">
+<p class="pub-title">A Novel Funnel-Based L1 Adaptive Fuzzy Approach for the Control of an Actuated Ankle Foot Orthosis</p>
+<p class="pub-authors">Oussama Bey, Rami Jradi, <strong>Huiseok Moon</strong>, Hala Rifai, Kaushik Das Sharma, Yacine Amirat, and Samer Mohammed</p>
+<p class="pub-venue">2024 IEEE International Conference on Robotics and Automation (ICRA) — <a href="https://doi.org/10.1109/ICRA57147.2024.10610584" target="_blank">doi.org/10.1109/ICRA57147.2024.10610584</a></p>
+</div>
+:::
+
+::: {.pub-item}
+<div class="pub-year">2022</div>
+<div class="pub-body">
+<p class="pub-title">Online Human Intention Detection through Machine-learning based Algorithm for the Control of Lower-limbs Wearable Robot</p>
+<p class="pub-authors"><strong>Huiseok Moon</strong>, Abderrahmane Boubezoul, Latifa Oukhellou, Yacine Amirat, and Samer Mohammed</p>
+<p class="pub-venue">2022 IEEE-RAS 21st International Conference on Humanoid Robots (Humanoids) — <a href="https://doi.org/10.1109/Humanoids53995.2022.10000150" target="_blank">doi.org/10.1109/Humanoids53995.2022.10000150</a></p>
+</div>
+:::
+
+::: {.pub-item}
+<div class="pub-year">2021</div>
+<div class="pub-body">
+<p class="pub-title">A Novel Gait Phase Detection Algorithm for Foot Drop Correction through Optimal Hybrid FES-Orthosis Assistance</p>
+<p class="pub-authors">Pyeong-Gook Jung, Weiguang Huo, <strong>Huiseok Moon</strong>, Yacine Amirat, and Samer Mohammed</p>
+<p class="pub-venue">2021 IEEE International Conference on Robotics and Automation (ICRA) — <a href="https://doi.org/10.1109/ICRA48506.2021.9561497" target="_blank">doi.org/10.1109/ICRA48506.2021.9561497</a></p>
+</div>
+:::

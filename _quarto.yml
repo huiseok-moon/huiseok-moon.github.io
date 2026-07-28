@@ -13,12 +13,6 @@ website:
         text: Home
       - href: research.qmd
         text: Research
-      - href: publications.qmd
-        text: Publications
-      - href: teaching.qmd
-        text: Teaching
-      - href: news.qmd
-        text: News
       - href: cv.qmd
         text: CV
     right:
@@ -32,7 +26,7 @@ website:
         href: mailto:koipo1229@gmail.com
         aria-label: Email
   page-footer:
-    left: "© 2026 Huiseok Moon · Built with [Quarto](https://quarto.org)"
+    left: "© 2026 Huiseok Moon"
     right:
       - icon: github
         href: https://github.com/huiseok-moon
@@ -45,4 +39,4 @@ format:
     css: styles.css
     toc: false
     grid:
-      body-width: 800px
+      body-width: 760px

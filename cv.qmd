@@ -19,8 +19,6 @@ page-layout: article
 </div>
 
 <p class="subtitle-note" style="margin-top:1.6rem;">
-If the viewer above does not load (e.g. on some mobile browsers), use the
-download button — or see the <a href="research.qmd">Research</a>,
-<a href="publications.qmd">Publications</a>, and
-<a href="teaching.qmd">Teaching</a> pages for the same content in web form.
+If the viewer does not load (e.g. on some mobile browsers), use the download
+button — or see the <a href="research.qmd">Research</a> page.
 </p>

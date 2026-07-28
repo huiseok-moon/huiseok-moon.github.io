@@ -7,24 +7,16 @@ page-layout: article
 ::: {.hero-text}
 # Huiseok Moon
 
-<div class="hero-role">Postdoctoral Researcher</div>
-<div class="hero-affil">LISSI — Université Paris-Est Créteil, France</div>
+<div class="hero-role">Postdoctoral Researcher · LISSI, Université Paris-Est Créteil</div>
 
 <div class="hero-tagline">
-I design wearable robots that understand human intent — clinically validated,
-real-time control systems that turn EMG and IMU signals into safe, adaptive
-mobility assistance for exoskeletons and orthoses.
+I build wearable robots that understand human intent — turning EMG and IMU
+signals into safe, adaptive mobility assistance.
 </div>
 
 <div class="hero-buttons">
-<a class="btn-accent" href="research.qmd">View research</a>
+<a class="btn-accent" href="research.qmd">Research</a>
 <a class="btn-ghost" href="cv.qmd">Curriculum vitae</a>
-</div>
-
-<div class="hero-icons">
-<a href="https://github.com/huiseok-moon" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
-<a href="https://scholar.google.com" target="_blank" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
-<a href="mailto:koipo1229@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
 </div>
 :::
 
@@ -33,67 +25,29 @@ mobility assistance for exoskeletons and orthoses.
 :::
 :::
 
-::: {.stats-row}
-::: {.stat}
-<span class="stat-number">5</span>
-<span class="stat-label">Journal articles</span>
-:::
-::: {.stat}
-<span class="stat-number">4</span>
-<span class="stat-label">Conference papers</span>
-:::
-::: {.stat}
-<span class="stat-number">6</span>
-<span class="stat-label">Invited talks</span>
-:::
-::: {.stat}
-<span class="stat-number">7</span>
-<span class="stat-label">Students mentored</span>
-:::
-:::
-
-## Research interests
-
-My work combines **assistive robotics** and **physical human-robot interaction**:
-building real-time intent detection frameworks and assistive control systems from
-multimodal sensing, validated in clinical settings. I am particularly interested in
-physics-based modeling, model-based control, and multimodal AI for understanding
-and predicting human motion.
-
-::: {.chips}
-<span class="chip">Wearable Robotics</span>
-<span class="chip">Assistive Robotics</span>
-<span class="chip">Physical Human-Robot Interaction</span>
-<span class="chip">Multimodal Learning</span>
-<span class="chip">Nonlinear Control</span>
-:::
-
-## Recent news
+## News
 
 ::: {.news-item}
 <div class="news-date">Jul 2026</div>
 <div class="news-body">
-Started as a **Postdoctoral Researcher** at LISSI, Université Paris-Est Créteil,
-working on gait mode recognition, adaptive FES control, and portable clinical
-devices for Parkinson's disease assessment.
+Started as a postdoctoral researcher at LISSI, Université Paris-Est Créteil —
+gait mode recognition, adaptive FES control, and portable clinical devices for
+Parkinson's disease assessment.
 </div>
 :::
 
 ::: {.news-item}
 <div class="news-date">Sep 2025</div>
 <div class="news-body">
-Joined **KAIST** (Daejeon, South Korea) as a postdoctoral researcher with
-Dr. Jaegul Choo, developing physics-informed AI models for human motion
-intention inference.
+Joined KAIST as a postdoctoral researcher with Dr. Jaegul Choo, developing
+physics-informed AI for human motion intention inference.
 </div>
 :::
 
 ::: {.news-item}
 <div class="news-date">Jul 2025</div>
 <div class="news-body">
-New paper in ***IEEE Transactions on Robotics***: "Real-Time LSTM-Driven Dynamic
-Gait Mode Detection for Enhanced Control of Actuated Ankle-Foot Orthosis."
+New paper in *IEEE Transactions on Robotics*: real-time LSTM-driven gait mode
+detection for actuated ankle-foot orthoses.
 </div>
 :::
-
-<a class="view-all" href="news.qmd">View all news →</a>

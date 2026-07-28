@@ -24,7 +24,7 @@ before they finish doing it.
   <a class="btn btn-outline-primary btn-sm" href="cv.qmd"><i class="bi bi-file-earmark-person"></i>&nbsp; View CV</a>
   <a class="btn btn-outline-primary btn-sm" href="publications.qmd"><i class="bi bi-journal-text"></i>&nbsp; Publications</a>
   <a class="btn btn-outline-primary btn-sm" href="https://scholar.google.com" target="_blank"><i class="bi bi-mortarboard-fill"></i>&nbsp; Google Scholar</a>
-  <a class="btn btn-outline-primary btn-sm" href="https://github.com/MOONWalker-O" target="_blank"><i class="bi bi-github"></i>&nbsp; GitHub</a>
+  <a class="btn btn-outline-primary btn-sm" href="https://github.com/huiseok-moon" target="_blank"><i class="bi bi-github"></i>&nbsp; GitHub</a>
   <a class="btn btn-outline-primary btn-sm" href="mailto:koipo1229@gmail.com"><i class="bi bi-envelope"></i>&nbsp; Email</a>
 </div>
 :::

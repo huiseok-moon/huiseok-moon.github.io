@@ -23,7 +23,7 @@ website:
         href: mailto:koipo1229@gmail.com
         aria-label: Email
       - icon: github
-        href: https://github.com/MOONWalker-O
+        href: https://github.com/huiseok-moon
         aria-label: GitHub
       - icon: mortarboard-fill
         href: https://scholar.google.com
@@ -34,7 +34,7 @@ website:
       - icon: envelope
         href: mailto:koipo1229@gmail.com
       - icon: github
-        href: https://github.com/MOONWalker-O
+        href: https://github.com/huiseok-moon
 
 format:
   html:

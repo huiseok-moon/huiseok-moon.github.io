@@ -1,85 +1,136 @@
 ---
 title: "Research"
+page-layout: article
 ---
 
-My work sits at the intersection of **assistive robotics** and **physical
-human-robot interaction**: designing sensor-driven systems that infer what a
-person intends to do — from a gait mode to a sit-to-stand transition — and
-turning that inference into safe, adaptive robotic assistance in real time.
+<div class="subtitle-note">
+Assistive robotics · Physical human-robot interaction · Wearable robotics ·
+Multimodal learning · Nonlinear control
+</div>
 
-**Keywords:** Wearable Robotics · Assistive Robotics · Multimodal Learning · Nonlinear Control
+I build robotic systems that assist human mobility — powered exoskeletons,
+actuated ankle-foot orthoses, and functional electrical stimulation (FES)
+systems. The common thread is **human intent**: sensing it reliably from EMG
+and IMU signals, inferring it in real time with machine learning, and turning
+it into control actions that are precise enough to help and gentle enough to
+trust. Much of this work has been validated in clinical trials.
 
-## Professional Experience {.section-title}
+## Research themes
 
-::: {.timeline}
-
-::: {.timeline-item}
-<div class="timeline-date">Jul 2026 – Present</div>
-### Postdoctoral Researcher
-<div class="org">Université Paris-Est Créteil, Vitry-sur-Seine, France</div>
-- Designed a high-precision gait mode recognition system using LSTM networks,
-  achieving **98% classification accuracy** and enabling real-time intent
-  detection for actuated ankle-foot orthoses.
-- Developed an energy-efficient adaptive FES control strategy based on surface
-  EMG signals, **reducing stimulation energy consumption by 30%** while
-  significantly mitigating muscle fatigue in clinical trials.
-- Implemented a multi-sensor fusion framework (7 IMUs) to extract kinematic
-  metrics for lower-limb joint analysis and Parkinson's disease diagnosis in a
-  portable clinical device.
+::: {.entry}
+<div class="entry-dates">Intent detection</div>
+<div class="entry-body">
+### Real-time human intent recognition
+<p>LSTM- and attention-based models that classify gait modes and detect motion
+intention from wearable sensors, reaching 98% accuracy while running fast
+enough to drive an actuated orthosis in real time. Earlier work combined
+Random Forests and deep learning with Kalman-filtered IMU features for robust
+activity recognition.</p>
+</div>
 :::
 
-::: {.timeline-item}
-<div class="timeline-date">Sep 2025 – Mar 2026</div>
-### Postdoctoral Researcher
-<div class="org">Korea Advanced Institute of Science & Technology (KAIST), Daejeon, South Korea — Advisor: Dr. Jaegul Choo</div>
-- Developed physics-informed AI models for human motion intention inference,
-  leveraging motion-primitive representations of wearable IMU signals.
+::: {.entry}
+<div class="entry-dates">Assistive control</div>
+<div class="entry-body">
+### Adaptive control for wearable robots
+<p>Nonlinear control architectures for human-exoskeleton interaction:
+impedance modulation for sit-to-stand assistance, fuzzy-adaptive and
+funnel-based controllers for ankle-foot orthoses, and explicit model
+predictive control for knee rehabilitation exoskeletons.</p>
+</div>
 :::
 
-::: {.timeline-item}
-<div class="timeline-date">Sep 2023 – Aug 2025</div>
+::: {.entry}
+<div class="entry-dates">FES & clinics</div>
+<div class="entry-body">
+### Energy-efficient FES and clinical devices
+<p>An EMG-driven adaptive FES strategy that cuts stimulation energy by 30%
+while mitigating muscle fatigue in clinical trials, and a 7-IMU sensor-fusion
+framework powering a portable device for lower-limb analysis and Parkinson's
+disease assessment.</p>
+</div>
+:::
+
+::: {.entry}
+<div class="entry-dates">Motion AI</div>
+<div class="entry-body">
+### Physics-informed models of human motion
+<p>Physics-informed AI models for motion intention inference, built on
+motion-primitive representations of wearable IMU signals — work started at
+KAIST with Dr. Jaegul Choo.</p>
+</div>
+:::
+
+## Experience
+
+::: {.entry}
+<div class="entry-dates">Jul 2026 – present</div>
+<div class="entry-body">
+### Postdoctoral Researcher
+<div class="entry-org">LISSI, Université Paris-Est Créteil, France</div>
+<ul>
+<li>Gait mode recognition (LSTM, 98% accuracy) for real-time control of actuated ankle-foot orthoses.</li>
+<li>EMG-based adaptive FES control — 30% lower stimulation energy, validated in clinical trials.</li>
+<li>7-IMU sensor fusion for a portable Parkinson's disease assessment device.</li>
+</ul>
+</div>
+:::
+
+::: {.entry}
+<div class="entry-dates">Sep 2025 – Mar 2026</div>
+<div class="entry-body">
+### Postdoctoral Researcher
+<div class="entry-org">KAIST, Daejeon, South Korea · Advisor: Dr. Jaegul Choo</div>
+<ul>
+<li>Physics-informed AI for human motion intention inference from wearable IMU signals.</li>
+</ul>
+</div>
+:::
+
+::: {.entry}
+<div class="entry-dates">Sep 2023 – Aug 2025</div>
+<div class="entry-body">
 ### Research Engineer
-<div class="org">Université Paris-Est Créteil, Vitry-sur-Seine, France</div>
-- Designed a high-precision gait mode recognition system using LSTM networks,
-  achieving **98% classification accuracy** and enabling real-time intent
-  detection for actuated ankle-foot orthoses.
-- Developed an energy-efficient adaptive FES control strategy based on surface
-  EMG signals, reducing stimulation energy consumption by 30% while
-  significantly mitigating muscle fatigue in clinical trials.
-- Implemented a multi-sensor fusion framework (7 IMUs) to extract kinematic
-  metrics for lower-limb joint analysis and Parkinson's disease diagnosis in a
-  portable clinical device.
+<div class="entry-org">LISSI, Université Paris-Est Créteil, France</div>
+<ul>
+<li>Real-time intent detection and control for actuated ankle-foot orthoses.</li>
+<li>Adaptive FES strategies and multi-sensor clinical gait analysis.</li>
+</ul>
+</div>
 :::
 
-::: {.timeline-item}
-<div class="timeline-date">Nov 2022 – Aug 2023</div>
+::: {.entry}
+<div class="entry-dates">Nov 2022 – Aug 2023</div>
+<div class="entry-body">
 ### ATER (Teaching & Research Assistant)
-<div class="org">Université Paris-Est Créteil, Vitry-sur-Seine, France</div>
-- Delivered undergraduate lectures and hands-on labs on wearable sensor
-  integration (EMG, IMU, FSR) and biomechanical signal processing using
-  Python and MATLAB.
+<div class="entry-org">Université Paris-Est Créteil, France</div>
+<ul>
+<li>Lectures and labs on wearable sensor integration (EMG, IMU, FSR) and biomechanical signal processing.</li>
+</ul>
+</div>
 :::
 
-::: {.timeline-item}
-<div class="timeline-date">Nov 2019 – Oct 2022</div>
-### Research Assistant
-<div class="org">Université Paris-Est Créteil, Vitry-sur-Seine, France</div>
-- Developed nonlinear control architectures (impedance control, reference
-  tracking) for human-exoskeleton interaction, applied to lower-limb
-  exoskeletons and sit-to-stand assistance robots.
-- Constructed a real-time activity recognition pipeline combining Random
-  Forests and Deep Learning with Kalman-filtered IMU features, enabling
-  robust intent-based control for mobility assistance.
+::: {.entry}
+<div class="entry-dates">Nov 2019 – Oct 2022</div>
+<div class="entry-body">
+### Research Assistant (Ph.D.)
+<div class="entry-org">LISSI, Université Paris-Est Créteil, France</div>
+<ul>
+<li>Impedance and reference-tracking control for lower-limb exoskeletons and sit-to-stand assistance.</li>
+<li>Real-time activity recognition pipeline for intent-based mobility assistance.</li>
+</ul>
+</div>
 :::
 
-::: {.timeline-item}
-<div class="timeline-date">Mar 2017 – Feb 2019</div>
-### Research Assistant
-<div class="org">Sogang University, Seoul, South Korea</div>
-- Designed interaction force control strategies for lower-limb exoskeletons to
-  augment physical strength and endurance for load-carrying tasks.
+::: {.entry}
+<div class="entry-dates">Mar 2017 – Feb 2019</div>
+<div class="entry-body">
+### Research Assistant (M.S.)
+<div class="entry-org">Sogang University, Seoul, South Korea</div>
+<ul>
+<li>Interaction force control for load-carrying lower-limb exoskeletons.</li>
+</ul>
+</div>
 :::
 
-:::
-
-<p><a class="btn btn-outline-primary btn-sm" href="publications.qmd">See full publication list →</a></p>
+<a class="view-all" href="publications.qmd">See publications →</a>

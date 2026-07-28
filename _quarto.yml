@@ -4,9 +4,10 @@ project:
 website:
   title: "Huiseok Moon"
   site-url: "https://huiseok-moon.github.io"
-  description: "Personal academic website of Huiseok Moon — Assistive Robotics & Physical Human-Robot Interaction researcher."
+  description: "Huiseok Moon — Postdoctoral researcher in assistive robotics and physical human-robot interaction."
   favicon: images/avatar-placeholder.svg
   navbar:
+    background: light
     left:
       - href: index.qmd
         text: Home
@@ -14,34 +15,34 @@ website:
         text: Research
       - href: publications.qmd
         text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: news.qmd
+        text: News
       - href: cv.qmd
         text: CV
-      - href: about.qmd
-        text: About
     right:
-      - icon: envelope
-        href: mailto:koipo1229@gmail.com
-        aria-label: Email
       - icon: github
         href: https://github.com/huiseok-moon
         aria-label: GitHub
       - icon: mortarboard-fill
         href: https://scholar.google.com
         aria-label: Google Scholar
-  page-footer:
-    left: "© 2026 Huiseok Moon"
-    right:
       - icon: envelope
         href: mailto:koipo1229@gmail.com
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Huiseok Moon · Built with [Quarto](https://quarto.org)"
+    right:
       - icon: github
         href: https://github.com/huiseok-moon
+      - icon: envelope
+        href: mailto:koipo1229@gmail.com
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: false
     grid:
-      body-width: 900px
+      body-width: 800px

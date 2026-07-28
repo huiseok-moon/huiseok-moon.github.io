@@ -1,11 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Placeholder portrait of Huiseok Moon">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1f4e79"/>
-      <stop offset="100%" stop-color="#2a9d8f"/>
-    </linearGradient>
-  </defs>
-  <circle cx="200" cy="200" r="200" fill="url(#bg)"/>
-  <text x="200" y="235" font-family="'Lora', Georgia, serif" font-size="140" font-weight="600"
-        fill="#ffffff" text-anchor="middle">HM</text>
+  <circle cx="200" cy="200" r="200" fill="#eef2f7"/>
+  <circle cx="200" cy="152" r="64" fill="#c3cdd9"/>
+  <path d="M 72 340 a 128 96 0 0 1 256 0 v 60 h -256 z" fill="#c3cdd9"/>
 </svg>

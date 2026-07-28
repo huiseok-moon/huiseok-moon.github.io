@@ -3,172 +3,24 @@ title: "Curriculum vitae"
 page-layout: article
 ---
 
-<div class="subtitle-note">
-Last updated July 2026 ·
-<a href="files/CV_Moon.pdf" target="_blank">Download PDF</a>
+<div class="subtitle-note">Last updated July 2026</div>
+
+<div class="hero-buttons" style="margin-bottom:1.4rem;">
+<a class="btn-accent" href="files/CV_Moon.pdf" download>Download PDF</a>
+<a class="btn-ghost" href="files/CV_Moon.pdf" target="_blank">Open in new tab</a>
 </div>
 
-<div class="hero-buttons" style="margin-bottom:0.5rem;">
-<a class="btn-accent" href="files/CV_Moon.pdf" target="_blank">Download PDF</a>
-<a class="btn-ghost" href="mailto:koipo1229@gmail.com">Contact me</a>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 141%;">
+<iframe src="files/CV_Moon.pdf#toolbar=0" title="Curriculum vitae of Huiseok Moon"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 1px solid #e5e7eb; border-radius: 8px;">
+<p>Your browser cannot display the embedded PDF —
+<a href="files/CV_Moon.pdf">download it here</a>.</p>
+</iframe>
 </div>
 
-## Education
-
-::: {.entry}
-<div class="entry-dates">Nov 2019 – Jan 2024</div>
-<div class="entry-body">
-### Ph.D. in Signal, Image and Control
-<div class="entry-org">Université Paris-Est Créteil, France · Advisor: Dr. Samer Mohammed</div>
-<p>Thesis: <em>Human-in-the-loop Paradigms for Mobility Assistance Using Powered Exoskeleton</em></p>
-</div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Mar 2017 – Feb 2019</div>
-<div class="entry-body">
-### M.S. in Mechanical Engineering
-<div class="entry-org">Sogang University, Seoul, South Korea · Advisor: Dr. Kyoungchul Kong</div>
-<p>Thesis: <em>Control Algorithm of a Robotic Leg for Reducing Interaction Force Between a Load and the Human Body</em><br>
-Graduate research fellowship, Ilwun Science and Technology Foundation (2017–2019)</p>
-</div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Mar 2010 – Feb 2017</div>
-<div class="entry-body">
-### B.S. in Robotics (Intelligence System)
-<div class="entry-org">Kwangwoon University, Seoul, South Korea</div>
-<p>Thesis: <em>Research on personal mobility using ball balancing robot</em></p>
-</div>
-:::
-
-## Professional experience
-
-::: {.entry}
-<div class="entry-dates">Jul 2026 – present</div>
-<div class="entry-body">
-### Postdoctoral Researcher
-<div class="entry-org">Université Paris-Est Créteil, France</div>
-<ul>
-<li>High-precision gait mode recognition with LSTM networks (98% accuracy) for real-time intent detection on actuated ankle-foot orthoses.</li>
-<li>Energy-efficient adaptive FES control from surface EMG — 30% lower stimulation energy, reduced muscle fatigue in clinical trials.</li>
-<li>Multi-sensor fusion (7 IMUs) for lower-limb kinematics and Parkinson's disease assessment in a portable clinical device.</li>
-</ul>
-</div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Sep 2025 – Mar 2026</div>
-<div class="entry-body">
-### Postdoctoral Researcher
-<div class="entry-org">KAIST, Daejeon, South Korea · Advisor: Dr. Jaegul Choo</div>
-<ul>
-<li>Physics-informed AI models for human motion intention inference using motion-primitive representations of wearable IMU signals.</li>
-</ul>
-</div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Sep 2023 – Aug 2025</div>
-<div class="entry-body">
-### Research Engineer
-<div class="entry-org">Université Paris-Est Créteil, France</div>
-<ul>
-<li>Gait mode recognition and real-time intent detection for actuated ankle-foot orthoses.</li>
-<li>Adaptive FES control strategies validated in clinical trials.</li>
-<li>Multi-sensor fusion framework for clinical gait analysis.</li>
-</ul>
-</div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Nov 2022 – Aug 2023</div>
-<div class="entry-body">
-### ATER (Teaching & Research Assistant)
-<div class="entry-org">Université Paris-Est Créteil, France</div>
-<ul>
-<li>Undergraduate lectures and labs on wearable sensor integration (EMG, IMU, FSR) and biomechanical signal processing with Python and MATLAB.</li>
-</ul>
-</div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Nov 2019 – Oct 2022</div>
-<div class="entry-body">
-### Research Assistant
-<div class="entry-org">Université Paris-Est Créteil, France</div>
-<ul>
-<li>Nonlinear control architectures (impedance control, reference tracking) for lower-limb exoskeletons and sit-to-stand assistance robots.</li>
-<li>Real-time activity recognition combining Random Forests and deep learning with Kalman-filtered IMU features.</li>
-</ul>
-</div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Mar 2017 – Feb 2019</div>
-<div class="entry-body">
-### Research Assistant
-<div class="entry-org">Sogang University, Seoul, South Korea</div>
-<ul>
-<li>Interaction force control strategies for load-carrying lower-limb exoskeletons.</li>
-</ul>
-</div>
-:::
-
-## Skills
-
-|  |  |
-|---|---|
-| Programming | Python, C, C++, MATLAB, LabVIEW, Solidworks |
-| Frameworks & tools | PyTorch, TensorFlow, Simulink |
-| Technical expertise | Real-time ML deployment, multimodal sensor fusion, embedded systems, adaptive & impedance control, human-robot interaction, wearable robotics, signal processing |
-| Languages | Korean (native), English (fluent), French (basic) |
-
-: {.kv-table tbl-colwidths="[25,75]"}
-
-## Publications
-
-Five journal articles (IEEE T-RO ×2, RA-L, IEEE/ASME T-Mech, EAAI) and four
-conference papers (ICRA ×3, Humanoids) — see the full list with links on the
-[Publications](publications.qmd) page.
-
-## Academic service
-
-::: {.entry}
-<div class="entry-dates">Peer review</div>
-<div class="entry-body"><p>IEEE Transactions on Robotics, IROS, ICRA, Engineering Applications of Artificial Intelligence, Mechatronics, and others.</p></div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Invited talks</div>
-<div class="entry-body"><p>REHAssist Visiting Seminar, EPFL (2025) · LISSI–BIOTN Joint Seminar, UPEC (2024) · LISSI Research Seminars, UPEC (2020–2023, 4 sessions).</p></div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Volunteering</div>
-<div class="entry-body"><p>IFAC World Congress (2025) · IUT Research Day (2024) · Fête de la Science (2023) · Korea Defense Science & Tech Fair (2017).</p></div>
-:::
-
-## References
-
-::: {.entry}
-<div class="entry-dates">Postdoc advisor</div>
-<div class="entry-body">
-<p><strong>Jaegul Choo</strong> — Associate Professor, Kim Jaechul Graduate School of AI, KAIST · <a href="mailto:jchoo@kaist.ac.kr">jchoo@kaist.ac.kr</a></p>
-</div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Ph.D. advisor</div>
-<div class="entry-body">
-<p><strong>Samer Mohammed</strong> — Associate Professor, LISSI, Université Paris-Est Créteil · <a href="mailto:samer.mohammed@u-pec.fr">samer.mohammed@u-pec.fr</a></p>
-</div>
-:::
-
-::: {.entry}
-<div class="entry-dates">M.S. advisor</div>
-<div class="entry-body">
-<p><strong>Kyungchul Kong</strong> — Associate Professor, KAIST · <a href="mailto:kckong@kaist.ac.kr">kckong@kaist.ac.kr</a></p>
-</div>
-:::
+<p class="subtitle-note" style="margin-top:1.6rem;">
+If the viewer above does not load (e.g. on some mobile browsers), use the
+download button — or see the <a href="research.qmd">Research</a>,
+<a href="publications.qmd">Publications</a>, and
+<a href="teaching.qmd">Teaching</a> pages for the same content in web form.
+</p>

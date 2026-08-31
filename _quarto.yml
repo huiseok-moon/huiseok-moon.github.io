@@ -25,8 +25,8 @@ website:
   page-footer:
     left: "© 2026 Huiseok Moon"
     right:
-      - text: Website
-        href: https://huiseok-moon.github.io
+      - icon: github
+        href: https://github.com/huiseok-moon
       - icon: envelope
         href: mailto:huiseok.moon@u-pec.fr
 

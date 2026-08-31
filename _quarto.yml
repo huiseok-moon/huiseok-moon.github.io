@@ -20,8 +20,9 @@ website:
       - icon: github
         href: https://github.com/huiseok-moon
         aria-label: GitHub
-      - text: Website
-        href: https://huiseok-moon.github.io
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?hl=en&user=TfTL0QIAAAAJ
+        aria-label: Google Scholar
       - icon: envelope
         href: mailto:huiseok.moon@u-pec.fr
         aria-label: Email

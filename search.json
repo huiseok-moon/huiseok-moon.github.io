@@ -1,44 +1,51 @@
 [
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum vitae",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "Last updated July 2026\n\n\nDownload PDF Open in new tab\n\n\n\n&lt;p&gt;\nYour browser cannot display the embedded PDF — &lt;a href=\"files/CV_Moon.pdf\"&gt;download it here&lt;/a&gt;.\n&lt;/p&gt;\n\n\n\nIf the viewer does not load (e.g. on some mobile browsers), use the download button — or see the Research page."
+    "text": "My work covers wearable robotics, assistive control, human intent recognition, and rehabilitation engineering."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Assistive robotics · Physical human-robot interaction · Wearable robotics\nI design clinically validated systems that sense human intent from wearable sensors (EMG, IMU) and turn it into real-time robotic assistance — powered exoskeletons, actuated ankle-foot orthoses, and functional electrical stimulation. My current interests include physics-based modeling, model-based control, and multimodal AI for understanding and predicting human motion."
+    "objectID": "publications.html#journal-articles-and-submitted-manuscripts",
+    "href": "publications.html#journal-articles-and-submitted-manuscripts",
+    "title": "Publications",
+    "section": "Journal articles and submitted manuscripts",
+    "text": "Journal articles and submitted manuscripts\n\n\nJ1\n\n\n\n2026Submitted\n\n\nKnee-Guided Phase–Magnitude Decoupled Adaptive Functional Electrical Stimulation for Drop-Foot Correction\n\n\nX. Luo, H. Moon, J.-M. Gracies, W. Huo, and S. Mohammed\n\n\nIEEE Transactions on Neural Systems and Rehabilitation Engineering · Equal contribution as first and corresponding author\n\n\n\n\n\nJ2\n\n\n\n2026Submitted\n\n\nChanges in Walking Speed, Step Length, and Lower Limb Kinematics Over Eight Weeks of Guided Self-Rehabilitation Contracts in Hemiparetic Patients: A Prospective Cohort Study\n\n\nL. Marusu, C. Gault-Colas, H. Moon, S. Mohammed, and J.-M. Gracies\n\n\nJournal of Neural Engineering\n\n\n\n\n\nJ3\n\n\n\n2026\n\n\nNon-model-based Finite-Time Adaptive Neural Output Feedback Control for an Active Ankle-Foot Orthosis ↗\n\n\nO. Bey, M. Chemachema, R. Jradi, H. Moon, H. Rifai, Y. Amirat, and S. Mohammed\n\n\nIEEE Transactions on Automation Science and Engineering\n\n\n\n\n\nJ4\n\n\n\n2025\n\n\nReal-Time LSTM-Driven Dynamic Gait Mode Detection for Enhanced Control of Actuated Ankle-Foot Orthosis ↗\n\n\nH. Moon, O. Bey, A. Boubezoul, L. Oukhellou, and S. Mohammed\n\n\nIEEE Transactions on Robotics\n\n\n\n\n\nJ5\n\n\n\n2023\n\n\nFuzzy Convolutional Attention-based GRU Network for Human Activity Recognition ↗\n\n\nG. Khodabandelou, H. Moon, Y. Amirat, and S. Mohammed\n\n\nEngineering Applications of Artificial Intelligence, 118, 105702\n\n\n\n\n\nJ6\n\n\n\n2022ICRA 2023 oral\n\n\nHybrid Half-Gaussian Selectively Adaptive Fuzzy Control of an Actuated Ankle-Foot Orthosis ↗\n\n\nH. Moon, R. Maiti, K. Das Sharma, Y. Amirat, P. Siarry, and S. Mohammed\n\n\nIEEE Robotics and Automation Letters, 7, 9635–9642\n\n\n\n\n\nJ7\n\n\n\n2022\n\n\nAn Assistive Explicit Model Predictive Control Framework for a Knee Rehabilitation Exoskeleton ↗\n\n\nI. Jammeli, A. Chemori, H. Moon, S. Elloumi, and S. Mohammed\n\n\nIEEE/ASME Transactions on Mechatronics, 27, 3636–3647\n\n\n\n\n\nJ8\n\n\n\n2022\n\n\nImpedance Modulation Control of a Lower-Limb Exoskeleton to Assist Sit-to-Stand Movements ↗\n\n\nW. Huo, H. Moon, M. A. Alouane, V. Bonnet, J. Huang, Y. Amirat, R. Vaidyanathan, and S. Mohammed\n\n\nIEEE Transactions on Robotics, 38, 1230–1249"
   },
   {
-    "objectID": "research.html#experience",
-    "href": "research.html#experience",
-    "title": "Research",
-    "section": "Experience",
-    "text": "Experience\n\n\nJul 2026 – present\n\n\nPostdoctoral Researcher\n\nLISSI, Université Paris-Est Créteil, France\n\n\nReal-time gait mode recognition (LSTM, 98% accuracy) for actuated ankle-foot orthoses; EMG-driven adaptive FES control validated in clinical trials; 7-IMU sensor fusion for portable Parkinson’s disease assessment.\n\n\n\n\n\nSep 2025 – Mar 2026\n\n\nPostdoctoral Researcher\n\nKAIST, Daejeon, South Korea\n\n\nPhysics-informed AI models for human motion intention inference from wearable IMU signals, with Dr. Jaegul Choo.\n\n\n\n\n\nSep 2023 – Aug 2025\n\n\nResearch Engineer\n\nLISSI, Université Paris-Est Créteil, France\n\n\nIntent detection and adaptive control for wearable robots; clinical gait analysis systems.\n\n\n\n\n\nNov 2019 – Aug 2023\n\n\nPh.D. Researcher & ATER\n\nUniversité Paris-Est Créteil, France\n\n\nImpedance and reference-tracking control for lower-limb exoskeletons; real-time activity recognition; taught wearable sensing and signal processing.\n\n\n\n\n\nMar 2017 – Feb 2019\n\n\nResearch Assistant\n\nSogang University, Seoul, South Korea\n\n\nInteraction force control for load-carrying lower-limb exoskeletons."
-  },
-  {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\n\nReal-Time LSTM-Driven Dynamic Gait Mode Detection for Enhanced Control of Actuated Ankle-Foot Orthosis\n\n\nMoon, H., Bey, O., Boubezoul, A., Oukhellou, L., Mohammed, S. · IEEE Transactions on Robotics, 2025\n\n\n\n\nFuzzy Convolutional Attention-based GRU Network for Human Activity Recognition\n\n\nKhodabandelou, G., Moon, H., Amirat, Y., Mohammed, S. · Engineering Applications of Artificial Intelligence, 2023\n\n\n\n\nHybrid Half-Gaussian Selectively Adaptive Fuzzy Control of an Actuated Ankle-Foot Orthosis\n\n\nMoon, H., Maiti, R., Das Sharma, K., Amirat, Y., Siarry, P., Mohammed, S. · IEEE Robotics and Automation Letters, 2022 · ICRA 2023 oral\n\n\n\n\nAn Assistive Explicit Model Predictive Control Framework for a Knee Rehabilitation Exoskeleton\n\n\nJammeli, I., Chemori, A., Moon, H., Elloumi, S., Mohammed, S. · IEEE/ASME Transactions on Mechatronics, 2022\n\n\n\n\nImpedance Modulation Control of a Lower-Limb Exoskeleton to Assist Sit-to-Stand Movements\n\n\nHuo, W., Moon, H., Alouane, M. A., Bonnet, V., Huang, J., Amirat, Y., Vaidyanathan, R., Mohammed, S. · IEEE Transactions on Robotics, 2022\n\n\n\n\nA Novel Funnel-Based L1 Adaptive Fuzzy Approach for the Control of an Actuated Ankle Foot Orthosis\n\n\nBey, O., Jradi, R., Moon, H., Rifai, H., Das Sharma, K., Amirat, Y., Mohammed, S. · IEEE ICRA, 2024\n\n\n\n\nOnline Human Intention Detection through Machine-learning based Algorithm for the Control of Lower-limbs Wearable Robot\n\n\nMoon, H., Boubezoul, A., Oukhellou, L., Amirat, Y., Mohammed, S. · IEEE-RAS Humanoids, 2022\n\n\n\n\nA Novel Gait Phase Detection Algorithm for Foot Drop Correction through Optimal Hybrid FES-Orthosis Assistance\n\n\nJung, P.-G., Huo, W., Moon, H., Amirat, Y., Mohammed, S. · IEEE ICRA, 2021"
+    "objectID": "publications.html#conference-proceedings",
+    "href": "publications.html#conference-proceedings",
+    "title": "Publications",
+    "section": "Conference proceedings",
+    "text": "Conference proceedings\n\n\nC1\n\n\n\n2024\n\n\nA Novel Funnel-Based L1 Adaptive Fuzzy Approach for the Control of an Actuated Ankle Foot Orthosis ↗\n\n\nO. Bey, R. Jradi, H. Moon, H. Rifai, K. Das Sharma, Y. Amirat, and S. Mohammed\n\n\nIEEE International Conference on Robotics and Automation (ICRA)\n\n\n\n\n\nC2\n\n\n\n2022\n\n\nOnline Human Intention Detection through Machine-learning based Algorithm for the Control of Lower-limbs Wearable Robot ↗\n\n\nH. Moon, A. Boubezoul, L. Oukhellou, Y. Amirat, and S. Mohammed\n\n\nIEEE-RAS International Conference on Humanoid Robots\n\n\n\n\n\nC3\n\n\n\n2021\n\n\nA Novel Gait Phase Detection Algorithm for Foot Drop Correction through Optimal Hybrid FES-Orthosis Assistance ↗\n\n\nP.-G. Jung, W. Huo, H. Moon, Y. Amirat, and S. Mohammed\n\n\nIEEE International Conference on Robotics and Automation (ICRA)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Huiseok Moon",
     "section": "",
-    "text": "Postdoctoral Researcher · LISSI, Université Paris-Est Créteil\n\n\nI build wearable robots that understand human intent — turning EMG and IMU signals into safe, adaptive mobility assistance.\n\n\nResearch Curriculum vitae"
+    "text": "Huiseok Moon\n\n\nPostdoctoral Researcher · Laboratoire Images, Signaux et Systèmes Intelligents (LISSI) · Université Paris-Est Créteil\n\n\n\n\nAt LISSI, Université Paris-Est Créteil, I work with Prof. Samer Mohammed on assistive robotics and physical human-robot interaction. I use wearable EMG and IMU signals to infer human intent for safe, adaptive mobility assistance.\n\n\nI completed my Ph.D. in Signal, Image and Control at Université Paris-Est Créteil under Prof. Mohammed. My thesis examined human-in-the-loop approaches to mobility assistance with powered exoskeletons. Before that, I earned an M.S. in Mechanical Engineering from Sogang University, where Prof. Kyoungchul Kong advised my work on lower-limb exoskeleton control for load-carrying tasks.\n\n\n\n\n\n\n\nhuiseok.moon@u-pec.fr"
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
     "title": "Huiseok Moon",
     "section": "News",
-    "text": "News\n\n\nJul 2026\n\n\nStarted as a postdoctoral researcher at LISSI, Université Paris-Est Créteil — gait mode recognition, adaptive FES control, and portable clinical devices for Parkinson’s disease assessment.\n\n\n\n\nSep 2025\n\n\nJoined KAIST as a postdoctoral researcher with Dr. Jaegul Choo, developing physics-informed AI for human motion intention inference.\n\n\n\n\nJul 2025\n\n\nNew paper in IEEE Transactions on Robotics: real-time LSTM-driven gait mode detection for actuated ankle-foot orthoses."
+    "text": "News\n\n\nJul 2026\n\n\nStarted a postdoctoral position at LISSI, Université Paris-Est Créteil, working on gait mode recognition, adaptive FES control, and portable clinical devices for Parkinson’s disease assessment.\n\n\n\n\nSep 2025\n\n\nJoined KAIST as a postdoctoral researcher with Dr. Jaegul Choo to develop physics-informed AI for human motion intention inference.\n\n\n\n\nJul 2025\n\n\nMy paper on real-time LSTM-driven gait mode detection for actuated ankle-foot orthoses was published in IEEE Transactions on Robotics."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Last updated August 2026\n\n\nDownload PDF Open in new tab\n\n\n\n&lt;p&gt;\nIf the embedded PDF does not appear, &lt;a href=\"files/CV_Moon.pdf\"&gt;download it here&lt;/a&gt;.\n&lt;/p&gt;"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Publications",
+    "section": "",
+    "text": "This page has moved to Publications."
   }
 ]

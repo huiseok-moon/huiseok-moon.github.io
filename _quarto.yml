@@ -5,7 +5,7 @@ website:
   title: "Huiseok Moon"
   site-url: "https://huiseok-moon.github.io"
   description: "Huiseok Moon is a postdoctoral researcher working on assistive robotics and physical human-robot interaction."
-  favicon: images/favicon_moon-transparent-large.png
+  favicon: images/favicon.svg
   navbar:
     title: "<span class='nav-given-name'>Huiseok</span> <span class='nav-family-name'>Moon</span>"
     background: light
@@ -17,20 +17,16 @@ website:
       - href: cv.qmd
         text: CV
     right:
-      - icon: github
-        href: https://github.com/huiseok-moon
-        aria-label: GitHub
-      - icon: mortarboard-fill
-        href: https://scholar.google.com/citations?hl=en&user=TfTL0QIAAAAJ
-        aria-label: Google Scholar
+      - text: Website
+        href: https://huiseok-moon.github.io
       - icon: envelope
         href: mailto:huiseok.moon@u-pec.fr
         aria-label: Email
   page-footer:
     left: "© 2026 Huiseok Moon"
     right:
-      - icon: github
-        href: https://github.com/huiseok-moon
+      - text: Website
+        href: https://huiseok-moon.github.io
       - icon: envelope
         href: mailto:huiseok.moon@u-pec.fr
 

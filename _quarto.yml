@@ -17,6 +17,9 @@ website:
       - href: cv.qmd
         text: CV
     right:
+      - icon: github
+        href: https://github.com/huiseok-moon
+        aria-label: GitHub
       - text: Website
         href: https://huiseok-moon.github.io
       - icon: envelope

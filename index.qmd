@@ -1,27 +1,38 @@
 ---
 title: ""
 page-layout: article
+format:
+  html:
+    body-classes: home-page
 ---
 
 ::: {.hero}
 ::: {.hero-text}
-# Huiseok Moon
+<div class="hero-name"><span class="given-name">Huiseok</span> <span class="family-name">Moon</span></div>
+<div class="hero-role">Postdoctoral Researcher · <a href="https://www.lissi.fr/accueil/" target="_blank" rel="noopener">Laboratoire Images, Signaux et Systèmes Intelligents (LISSI)</a> · Université Paris-Est Créteil</div>
 
-<div class="hero-role">Postdoctoral Researcher · LISSI, Université Paris-Est Créteil</div>
+::: {.hero-content}
+<div class="hero-bio">
+<p>At <a href="https://www.lissi.fr/accueil/" target="_blank" rel="noopener">LISSI</a>, Université Paris-Est Créteil, I work with Prof. Samer Mohammed on
+assistive robotics and physical human-robot interaction. I use wearable EMG
+and IMU signals to infer human intent for safe, adaptive mobility assistance.</p>
 
-<div class="hero-tagline">
-I build wearable robots that understand human intent — turning EMG and IMU
-signals into safe, adaptive mobility assistance.
+<p>I completed my Ph.D. in Signal, Image and Control at Université Paris-Est
+Créteil under Prof. Mohammed. My thesis examined human-in-the-loop approaches
+to mobility assistance with powered exoskeletons. Before that, I earned an
+M.S. in Mechanical Engineering from Sogang University, where Prof. Kyoungchul
+Kong advised my work on lower-limb exoskeleton control for load-carrying
+tasks.</p>
 </div>
-
-<div class="hero-buttons">
-<a class="btn-accent" href="research.qmd">Research</a>
-<a class="btn-ghost" href="cv.qmd">Curriculum vitae</a>
-</div>
-:::
 
 ::: {.hero-photo}
-![](images/avatar-placeholder.svg){alt="Portrait of Huiseok Moon"}
+![](images/portrait.png){alt="Portrait of Huiseok Moon"}
+:::
+:::
+
+<div class="hero-buttons">
+<a class="hero-email" href="mailto:huiseok.moon@u-pec.fr">huiseok.moon@u-pec.fr</a>
+</div>
 :::
 :::
 
@@ -30,16 +41,16 @@ signals into safe, adaptive mobility assistance.
 ::: {.news-item}
 <div class="news-date">Jul 2026</div>
 <div class="news-body">
-Started as a postdoctoral researcher at LISSI, Université Paris-Est Créteil —
-gait mode recognition, adaptive FES control, and portable clinical devices for
-Parkinson's disease assessment.
+Started a postdoctoral position at LISSI, Université Paris-Est Créteil,
+working on gait mode recognition, adaptive FES control, and portable clinical
+devices for Parkinson's disease assessment.
 </div>
 :::
 
 ::: {.news-item}
 <div class="news-date">Sep 2025</div>
 <div class="news-body">
-Joined KAIST as a postdoctoral researcher with Dr. Jaegul Choo, developing
+Joined KAIST as a postdoctoral researcher with Dr. Jaegul Choo to develop
 physics-informed AI for human motion intention inference.
 </div>
 :::
@@ -47,7 +58,7 @@ physics-informed AI for human motion intention inference.
 ::: {.news-item}
 <div class="news-date">Jul 2025</div>
 <div class="news-body">
-New paper in *IEEE Transactions on Robotics*: real-time LSTM-driven gait mode
-detection for actuated ankle-foot orthoses.
+My paper on real-time LSTM-driven gait mode detection for actuated ankle-foot
+orthoses was published in *IEEE Transactions on Robotics*.
 </div>
 :::

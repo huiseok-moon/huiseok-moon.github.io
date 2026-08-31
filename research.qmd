@@ -1,108 +1,13 @@
 ---
-title: "Research"
+title: "Publications"
 page-layout: article
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=publications.html">
 ---
 
-<div class="subtitle-note">
-Assistive robotics · Physical human-robot interaction · Wearable robotics
+<div class="page-intro">
+This page has moved to <a href="publications.qmd">Publications</a>.
 </div>
-
-I design clinically validated systems that sense human intent from wearable
-sensors (EMG, IMU) and turn it into real-time robotic assistance — powered
-exoskeletons, actuated ankle-foot orthoses, and functional electrical
-stimulation. My current interests include physics-based modeling, model-based
-control, and multimodal AI for understanding and predicting human motion.
-
-## Experience
-
-::: {.entry}
-<div class="entry-dates">Jul 2026 – present</div>
-<div class="entry-body">
-### Postdoctoral Researcher
-<div class="entry-org">LISSI, Université Paris-Est Créteil, France</div>
-<p>Real-time gait mode recognition (LSTM, 98% accuracy) for actuated ankle-foot
-orthoses; EMG-driven adaptive FES control validated in clinical trials; 7-IMU
-sensor fusion for portable Parkinson's disease assessment.</p>
-</div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Sep 2025 – Mar 2026</div>
-<div class="entry-body">
-### Postdoctoral Researcher
-<div class="entry-org">KAIST, Daejeon, South Korea</div>
-<p>Physics-informed AI models for human motion intention inference from
-wearable IMU signals, with Dr. Jaegul Choo.</p>
-</div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Sep 2023 – Aug 2025</div>
-<div class="entry-body">
-### Research Engineer
-<div class="entry-org">LISSI, Université Paris-Est Créteil, France</div>
-<p>Intent detection and adaptive control for wearable robots; clinical gait
-analysis systems.</p>
-</div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Nov 2019 – Aug 2023</div>
-<div class="entry-body">
-### Ph.D. Researcher & ATER
-<div class="entry-org">Université Paris-Est Créteil, France</div>
-<p>Impedance and reference-tracking control for lower-limb exoskeletons;
-real-time activity recognition; taught wearable sensing and signal processing.</p>
-</div>
-:::
-
-::: {.entry}
-<div class="entry-dates">Mar 2017 – Feb 2019</div>
-<div class="entry-body">
-### Research Assistant
-<div class="entry-org">Sogang University, Seoul, South Korea</div>
-<p>Interaction force control for load-carrying lower-limb exoskeletons.</p>
-</div>
-:::
-
-## Publications
-
-::: {.pub}
-<div class="pub-title"><a href="https://doi.org/10.1109/TRO.2025.3593111" target="_blank">Real-Time LSTM-Driven Dynamic Gait Mode Detection for Enhanced Control of Actuated Ankle-Foot Orthosis</a></div>
-<div class="pub-meta"><strong>Moon, H.</strong>, Bey, O., Boubezoul, A., Oukhellou, L., Mohammed, S. · <em>IEEE Transactions on Robotics</em>, 2025</div>
-:::
-
-::: {.pub}
-<div class="pub-title"><a href="https://doi.org/10.1016/j.engappai.2022.105702" target="_blank">Fuzzy Convolutional Attention-based GRU Network for Human Activity Recognition</a></div>
-<div class="pub-meta">Khodabandelou, G., <strong>Moon, H.</strong>, Amirat, Y., Mohammed, S. · <em>Engineering Applications of Artificial Intelligence</em>, 2023</div>
-:::
-
-::: {.pub}
-<div class="pub-title"><a href="https://doi.org/10.1109/LRA.2022.3191187" target="_blank">Hybrid Half-Gaussian Selectively Adaptive Fuzzy Control of an Actuated Ankle-Foot Orthosis</a></div>
-<div class="pub-meta"><strong>Moon, H.</strong>, Maiti, R., Das Sharma, K., Amirat, Y., Siarry, P., Mohammed, S. · <em>IEEE Robotics and Automation Letters</em>, 2022 · ICRA 2023 oral</div>
-:::
-
-::: {.pub}
-<div class="pub-title"><a href="https://doi.org/10.1109/TMECH.2021.3126674" target="_blank">An Assistive Explicit Model Predictive Control Framework for a Knee Rehabilitation Exoskeleton</a></div>
-<div class="pub-meta">Jammeli, I., Chemori, A., <strong>Moon, H.</strong>, Elloumi, S., Mohammed, S. · <em>IEEE/ASME Transactions on Mechatronics</em>, 2022</div>
-:::
-
-::: {.pub}
-<div class="pub-title"><a href="https://doi.org/10.1109/TRO.2021.3104244" target="_blank">Impedance Modulation Control of a Lower-Limb Exoskeleton to Assist Sit-to-Stand Movements</a></div>
-<div class="pub-meta">Huo, W., <strong>Moon, H.</strong>, Alouane, M. A., Bonnet, V., Huang, J., Amirat, Y., Vaidyanathan, R., Mohammed, S. · <em>IEEE Transactions on Robotics</em>, 2022</div>
-:::
-
-::: {.pub}
-<div class="pub-title"><a href="https://doi.org/10.1109/ICRA57147.2024.10610584" target="_blank">A Novel Funnel-Based L1 Adaptive Fuzzy Approach for the Control of an Actuated Ankle Foot Orthosis</a></div>
-<div class="pub-meta">Bey, O., Jradi, R., <strong>Moon, H.</strong>, Rifai, H., Das Sharma, K., Amirat, Y., Mohammed, S. · <em>IEEE ICRA</em>, 2024</div>
-:::
-
-::: {.pub}
-<div class="pub-title"><a href="https://doi.org/10.1109/Humanoids53995.2022.10000150" target="_blank">Online Human Intention Detection through Machine-learning based Algorithm for the Control of Lower-limbs Wearable Robot</a></div>
-<div class="pub-meta"><strong>Moon, H.</strong>, Boubezoul, A., Oukhellou, L., Amirat, Y., Mohammed, S. · <em>IEEE-RAS Humanoids</em>, 2022</div>
-:::
-
-::: {.pub}
-<div class="pub-title"><a href="https://doi.org/10.1109/ICRA48506.2021.9561497" target="_blank">A Novel Gait Phase Detection Algorithm for Foot Drop Correction through Optimal Hybrid FES-Orthosis Assistance</a></div>
-<div class="pub-meta">Jung, P.-G., Huo, W., <strong>Moon, H.</strong>, Amirat, Y., Mohammed, S. · <em>IEEE ICRA</em>, 2021</div>
-:::

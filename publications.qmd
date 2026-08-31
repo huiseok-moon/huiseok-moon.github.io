@@ -1,0 +1,129 @@
+---
+title: "Publications"
+page-layout: article
+---
+
+<div class="page-intro">
+My work covers wearable robotics, assistive control, human intent recognition,
+and rehabilitation engineering.
+</div>
+
+<div class="publication-count">6 journal articles · 2 submitted manuscripts · 3 conference papers</div>
+
+<div class="publication-actions">
+<a href="https://scholar.google.com/citations?hl=en&amp;user=TfTL0QIAAAAJ" target="_blank" rel="noopener">Google Scholar profile <span aria-hidden="true">↗</span></a>
+</div>
+
+## Journal articles and submitted manuscripts
+
+::: {.pub-card}
+<div class="pub-index">J1</div>
+<div class="pub-content">
+<div class="pub-topline"><span class="pub-year">2026</span><span class="pub-status">Submitted</span></div>
+<div class="pub-title">Knee-Guided Phase–Magnitude Decoupled Adaptive Functional Electrical Stimulation for Drop-Foot Correction</div>
+<div class="pub-authors">X. Luo, <strong>H. Moon</strong>, J.-M. Gracies, W. Huo, and S. Mohammed</div>
+<div class="pub-venue"><em>IEEE Transactions on Neural Systems and Rehabilitation Engineering</em> · Equal contribution as first and corresponding author</div>
+</div>
+:::
+
+::: {.pub-card}
+<div class="pub-index">J2</div>
+<div class="pub-content">
+<div class="pub-topline"><span class="pub-year">2026</span><span class="pub-status">Submitted</span></div>
+<div class="pub-title">Changes in Walking Speed, Step Length, and Lower Limb Kinematics Over Eight Weeks of Guided Self-Rehabilitation Contracts in Hemiparetic Patients: A Prospective Cohort Study</div>
+<div class="pub-authors">L. Marusu, C. Gault-Colas, <strong>H. Moon</strong>, S. Mohammed, and J.-M. Gracies</div>
+<div class="pub-venue"><em>Journal of Neural Engineering</em></div>
+</div>
+:::
+
+::: {.pub-card}
+<div class="pub-index">J3</div>
+<div class="pub-content">
+<div class="pub-topline"><span class="pub-year">2026</span></div>
+<div class="pub-title"><a href="https://doi.org/10.1109/TASE.2026.3718534" target="_blank" rel="noopener">Non-model-based Finite-Time Adaptive Neural Output Feedback Control for an Active Ankle-Foot Orthosis <span aria-hidden="true">↗</span></a></div>
+<div class="pub-authors">O. Bey, M. Chemachema, R. Jradi, <strong>H. Moon</strong>, H. Rifai, Y. Amirat, and S. Mohammed</div>
+<div class="pub-venue"><em>IEEE Transactions on Automation Science and Engineering</em></div>
+</div>
+:::
+
+::: {.pub-card}
+<div class="pub-index">J4</div>
+<div class="pub-content">
+<div class="pub-topline"><span class="pub-year">2025</span></div>
+<div class="pub-title"><a href="https://doi.org/10.1109/TRO.2025.3593111" target="_blank" rel="noopener">Real-Time LSTM-Driven Dynamic Gait Mode Detection for Enhanced Control of Actuated Ankle-Foot Orthosis <span aria-hidden="true">↗</span></a></div>
+<div class="pub-authors"><strong>H. Moon</strong>, O. Bey, A. Boubezoul, L. Oukhellou, and S. Mohammed</div>
+<div class="pub-venue"><em>IEEE Transactions on Robotics</em></div>
+</div>
+:::
+
+::: {.pub-card}
+<div class="pub-index">J5</div>
+<div class="pub-content">
+<div class="pub-topline"><span class="pub-year">2023</span></div>
+<div class="pub-title"><a href="https://doi.org/10.1016/j.engappai.2022.105702" target="_blank" rel="noopener">Fuzzy Convolutional Attention-based GRU Network for Human Activity Recognition <span aria-hidden="true">↗</span></a></div>
+<div class="pub-authors">G. Khodabandelou, <strong>H. Moon</strong>, Y. Amirat, and S. Mohammed</div>
+<div class="pub-venue"><em>Engineering Applications of Artificial Intelligence</em>, 118, 105702</div>
+</div>
+:::
+
+::: {.pub-card}
+<div class="pub-index">J6</div>
+<div class="pub-content">
+<div class="pub-topline"><span class="pub-year">2022</span><span class="pub-status">ICRA 2023 oral</span></div>
+<div class="pub-title"><a href="https://doi.org/10.1109/LRA.2022.3191187" target="_blank" rel="noopener">Hybrid Half-Gaussian Selectively Adaptive Fuzzy Control of an Actuated Ankle-Foot Orthosis <span aria-hidden="true">↗</span></a></div>
+<div class="pub-authors"><strong>H. Moon</strong>, R. Maiti, K. Das Sharma, Y. Amirat, P. Siarry, and S. Mohammed</div>
+<div class="pub-venue"><em>IEEE Robotics and Automation Letters</em>, 7, 9635–9642</div>
+</div>
+:::
+
+::: {.pub-card}
+<div class="pub-index">J7</div>
+<div class="pub-content">
+<div class="pub-topline"><span class="pub-year">2022</span></div>
+<div class="pub-title"><a href="https://doi.org/10.1109/TMECH.2021.3126674" target="_blank" rel="noopener">An Assistive Explicit Model Predictive Control Framework for a Knee Rehabilitation Exoskeleton <span aria-hidden="true">↗</span></a></div>
+<div class="pub-authors">I. Jammeli, A. Chemori, <strong>H. Moon</strong>, S. Elloumi, and S. Mohammed</div>
+<div class="pub-venue"><em>IEEE/ASME Transactions on Mechatronics</em>, 27, 3636–3647</div>
+</div>
+:::
+
+::: {.pub-card}
+<div class="pub-index">J8</div>
+<div class="pub-content">
+<div class="pub-topline"><span class="pub-year">2022</span></div>
+<div class="pub-title"><a href="https://doi.org/10.1109/TRO.2021.3104244" target="_blank" rel="noopener">Impedance Modulation Control of a Lower-Limb Exoskeleton to Assist Sit-to-Stand Movements <span aria-hidden="true">↗</span></a></div>
+<div class="pub-authors">W. Huo, <strong>H. Moon</strong>, M. A. Alouane, V. Bonnet, J. Huang, Y. Amirat, R. Vaidyanathan, and S. Mohammed</div>
+<div class="pub-venue"><em>IEEE Transactions on Robotics</em>, 38, 1230–1249</div>
+</div>
+:::
+
+## Conference proceedings
+
+::: {.pub-card}
+<div class="pub-index">C1</div>
+<div class="pub-content">
+<div class="pub-topline"><span class="pub-year">2024</span></div>
+<div class="pub-title"><a href="https://doi.org/10.1109/ICRA57147.2024.10610584" target="_blank" rel="noopener">A Novel Funnel-Based L1 Adaptive Fuzzy Approach for the Control of an Actuated Ankle Foot Orthosis <span aria-hidden="true">↗</span></a></div>
+<div class="pub-authors">O. Bey, R. Jradi, <strong>H. Moon</strong>, H. Rifai, K. Das Sharma, Y. Amirat, and S. Mohammed</div>
+<div class="pub-venue"><em>IEEE International Conference on Robotics and Automation (ICRA)</em></div>
+</div>
+:::
+
+::: {.pub-card}
+<div class="pub-index">C2</div>
+<div class="pub-content">
+<div class="pub-topline"><span class="pub-year">2022</span></div>
+<div class="pub-title"><a href="https://doi.org/10.1109/Humanoids53995.2022.10000150" target="_blank" rel="noopener">Online Human Intention Detection through Machine-learning based Algorithm for the Control of Lower-limbs Wearable Robot <span aria-hidden="true">↗</span></a></div>
+<div class="pub-authors"><strong>H. Moon</strong>, A. Boubezoul, L. Oukhellou, Y. Amirat, and S. Mohammed</div>
+<div class="pub-venue"><em>IEEE-RAS International Conference on Humanoid Robots</em></div>
+</div>
+:::
+
+::: {.pub-card}
+<div class="pub-index">C3</div>
+<div class="pub-content">
+<div class="pub-topline"><span class="pub-year">2021</span></div>
+<div class="pub-title"><a href="https://doi.org/10.1109/ICRA48506.2021.9561497" target="_blank" rel="noopener">A Novel Gait Phase Detection Algorithm for Foot Drop Correction through Optimal Hybrid FES-Orthosis Assistance <span aria-hidden="true">↗</span></a></div>
+<div class="pub-authors">P.-G. Jung, W. Huo, <strong>H. Moon</strong>, Y. Amirat, and S. Mohammed</div>
+<div class="pub-venue"><em>IEEE International Conference on Robotics and Automation (ICRA)</em></div>
+</div>
+:::

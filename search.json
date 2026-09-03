@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Last updated September 2026\n\n\nDownload PDF Open in new tab\n\n\n\n&lt;p&gt;\nIf the embedded PDF does not appear, &lt;a href=\"files/CV_Moon.pdf\"&gt;download it here&lt;/a&gt;.\n&lt;/p&gt;"
+  },
+  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
@@ -26,20 +33,6 @@
     "title": "Huiseok Moon",
     "section": "",
     "text": "Huiseok Moon\n\n\nPostdoctoral Researcher · Laboratoire Images, Signaux et Systèmes Intelligents (LISSI) · Université Paris-Est Créteil\n\n\n\n\nAt LISSI, Université Paris-Est Créteil, I work with Prof. Samer Mohammed on assistive robotics and physical human-robot interaction. I use wearable EMG and IMU signals to infer human intent for safe, adaptive mobility assistance.\n\n\nI completed my Ph.D. in Signal, Image and Control at Université Paris-Est Créteil under Prof. Mohammed. My thesis examined human-in-the-loop approaches to mobility assistance with powered exoskeletons. Before that, I earned an M.S. in Mechanical Engineering from Sogang University, where Prof. Kyoungchul Kong advised my work on lower-limb exoskeleton control for load-carrying tasks.\n\n\n\n\n\n\n\nhuiseok.moon@u-pec.fr"
-  },
-  {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Huiseok Moon",
-    "section": "News",
-    "text": "News\n\n\nJul 2026\n\n\nStarted a postdoctoral position at LISSI, Université Paris-Est Créteil, working on gait mode recognition, adaptive FES control, and portable clinical devices for Parkinson’s disease assessment.\n\n\n\n\nSep 2025\n\n\nJoined KAIST as a postdoctoral researcher with Dr. Jaegul Choo to develop physics-informed AI for human motion intention inference.\n\n\n\n\nJul 2025\n\n\nMy paper on real-time LSTM-driven gait mode detection for actuated ankle-foot orthoses was published in IEEE Transactions on Robotics."
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum vitae",
-    "section": "",
-    "text": "Last updated August 2026\n\n\nDownload PDF Open in new tab\n\n\n\n&lt;p&gt;\nIf the embedded PDF does not appear, &lt;a href=\"files/CV_Moon.pdf\"&gt;download it here&lt;/a&gt;.\n&lt;/p&gt;"
   },
   {
     "objectID": "research.html",

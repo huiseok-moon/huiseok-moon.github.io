@@ -35,30 +35,3 @@ tasks.</p>
 </div>
 :::
 :::
-
-## News
-
-::: {.news-item}
-<div class="news-date">Jul 2026</div>
-<div class="news-body">
-Started a postdoctoral position at LISSI, Université Paris-Est Créteil,
-working on gait mode recognition, adaptive FES control, and portable clinical
-devices for Parkinson's disease assessment.
-</div>
-:::
-
-::: {.news-item}
-<div class="news-date">Sep 2025</div>
-<div class="news-body">
-Joined KAIST as a postdoctoral researcher with Dr. Jaegul Choo to develop
-physics-informed AI for human motion intention inference.
-</div>
-:::
-
-::: {.news-item}
-<div class="news-date">Jul 2025</div>
-<div class="news-body">
-My paper on real-time LSTM-driven gait mode detection for actuated ankle-foot
-orthoses was published in *IEEE Transactions on Robotics*.
-</div>
-:::

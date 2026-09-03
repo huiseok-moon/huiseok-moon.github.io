@@ -3,7 +3,7 @@ title: "Curriculum vitae"
 page-layout: article
 ---
 
-<div class="subtitle-note">Last updated August 2026</div>
+<div class="subtitle-note">Last updated September 2026</div>
 
 <div class="hero-buttons cv-actions">
 <a class="btn-accent" href="files/CV_Moon.pdf" download>Download PDF</a>

@@ -5,7 +5,7 @@ website:
   title: "Huiseok Moon"
   site-url: "https://huiseok-moon.github.io"
   description: "Huiseok Moon is a postdoctoral researcher working on assistive robotics and physical human-robot interaction."
-  favicon: images/favicon.svg
+  favicon: images/favicon-moon-v2.svg
   navbar:
     title: "<span class='nav-given-name'>Huiseok</span> <span class='nav-family-name'>Moon</span>"
     background: light

@@ -315,29 +315,97 @@ main.content {
 
 /* Research: native Quarto tabs presented as preview cards. */
 .research-tabs > .nav-tabs {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.65rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1.75rem 1.25rem;
   border: 0;
   margin-bottom: 1.5rem;
 }
 
+.research-tabs > .nav-tabs > .nav-item {
+  min-width: 0;
+  flex: 0 0 calc((100% - 2.5rem) / 3);
+}
+
 .research-tabs > .nav-tabs .nav-link {
+  width: 100%;
   height: 100%;
-  padding: 1rem;
-  border: 1px solid var(--line);
-  border-radius: 6px;
+  padding: 0 0 0.75rem;
+  border: 0;
+  border-radius: 10px;
   color: var(--text);
-  background: #fafbfc;
+  background: transparent;
   text-align: left;
   white-space: normal;
 }
 
 .research-tabs > .nav-tabs .nav-link:hover,
 .research-tabs > .nav-tabs .nav-link.active {
-  border-color: var(--link);
-  background: #f0f5fc;
+  color: var(--link);
+  background: transparent;
   text-decoration: none;
+}
+
+.research-tabs > .nav-tabs .nav-link.active .research-thumbnail {
+  outline: 3px solid var(--link);
+  outline-offset: 3px;
+}
+
+.research-thumbnail {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  padding: 1rem;
+  margin: 0 0 0.9rem;
+  border-radius: 10px;
+  color: #344b63;
+  background: linear-gradient(135deg, #e9f0f7, #cbdbea);
+}
+
+.research-tabs .nav-item:nth-child(2) .research-thumbnail {
+  color: #33594f;
+  background: linear-gradient(135deg, #e6f1eb, #c8dfd3);
+}
+
+.research-tabs .nav-item:nth-child(3) .research-thumbnail {
+  color: #644e39;
+  background: linear-gradient(135deg, #f6eee3, #e7d6bf);
+}
+
+.research-tabs .nav-item:nth-child(4) .research-thumbnail {
+  color: #4f4970;
+  background: linear-gradient(135deg, #eeebf5, #d8d0e8);
+}
+
+.research-tabs .nav-item:nth-child(5) .research-thumbnail {
+  color: #345a64;
+  background: linear-gradient(135deg, #e5f0f2, #c5dee2);
+}
+
+.research-tabs .nav-item:nth-child(6) .research-thumbnail {
+  color: #685044;
+  background: linear-gradient(135deg, #f2eae5, #e4d0c4);
+}
+
+.research-demo {
+  align-self: center;
+  font-size: clamp(1.3rem, 3vw, 2rem);
+  font-weight: 600;
+  letter-spacing: 0.15em;
+}
+
+.research-badge {
+  align-self: flex-end;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  color: #fff;
+  background: #263441;
+  font-size: 0.65rem;
+  font-weight: 400;
 }
 
 .research-tabs .nav-link:focus-visible {
@@ -352,8 +420,7 @@ main.content {
 }
 
 .research-kicker {
-  margin-bottom: 0.8rem;
-  color: var(--link);
+  color: inherit;
   font-size: 0.62rem;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -361,7 +428,7 @@ main.content {
 
 .research-card-title {
   margin-bottom: 0.4rem;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 600;
   line-height: 1.35;
 }
@@ -375,9 +442,14 @@ main.content {
 }
 
 .research-tabs > .tab-content {
-  padding: 1.5rem;
-  border: 1px solid var(--line);
-  border-radius: 6px;
+  padding: 2rem 0 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+.research-tabs > .tab-content > .tab-pane {
+  max-width: 760px;
+  margin-inline: auto;
 }
 
 .research-tabs h4 {
@@ -410,17 +482,16 @@ main.content {
   margin-bottom: 0;
 }
 
-.research-preview img {
+.research-thumbnail img {
   width: 100%;
+  height: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  border-radius: 3px;
-  margin-bottom: 0.6rem;
 }
 
-@media (max-width: 640px) {
-  .research-tabs > .nav-tabs {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+@media (max-width: 900px) {
+  .research-tabs > .nav-tabs > .nav-item {
+    flex-basis: calc((100% - 1.25rem) / 2);
   }
 
   .research-tabs > .tab-content {
@@ -428,9 +499,139 @@ main.content {
   }
 }
 
-@media (max-width: 360px) {
-  .research-tabs > .nav-tabs {
-    grid-template-columns: 1fr;
+@media (max-width: 540px) {
+  .research-tabs > .nav-tabs > .nav-item {
+    flex-basis: 100%;
+  }
+}
+
+/* Selecting a card turns the same tabs into a sidebar and detail view. */
+#research-overview {
+  margin: 0 0 1.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: white;
+  color: var(--link);
+  font: inherit;
+  cursor: pointer;
+  scroll-margin-top: 5rem;
+}
+
+.research-ready:not(.research-detail) > .tab-content {
+  display: none;
+}
+
+.research-detail {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: start;
+  scroll-margin-top: 5rem;
+}
+
+.research-detail > .nav-tabs {
+  position: sticky;
+  top: 5rem;
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0.35rem;
+  padding: 0.25rem;
+}
+
+.research-detail > .nav-tabs > .nav-item {
+  flex: 0 0 auto;
+}
+
+.research-detail > .nav-tabs .nav-link {
+  padding: 0.85rem;
+  border-left: 3px solid transparent;
+  border-radius: 0 6px 6px 0;
+}
+
+.research-detail > .nav-tabs .nav-link.active {
+  border-left-color: var(--link);
+  background: #f0f5fc;
+}
+
+.research-detail .research-thumbnail {
+  display: none;
+}
+
+.research-detail .research-card-title {
+  font-size: 0.9rem;
+}
+
+.research-detail .research-preview {
+  font-size: 0.75rem;
+}
+
+.research-detail > .tab-content {
+  min-width: 0;
+  padding: 0;
+  border: 0;
+}
+
+.research-detail h4 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  line-height: 1.25;
+}
+
+@media (max-width: 760px) {
+  .research-detail {
+    display: block;
+  }
+
+  .research-detail > .nav-tabs {
+    position: static;
+    flex-direction: row;
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .research-detail > .nav-tabs > .nav-item {
+    flex: 0 0 160px;
+  }
+
+  .research-detail .research-preview {
+    display: none;
+  }
+}
+
+/* Native snapshots morph each card into its sidebar position. */
+.research-ready > .tab-content {
+  view-transition-name: research-content;
+}
+
+#research-overview {
+  view-transition-name: research-back;
+}
+
+::view-transition-group(*) {
+  animation-duration: 380ms;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+::view-transition-old(*),
+::view-transition-new(*) {
+  animation-duration: 220ms;
+}
+
+::view-transition-group(root) {
+  animation-duration: 220ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+
+  html:has(.research-ready) {
+    scroll-behavior: auto !important;
   }
 }
 

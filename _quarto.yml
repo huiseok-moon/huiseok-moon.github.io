@@ -44,4 +44,4 @@ format:
     smooth-scroll: true
     toc: false
     grid:
-      body-width: 760px
+      body-width: 900px

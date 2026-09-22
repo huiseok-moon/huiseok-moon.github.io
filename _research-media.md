@@ -1,7 +1,9 @@
 # Research 영상 추가
 
 연구 내용의 출처: `_cv/CV_Moon.typ`, `publications.qmd`, `index.qmd`.
-현재 실제 영상과 연구 사진은 제공되지 않아 텍스트 프리뷰와 영상 준비 중 표시를 사용한다.
+첫 연구 항목에는 직접 제작한 개념 도해 두 장과 8초 무음 MP4를 사용한다. 실제 실험 영상·사진이 아니며, 신호와 움직임은 설명용이다. 다른 항목은 영상 준비 중 표시를 유지한다.
+
+재생성: Pillow와 imageio-ffmpeg가 설치된 Python으로 `python _make-intent-media.py`. 웹사이트 실행에는 Python이나 추가 라이브러리가 필요하지 않다.
 
 ## 권장: YouTube 업로드 후 삽입
 

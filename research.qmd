@@ -5,8 +5,7 @@ format:
   html:
     include-after-body:
       text: '<script src="research.js"></script>'
-    grid:
-      body-width: 1100px
+    body-classes: research-page
 ---
 
 ::: {.page-intro}

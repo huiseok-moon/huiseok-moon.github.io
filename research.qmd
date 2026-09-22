@@ -1,13 +1,161 @@
 ---
-title: "Publications"
+title: "Research"
 page-layout: article
-format:
-  html:
-    include-in-header:
-      text: |
-        <meta http-equiv="refresh" content="0; url=publications.html">
 ---
 
-<div class="page-intro">
-This page has moved to <a href="publications.qmd">Publications</a>.
-</div>
+::: {.page-intro}
+I study how wearable robots can understand and support human movement.
+My work connects human intent recognition from EMG and IMU signals with
+adaptive control for mobility assistance and rehabilitation. At LISSI,
+Université Paris-Est Créteil, I work on assistive robotics and physical
+human–robot interaction, building on my research at KAIST and Sogang University.
+:::
+
+## Selected research
+
+Choose a research card to explore the work and related publications.
+
+<!-- Replace video placeholders with real videos; see _research-media.md. -->
+
+::: {.panel-tabset .research-tabs}
+
+### [01 · RECOGNITION]{.research-kicker} [Gait & human intent]{.research-card-title} [Reading movement from wearable signals.]{.research-preview}
+
+#### Real-time gait mode and human intent recognition
+
+::: {.research-meta}
+LISSI · Wearable sensing / Machine learning
+:::
+
+An assistive robot needs to recognize how a person is moving to provide appropriate support. I investigate real-time gait mode detection for actuated ankle-foot orthoses, using wearable sensor signals and LSTM networks.
+
+This work connects activity recognition with wearable robot control. Earlier research explored online intention detection and human activity recognition using machine learning, including fuzzy convolutional attention-based GRU networks.
+
+::: {.research-video-placeholder}
+**Demo video · Coming soon**
+
+Gait & human intent — demonstration video to be added.
+:::
+
+**Related work**
+
+- [Real-Time LSTM-Driven Dynamic Gait Mode Detection (IEEE T-RO, 2025)](https://doi.org/10.1109/TRO.2025.3593111)
+- [Online Human Intention Detection (Humanoids, 2022)](https://doi.org/10.1109/Humanoids53995.2022.10000150)
+- [Fuzzy Convolutional Attention-based GRU Network (EAAI, 2023)](https://doi.org/10.1016/j.engappai.2022.105702)
+
+### [02 · CONTROL]{.research-kicker} [Adaptive exoskeletons]{.research-card-title} [Adapting robotic assistance to movement.]{.research-preview}
+
+#### Adaptive control for wearable robots
+
+::: {.research-meta}
+LISSI · Nonlinear control / Human–robot interaction
+:::
+
+Wearable robots operate in direct contact with a person, making the interaction between human movement and robotic assistance central to their control. My research includes adaptive fuzzy control of actuated ankle-foot orthoses and nonlinear control architectures for lower-limb assistance.
+
+Collaborative work also examines impedance modulation for sit-to-stand assistance and explicit model predictive control for knee rehabilitation. These projects address different movements within the broader goal of human-in-the-loop mobility assistance.
+
+::: {.research-video-placeholder}
+**Demo video · Coming soon**
+
+Adaptive exoskeletons — demonstration video to be added.
+:::
+
+**Related work**
+
+- [Hybrid Half-Gaussian Selectively Adaptive Fuzzy Control (IEEE RA-L, 2022)](https://doi.org/10.1109/LRA.2022.3191187)
+- [Impedance Modulation for Sit-to-Stand Movements (IEEE T-RO, 2022)](https://doi.org/10.1109/TRO.2021.3104244)
+- [Assistive Explicit Model Predictive Control (IEEE/ASME T-Mech, 2022)](https://doi.org/10.1109/TMECH.2021.3126674)
+
+### [03 · REHABILITATION]{.research-kicker} [Adaptive stimulation]{.research-card-title} [Coordinating muscle stimulation with gait.]{.research-preview}
+
+#### Functional electrical stimulation for mobility assistance
+
+::: {.research-meta}
+LISSI · EMG / Functional electrical stimulation
+:::
+
+My work on functional electrical stimulation (FES) explores how stimulation can adapt to movement and muscle activity. I have developed adaptive control strategies based on surface EMG, with attention to stimulation energy and muscle fatigue.
+
+Related research investigates gait phase detection for combined FES–orthosis assistance and knee-guided adaptive stimulation for drop-foot correction. The latter is described in a submitted manuscript and remains under review.
+
+::: {.research-video-placeholder}
+**Demo video · Coming soon**
+
+Adaptive stimulation — demonstration video to be added.
+:::
+
+**Related work**
+
+- [Gait Phase Detection for Hybrid FES–Orthosis Assistance (ICRA, 2021)](https://doi.org/10.1109/ICRA48506.2021.9561497)
+- Knee-Guided Phase–Magnitude Decoupled Adaptive Functional Electrical Stimulation for Drop-Foot Correction — submitted to IEEE TNSRE, 2026; equal contribution as first and corresponding author.
+
+### [04 · CLINICAL SENSING]{.research-kicker} [Wearable gait analysis]{.research-card-title} [Understanding mobility beyond the robot.]{.research-preview}
+
+#### Multi-sensor gait analysis
+
+::: {.research-meta}
+LISSI · Sensor fusion / Lower-limb kinematics
+:::
+
+I have implemented a seven-IMU sensor fusion framework for lower-limb joint analysis in a portable clinical device, with applications to gait assessment and Parkinson’s disease diagnosis.
+
+My collaborative rehabilitation research also examines walking speed, step length, and lower-limb kinematics in hemiparetic patients over eight weeks of guided self-rehabilitation. This study is currently a submitted manuscript.
+
+::: {.research-video-placeholder}
+**Demo video · Coming soon**
+
+Wearable gait analysis — demonstration video to be added.
+:::
+
+**Related work**
+
+Changes in Walking Speed, Step Length, and Lower Limb Kinematics Over Eight Weeks of Guided Self-Rehabilitation Contracts in Hemiparetic Patients: A Prospective Cohort Study — submitted to Journal of Neural Engineering, 2026.
+
+### [05 · MOTION INTELLIGENCE]{.research-kicker} [Physics-informed AI]{.research-card-title} [Connecting motion primitives and intent.]{.research-preview}
+
+#### Physics-informed models of human motion intent
+
+::: {.research-meta}
+KAIST · Postdoctoral research · September 2025–March 2026
+:::
+
+At KAIST, I worked with Prof. Jaegul Choo on physics-informed AI models for human motion intention inference. This research used motion-primitive representations of wearable IMU signals to study human movement intent.
+
+This direction connects my experience in wearable sensing and robotic control with my interest in physics-based modeling and multimodal learning for understanding and predicting human motion.
+
+::: {.research-video-placeholder}
+**Demo video · Coming soon**
+
+Physics-informed AI — demonstration video to be added.
+:::
+
+**Related work**
+
+[Research background in my CV](cv.qmd)
+
+### [06 · HUMAN–ROBOT INTERACTION]{.research-kicker} [Load-carrying robots]{.research-card-title} [Managing forces between a person and a load.]{.research-preview}
+
+#### Interaction force control for load carrying
+
+::: {.research-meta}
+Sogang University · Master’s research · March 2017–February 2019
+:::
+
+During my master’s research with Prof. Kyoungchul Kong, I studied interaction force control for lower-limb exoskeletons used in load-carrying tasks. My thesis focused on a robotic leg control algorithm for reducing the interaction force between a load and the human body.
+
+This work established the human–robot interaction perspective that continues through my research on powered exoskeletons and mobility assistance.
+
+::: {.research-video-placeholder}
+**Demo video · Coming soon**
+
+Load-carrying robots — demonstration video to be added.
+:::
+
+**Related work**
+
+Control Algorithm of a Robotic Leg for Reducing Interaction Force Between a Load and the Human Body — Master’s thesis, Sogang University, 2019.
+
+:::
+
+[View all publications](publications.qmd) · [View my CV](cv.qmd)

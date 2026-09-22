@@ -210,6 +210,10 @@ main.content {
   width: 240px;
   max-width: 100%;
   height: auto;
+  /* Trim about 5% from both the top and bottom of the 3024 × 3895 portrait. */
+  aspect-ratio: 3024 / 3506;
+  object-fit: cover;
+  object-position: center;
   margin: 0;
   border-radius: 6px;
 }

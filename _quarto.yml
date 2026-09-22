@@ -2,10 +2,10 @@ project:
   type: website
 
 website:
-  title: "Huiseok Moon"
+  title: "🌖 Huiseok Moon"
   site-url: "https://huiseok-moon.github.io"
   description: "Huiseok Moon is a postdoctoral researcher working on assistive robotics and physical human-robot interaction."
-  favicon: images/favicon-moon-v2.svg
+  favicon: images/moon-emoji-icon.png
   navbar:
     title: "<span class='nav-given-name'>Huiseok</span> <span class='nav-family-name'>Moon</span>"
     background: light

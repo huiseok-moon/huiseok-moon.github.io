@@ -208,10 +208,10 @@ main.content {
 .hero-photo img {
   display: block;
   width: 240px;
-  height: 240px;
+  max-width: 100%;
+  height: auto;
   margin: 0;
   border-radius: 6px;
-  object-fit: cover;
 }
 
 .hero-buttons {
@@ -724,7 +724,6 @@ main.content:has(.pub-card) h2 {
 
   .hero-photo img {
     width: 200px;
-    height: 200px;
   }
 
   .hero-name {

@@ -1,6 +1,10 @@
 ---
 title: "Research"
 page-layout: article
+format:
+  html:
+    grid:
+      body-width: 1100px
 ---
 
 ::: {.page-intro}
@@ -19,7 +23,7 @@ Choose a research card to explore the work and related publications.
 
 ::: {.panel-tabset .research-tabs}
 
-### [01 · RECOGNITION]{.research-kicker} [Gait & human intent]{.research-card-title} [Reading movement from wearable signals.]{.research-preview}
+### [[01 · RECOGNITION]{.research-kicker} [DEMO]{.research-demo} [Video coming soon]{.research-badge}]{.research-thumbnail} [Gait & human intent]{.research-card-title} [Reading movement from wearable signals.]{.research-preview}
 
 #### Real-time gait mode and human intent recognition
 
@@ -43,7 +47,7 @@ Gait & human intent — demonstration video to be added.
 - [Online Human Intention Detection (Humanoids, 2022)](https://doi.org/10.1109/Humanoids53995.2022.10000150)
 - [Fuzzy Convolutional Attention-based GRU Network (EAAI, 2023)](https://doi.org/10.1016/j.engappai.2022.105702)
 
-### [02 · CONTROL]{.research-kicker} [Adaptive exoskeletons]{.research-card-title} [Adapting robotic assistance to movement.]{.research-preview}
+### [[02 · CONTROL]{.research-kicker} [DEMO]{.research-demo} [Video coming soon]{.research-badge}]{.research-thumbnail} [Adaptive exoskeletons]{.research-card-title} [Adapting robotic assistance to movement.]{.research-preview}
 
 #### Adaptive control for wearable robots
 
@@ -67,7 +71,7 @@ Adaptive exoskeletons — demonstration video to be added.
 - [Impedance Modulation for Sit-to-Stand Movements (IEEE T-RO, 2022)](https://doi.org/10.1109/TRO.2021.3104244)
 - [Assistive Explicit Model Predictive Control (IEEE/ASME T-Mech, 2022)](https://doi.org/10.1109/TMECH.2021.3126674)
 
-### [03 · REHABILITATION]{.research-kicker} [Adaptive stimulation]{.research-card-title} [Coordinating muscle stimulation with gait.]{.research-preview}
+### [[03 · REHABILITATION]{.research-kicker} [DEMO]{.research-demo} [Video coming soon]{.research-badge}]{.research-thumbnail} [Adaptive stimulation]{.research-card-title} [Coordinating muscle stimulation with gait.]{.research-preview}
 
 #### Functional electrical stimulation for mobility assistance
 
@@ -90,7 +94,7 @@ Adaptive stimulation — demonstration video to be added.
 - [Gait Phase Detection for Hybrid FES–Orthosis Assistance (ICRA, 2021)](https://doi.org/10.1109/ICRA48506.2021.9561497)
 - Knee-Guided Phase–Magnitude Decoupled Adaptive Functional Electrical Stimulation for Drop-Foot Correction — submitted to IEEE TNSRE, 2026; equal contribution as first and corresponding author.
 
-### [04 · CLINICAL SENSING]{.research-kicker} [Wearable gait analysis]{.research-card-title} [Understanding mobility beyond the robot.]{.research-preview}
+### [[04 · CLINICAL SENSING]{.research-kicker} [DEMO]{.research-demo} [Video coming soon]{.research-badge}]{.research-thumbnail} [Wearable gait analysis]{.research-card-title} [Understanding mobility beyond the robot.]{.research-preview}
 
 #### Multi-sensor gait analysis
 
@@ -112,7 +116,7 @@ Wearable gait analysis — demonstration video to be added.
 
 Changes in Walking Speed, Step Length, and Lower Limb Kinematics Over Eight Weeks of Guided Self-Rehabilitation Contracts in Hemiparetic Patients: A Prospective Cohort Study — submitted to Journal of Neural Engineering, 2026.
 
-### [05 · MOTION INTELLIGENCE]{.research-kicker} [Physics-informed AI]{.research-card-title} [Connecting motion primitives and intent.]{.research-preview}
+### [[05 · MOTION INTELLIGENCE]{.research-kicker} [DEMO]{.research-demo} [Video coming soon]{.research-badge}]{.research-thumbnail} [Physics-informed AI]{.research-card-title} [Connecting motion primitives and intent.]{.research-preview}
 
 #### Physics-informed models of human motion intent
 
@@ -134,7 +138,7 @@ Physics-informed AI — demonstration video to be added.
 
 [Research background in my CV](cv.qmd)
 
-### [06 · HUMAN–ROBOT INTERACTION]{.research-kicker} [Load-carrying robots]{.research-card-title} [Managing forces between a person and a load.]{.research-preview}
+### [[06 · HUMAN–ROBOT INTERACTION]{.research-kicker} [DEMO]{.research-demo} [Video coming soon]{.research-badge}]{.research-thumbnail} [Load-carrying robots]{.research-card-title} [Managing forces between a person and a load.]{.research-preview}
 
 #### Interaction force control for load carrying
 

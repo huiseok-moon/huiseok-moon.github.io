@@ -15,7 +15,8 @@
 {{< video https://www.youtube.com/watch?v=VIDEO_ID title="Gait recognition demonstration" >}}
 ```
 
-실제 연구 사진이 생기면 카드 제목 위에 `[![](images/gait-preview.jpg){alt="Ankle-foot orthosis experiment"}]{.research-preview}`를 넣을 수 있다.
+실제 연구 사진이 생기면 카드 제목의 `.research-thumbnail` 안에 있는 DEMO 표시를 사진으로 교체한다.
+예: `[![](images/gait-preview.jpg){alt="Ankle-foot orthosis experiment"}]{.research-thumbnail}`.
 참여자가 등장하는 영상은 공개 동의를 확인한다.
 
 ## 짧은 MP4 직접 호스팅

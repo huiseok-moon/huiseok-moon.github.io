@@ -315,9 +315,9 @@ main.content {
 
 /* Research: native Quarto tabs presented as preview cards. */
 .research-tabs > .nav-tabs {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.75rem 1.25rem;
   border: 0;
   margin-bottom: 1.5rem;
@@ -325,7 +325,7 @@ main.content {
 
 .research-tabs > .nav-tabs > .nav-item {
   min-width: 0;
-  width: 100%;
+  flex: 0 0 calc((100% - 2.5rem) / 3);
 }
 
 .research-tabs > .nav-tabs .nav-link {
@@ -490,8 +490,8 @@ main.content {
 }
 
 @media (max-width: 900px) {
-  .research-tabs > .nav-tabs {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .research-tabs > .nav-tabs > .nav-item {
+    flex-basis: calc((100% - 1.25rem) / 2);
   }
 
   .research-tabs > .tab-content {
@@ -500,8 +500,8 @@ main.content {
 }
 
 @media (max-width: 540px) {
-  .research-tabs > .nav-tabs {
-    grid-template-columns: 1fr;
+  .research-tabs > .nav-tabs > .nav-item {
+    flex-basis: 100%;
   }
 }
 

@@ -600,6 +600,41 @@ main.content {
   }
 }
 
+/* Native snapshots morph each card into its sidebar position. */
+.research-ready > .tab-content {
+  view-transition-name: research-content;
+}
+
+#research-overview {
+  view-transition-name: research-back;
+}
+
+::view-transition-group(*) {
+  animation-duration: 380ms;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+::view-transition-old(*),
+::view-transition-new(*) {
+  animation-duration: 220ms;
+}
+
+::view-transition-group(root) {
+  animation-duration: 220ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+
+  html:has(.research-ready) {
+    scroll-behavior: auto !important;
+  }
+}
+
 /* CV and footer */
 .cv-actions {
   margin-bottom: 1.4rem;

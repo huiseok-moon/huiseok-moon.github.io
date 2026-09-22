@@ -3,6 +3,8 @@ title: "Research"
 page-layout: article
 format:
   html:
+    include-after-body:
+      text: '<script src="research.js"></script>'
     grid:
       body-width: 1100px
 ---
@@ -20,6 +22,8 @@ human–robot interaction, building on my research at KAIST and Sogang Universit
 Choose a research card to explore the work and related publications.
 
 <!-- Replace video placeholders with real videos; see _research-media.md. -->
+
+<button type="button" id="research-overview" hidden>← All research</button>
 
 ::: {.panel-tabset .research-tabs}
 

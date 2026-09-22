@@ -505,6 +505,101 @@ main.content {
   }
 }
 
+/* Selecting a card turns the same tabs into a sidebar and detail view. */
+#research-overview {
+  margin: 0 0 1.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: white;
+  color: var(--link);
+  font: inherit;
+  cursor: pointer;
+  scroll-margin-top: 5rem;
+}
+
+.research-ready:not(.research-detail) > .tab-content {
+  display: none;
+}
+
+.research-detail {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: start;
+  scroll-margin-top: 5rem;
+}
+
+.research-detail > .nav-tabs {
+  position: sticky;
+  top: 5rem;
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0.35rem;
+  padding: 0.25rem;
+}
+
+.research-detail > .nav-tabs > .nav-item {
+  flex: 0 0 auto;
+}
+
+.research-detail > .nav-tabs .nav-link {
+  padding: 0.85rem;
+  border-left: 3px solid transparent;
+  border-radius: 0 6px 6px 0;
+}
+
+.research-detail > .nav-tabs .nav-link.active {
+  border-left-color: var(--link);
+  background: #f0f5fc;
+}
+
+.research-detail .research-thumbnail {
+  display: none;
+}
+
+.research-detail .research-card-title {
+  font-size: 0.9rem;
+}
+
+.research-detail .research-preview {
+  font-size: 0.75rem;
+}
+
+.research-detail > .tab-content {
+  min-width: 0;
+  padding: 0;
+  border: 0;
+}
+
+.research-detail h4 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  line-height: 1.25;
+}
+
+@media (max-width: 760px) {
+  .research-detail {
+    display: block;
+  }
+
+  .research-detail > .nav-tabs {
+    position: static;
+    flex-direction: row;
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .research-detail > .nav-tabs > .nav-item {
+    flex: 0 0 160px;
+  }
+
+  .research-detail .research-preview {
+    display: none;
+  }
+}
+
 /* CV and footer */
 .cv-actions {
   margin-bottom: 1.4rem;

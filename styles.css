@@ -60,6 +60,25 @@ h3 {
   visibility: hidden;
 }
 
+/* Match only the visible name across Home and the other pages, in both directions. */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+}
+
+.home-page .hero-name .given-name,
+body:not(.home-page) .navbar-brand .nav-given-name {
+  display: inline-block;
+  view-transition-name: site-given-name;
+}
+
+.home-page .hero-name .family-name,
+body:not(.home-page) .navbar-brand .nav-family-name {
+  display: inline-block;
+  view-transition-name: site-family-name;
+}
+
 .navbar .nav-given-name {
   color: var(--muted);
   font-weight: 400;
@@ -621,6 +640,11 @@ main.content {
 
 ::view-transition-group(root) {
   animation-duration: 220ms;
+}
+
+::view-transition-group(site-given-name),
+::view-transition-group(site-family-name) {
+  animation-duration: 480ms;
 }
 
 @media (prefers-reduced-motion: reduce) {

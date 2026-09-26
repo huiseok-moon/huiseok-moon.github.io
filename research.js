@@ -56,5 +56,14 @@ if (research && overview) {
     event.preventDefault();
     navigate(event.target);
   });
+  research.addEventListener('shown.bs.tab', (event) => {
+    document.getElementById(event.target.getAttribute('aria-controls'))
+      ?.querySelectorAll('video[autoplay]')
+      .forEach((video) => video.play().catch(() => {}));
+  });
   overview.addEventListener('click', () => navigate(null));
+
+  const linkedPane = location.hash && document.getElementById(location.hash.slice(1))?.closest('.tab-pane');
+  const linkedTab = linkedPane && research.querySelector(`[role="tab"][aria-controls="${linkedPane.id}"]`);
+  if (linkedTab) navigate(linkedTab);
 }

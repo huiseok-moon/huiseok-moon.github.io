@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research – 🌖 Huiseok Moon</title>
+<title>Research – Huiseok Moon</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-439a5348e66655159de853f06a1f549e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-748355e44d5b401833a3ffb3496a026c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="apple-touch-icon" href="./images/moon-emoji-icon.png">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -168,155 +197,285 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="page-intro">
-<p>I study how wearable robots can understand and support human movement. My work connects human intent recognition from EMG and IMU signals with adaptive control for mobility assistance and rehabilitation. At LISSI, Université Paris-Est Créteil, I work on assistive robotics and physical human–robot interaction, building on my research at KAIST and Sogang University.</p>
+<p>My research connects human movement understanding with adaptive assistance and clinical movement assessment. I combine wearable sensing, machine learning, and control to recognize movement context, estimate joint moments, and develop assistance through wearable robots and functional electrical stimulation. Across these projects, I study how measurements of human movement can inform mobility assistance and rehabilitation.</p>
 </div>
+<section id="research-themes" class="level2">
+<h2 class="anchored" data-anchor-id="research-themes">Research themes</h2>
+<ul>
+<li><strong>Human Motion Understanding</strong> — Recognizing movement context and estimating joint moments from wearable signals.</li>
+<li><strong>Adaptive Mobility Assistance</strong> — Adapting robotic assistance and electrical stimulation to human movement.</li>
+<li><strong>Wearable Movement Assessment</strong> — Quantifying movement for clinical assessment and rehabilitation.</li>
+</ul>
+</section>
 <section id="selected-research" class="level2">
 <h2 class="anchored" data-anchor-id="selected-research">Selected research</h2>
-<p>Choose a research card to explore the work and related publications.</p>
 <!-- Replace video placeholders with real videos; see _research-media.md. -->
 <button type="button" id="research-overview" hidden="">
 ← All research
 </button>
 <div class="tabset-margin-container"></div><div class="panel-tabset research-tabs">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href=""><span class="research-thumbnail research-thumbnail-media"><img src="images/intent-poster.jpg" class="img-fluid" alt="Human intention detection concept animation preview"></span> <span class="research-card-title">Human intention detection</span> <span class="research-preview">From wearable signals to movement-aware assistance.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href=""><span class="research-thumbnail"><span class="research-kicker">02 · CONTROL</span> <span class="research-demo">DEMO</span> <span class="research-badge">Video coming soon</span></span> <span class="research-card-title">Adaptive exoskeletons</span> <span class="research-preview">Adapting robotic assistance to movement.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href=""><span class="research-thumbnail"><span class="research-kicker">03 · REHABILITATION</span> <span class="research-demo">DEMO</span> <span class="research-badge">Video coming soon</span></span> <span class="research-card-title">Adaptive stimulation</span> <span class="research-preview">Coordinating muscle stimulation with gait.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href=""><span class="research-thumbnail"><span class="research-kicker">04 · CLINICAL SENSING</span> <span class="research-demo">DEMO</span> <span class="research-badge">Video coming soon</span></span> <span class="research-card-title">Wearable gait analysis</span> <span class="research-preview">Understanding mobility beyond the robot.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href=""><span class="research-thumbnail"><span class="research-kicker">05 · MOTION INTELLIGENCE</span> <span class="research-demo">DEMO</span> <span class="research-badge">Video coming soon</span></span> <span class="research-card-title">Physics-informed AI</span> <span class="research-preview">Connecting motion primitives and intent.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href=""><span class="research-thumbnail"><span class="research-kicker">06 · HUMAN–ROBOT INTERACTION</span> <span class="research-demo">DEMO</span> <span class="research-badge">Video coming soon</span></span> <span class="research-card-title">Load-carrying robots</span> <span class="research-preview">Managing forces between a person and a load.</span></a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href=""><span class="research-thumbnail"><span class="research-kicker">01 · MOTION REPRESENTATION</span> <span class="research-demo">DEMO</span> <span class="research-badge">Video coming soon</span></span> <span class="research-theme">Human Motion Understanding</span> <span class="research-card-title">Human Motion Representation &amp; Joint Moment Estimation</span> <span class="research-preview">Learning movement structure and estimating joint moments from wearable signals.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href=""><span class="research-thumbnail research-thumbnail-media"><img src="images/gait-reference-pipeline.png" class="img-fluid" alt="Data processing, LSTM estimator and orthosis control pipeline"></span> <span class="research-theme">Human Motion Understanding</span> <span class="research-card-title">Locomotion intention</span> <span class="research-preview">Recognising the walking terrain from two foot IMUs.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href=""><span class="research-thumbnail"><span class="research-kicker">03 · WEARABLE ROBOT CONTROL</span> <span class="research-demo">DEMO</span> <span class="research-badge">Video coming soon</span></span> <span class="research-theme">Adaptive Mobility Assistance</span> <span class="research-card-title">Adaptive Control for Wearable Robots</span> <span class="research-preview">Adapting robotic assistance to human movement and physical interaction.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href=""><span class="research-thumbnail"><span class="research-kicker">04 · ADAPTIVE STIMULATION</span> <span class="research-demo">DEMO</span> <span class="research-badge">Video coming soon</span></span> <span class="research-theme">Adaptive Mobility Assistance</span> <span class="research-card-title">Adaptive FES &amp; Hybrid Assistance</span> <span class="research-preview">Adapting stimulation timing and intensity for foot-drop assistance.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href=""><span class="research-thumbnail"><span class="research-kicker">05 · HUMAN–ROBOT INTERACTION</span> <span class="research-demo">DEMO</span> <span class="research-badge">Video coming soon</span></span> <span class="research-theme">Adaptive Mobility Assistance</span> <span class="research-card-title">Human–Robot Interaction for Load Carrying</span> <span class="research-preview">Controlling interaction forces between the human body and an external load.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href=""><span class="research-thumbnail"><span class="research-kicker">06 · CLINICAL MOVEMENT ASSESSMENT</span> <span class="research-demo">DEMO</span> <span class="research-badge">Video coming soon</span></span> <span class="research-theme">Wearable Movement Assessment</span> <span class="research-card-title">Wearable Assessment of Human Movement</span> <span class="research-preview">Quantifying movement for clinical assessment and rehabilitation.</span></a></li></ul>
 <div class="tab-content research-tabs">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<section id="understanding-movement-before-choosing-assistance" class="level4">
-<h4 class="anchored" data-anchor-id="understanding-movement-before-choosing-assistance">Understanding movement before choosing assistance</h4>
+<section id="human-motion-representation-joint-moment-estimation" class="level4">
+<h4 class="anchored" data-anchor-id="human-motion-representation-joint-moment-estimation">Human motion representation &amp; joint moment estimation</h4>
 <div class="research-meta">
-<p>LISSI · Human intention detection / Wearable sensing / Machine learning</p>
+<p>Human Motion Understanding · Recent research at LISSI / Prior research at KAIST</p>
 </div>
-<p>A wearable robot needs more than a joint position: it needs context about the person’s movement. My research studies how wearable signals can help recognize activity and gait mode, connecting human movement understanding with lower-limb robotic assistance.</p>
-<figure class="intent-story figure">
-<img src="images/intent-sensing.svg" alt="Concept illustration of a walking person with wearable sensing and robotic assistance" loading="lazy" width="900" height="430" class="figure-img">
-<figcaption>Movement is the starting point. This original illustration shows the sensing–assistance relationship; it is not a photograph of the experimental setup.</figcaption>
-</figure>
-<section id="why-movement-context-matters" class="level5">
-<h5 class="anchored" data-anchor-id="why-movement-context-matters">Why movement context matters</h5>
-<p>Walking and changing activity produce evolving signal patterns. The aim is to interpret those patterns online, so that a wearable robot’s controller can take the person’s movement context into account. Here, “intention” refers to movement-related information inferred from sensor signals, rather than a direct measurement of a person’s thoughts.</p>
-</section>
-<section id="the-idea-in-eight-seconds" class="level5">
-<h5 class="anchored" data-anchor-id="the-idea-in-eight-seconds">The idea in eight seconds</h5>
-<figure class="intent-story figure">
-<video controls="" muted="" loop="" playsinline="" preload="none" poster="images/intent-poster.jpg" width="960" height="540" aria-label="Eight-second conceptual animation of sensing, sequence recognition and robot assistance">
-<source src="videos/intent-concept.mp4" type="video/mp4">
-<a href="videos/intent-concept.mp4">Watch the concept animation</a>
-</video>
-<figcaption>A silent concept animation: body movement → changing sensor signals → movement context for assistance. Motion and waveforms are synthetic illustrations, not recorded experiments or model predictions.</figcaption>
-</figure>
-</section>
-<section id="how-the-pieces-connect" class="level5">
-<h5 class="anchored" data-anchor-id="how-the-pieces-connect">How the pieces connect</h5>
-<figure class="intent-story figure">
-<img src="images/intent-pipeline.svg" alt="Four-step conceptual pipeline: acquire wearable signals, read a recent sequence, estimate movement context, and inform assistance control" loading="lazy" width="760" height="600" class="figure-img">
-<figcaption>The common research question is how to turn a sequence of wearable measurements into information useful for assistance. Each paper addresses a specific part of that question.</figcaption>
-</figure>
-</section>
-<section id="my-research-across-three-studies" class="level5">
-<h5 class="anchored" data-anchor-id="my-research-across-three-studies">My research across three studies</h5>
-<p><strong>Online intention detection.</strong> My Humanoids 2022 paper investigates machine-learning-based online human intention detection for lower-limb wearable robot control.</p>
-<p><strong>Temporal gait recognition.</strong> My IEEE T-RO 2025 work focuses on real-time, LSTM-driven dynamic gait mode detection for an actuated ankle-foot orthosis. It connects sequence-based recognition to the context needed for wearable assistance.</p>
-<p><strong>Related activity recognition.</strong> The collaborative EAAI 2023 study explores a fuzzy convolutional attention-based GRU network for human activity recognition. This is a related recognition study, not an additional stage of the same robot system.</p>
-<p>These visuals explain the research direction. They do not report accuracy, detection delay, or clinical outcomes; study-specific methods and evaluations are available in the publications below.</p>
-<p><strong>Related work</strong></p>
-<ul>
-<li><a href="https://doi.org/10.1109/Humanoids53995.2022.10000150">Online Human Intention Detection (Humanoids, 2022)</a></li>
-<li><a href="https://doi.org/10.1109/TRO.2025.3593111">Real-Time LSTM-Driven Dynamic Gait Mode Detection (IEEE T-RO, 2025)</a></li>
-<li><a href="https://doi.org/10.1016/j.engappai.2022.105702">Fuzzy Convolutional Attention-based GRU Network (EAAI, 2023)</a></li>
-</ul>
-</section>
+<p>My recent work explores representations of human movement and real-time estimation of ankle joint moments from wearable sensor data. I investigate shared movement patterns across walking conditions and how these patterns can support joint moment estimation.</p>
+<p>This direction builds on my research at KAIST, where I investigated physics-informed movement analysis and representation learning using a multimodal biomechanics dataset. The broader aim is to connect movement recognition with an understanding of the mechanics of human motion.</p>
+<div class="research-video-placeholder">
+<p><strong>Demo video · Coming soon</strong></p>
+<p>Human motion representation and joint moment estimation — demonstration video to be added.</p>
+</div>
+<p><strong>Research background</strong></p>
+<p><a href="./cv.html">Research experience at LISSI and KAIST in my CV</a></p>
 </section>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<section id="adaptive-control-for-wearable-robots" class="level4">
-<h4 class="anchored" data-anchor-id="adaptive-control-for-wearable-robots">Adaptive control for wearable robots</h4>
+<section id="gait-intent" class="level4">
+<h4 class="anchored" data-anchor-id="gait-intent">Locomotion intention detection</h4>
 <div class="research-meta">
-<p>LISSI · Nonlinear control / Human–robot interaction</p>
+<p>LISSI · Wearable sensing / Deep learning</p>
 </div>
-<p>Wearable robots operate in direct contact with a person, making the interaction between human movement and robotic assistance central to their control. My research includes adaptive fuzzy control of actuated ankle-foot orthoses and nonlinear control architectures for lower-limb assistance.</p>
-<p>Collaborative work also examines impedance modulation for sit-to-stand assistance and explicit model predictive control for knee rehabilitation. These projects address different movements within the broader goal of human-in-the-loop mobility assistance.</p>
+<p>Level walking, stairs and ramps involve different ankle movements and moments. An actuated ankle–foot orthosis therefore needs to identify the walking mode before selecting the appropriate assistance. Manual mode switching can be difficult for people with limited motor control, while rule-based detection requires hand-tuned rules. This study tests whether two foot-mounted IMUs and an LSTM can recognise five walking modes in real time and switch the orthosis controller accordingly.</p>
+<section id="real-time-lstm-driven-gait-mode-detection-for-an-actuated-anklefoot-orthosis" class="level5 gait-study">
+<h5 class="anchored" data-anchor-id="real-time-lstm-driven-gait-mode-detection-for-an-actuated-anklefoot-orthosis">Real-time LSTM-driven gait mode detection for an actuated ankle–foot orthosis</h5>
+<div class="research-meta">
+<p>IEEE Transactions on Robotics, 2025</p>
+</div>
+<figure class="gait-figure figure">
+<img src="images/gait-reference-pipeline.png" alt="Pipeline diagram showing IMU data processing, LSTM estimation and orthosis control" loading="lazy" width="1399" height="460" class="figure-img">
+<figcaption>Pipeline: IMU data processing and swing detection, the LSTM estimator, and mode-dependent control of the orthosis.</figcaption>
+</figure>
+<div class="gait-system">
+<figure class="gait-figure figure">
+<img src="images/gait-system-configuration.png" alt="System configuration showing the PC, control unit, ankle-foot orthosis actuators, foot IMUs, and EDL and SOL EMG sensor placement" loading="lazy" width="1151" height="930" class="figure-img">
+<figcaption>System configuration</figcaption>
+</figure>
+<div class="gait-system-notes">
+<p><strong>Component roles</strong></p>
+<ul>
+<li><strong>IMUs</strong> — one per foot; motion signals drive swing detection and LSTM gait-mode classification.</li>
+<li><strong>AAFO</strong> — mode-specific dorsiflexion and plantarflexion assistance: impedance control in stance and trajectory tracking in swing.</li>
+<li><strong>EMG</strong> — EDL (front/outer shin) and SOL (rear calf) electrodes record muscle activity to evaluate assistance.</li>
+</ul>
+</div>
+</div>
+<h6 class="gait-torque-title anchored">Torque generation</h6>
+<div class="gait-torque-methods">
+<div>
+<p><strong>Stance · impedance modulation</strong></p>
+<p>Virtual stiffness <span class="math inline">\(k\)</span>, equilibrium angle <span class="math inline">\(\theta_0\)</span> and damping <span class="math inline">\(b\)</span> set the ankle torque: <span class="math inline">\(\tau=-k(\theta-\theta_0)-b\dot\theta\)</span>. The torque responds to ankle angle and velocity.</p>
+</div>
+<div>
+<p><strong>Swing · trajectory tracking</strong></p>
+<p>Four ankle-angle key points for the detected gait mode are interpolated into a reference trajectory. PID tracking commands the AAFO torque needed to follow it.</p>
+</div>
+</div>
+<figure class="gait-figure gait-torque-profiles figure">
+<img src="images/gait-control-profiles.png" alt="Ankle angle, angular velocity and torque profiles for level walking, stair ascent and descent, and ramp ascent and descent" loading="lazy" width="678" height="295" class="figure-img">
+<figcaption>Ankle angle, angular velocity and torque profiles across the five walking modes.</figcaption>
+</figure>
+<div class="gait-table-wrap">
+<table class="gait-table gait-comparison">
+<caption>
+Offline sequence accuracy, 10 subjects
+</caption>
+<thead>
+<tr>
+<th scope="col">
+Method
+</th>
+<th scope="col">
+Accuracy, mean ± SD (%)
+</th>
+<th scope="col">
+F-measure
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">
+k-nearest neighbours
+</th>
+<td>
+92.8 ± 1.8
+</td>
+<td>
+0.94
+</td>
+</tr>
+<tr>
+<th scope="row">
+Support vector machine
+</th>
+<td>
+93.3 ± 2.0
+</td>
+<td>
+0.94
+</td>
+</tr>
+<tr>
+<th scope="row">
+Random forest
+</th>
+<td>
+94.2 ± 1.9
+</td>
+<td>
+0.96
+</td>
+</tr>
+<tr>
+<th scope="row">
+Gradient boosting
+</th>
+<td>
+93.2 ± 2.0
+</td>
+<td>
+0.94
+</td>
+</tr>
+<tr class="gait-proposed">
+<th scope="row">
+LSTM (proposed)
+</th>
+<td>
+98.7 ± 0.6
+</td>
+<td>
+0.98
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<figure class="gait-figure figure">
+<div class="gait-figure-grid gait-matrices">
+<img src="images/gait-confusion-without.png" alt="Confusion matrix without assistance" loading="lazy" width="649" height="530" class="figure-img">
+<img src="images/gait-confusion-with.png" alt="Confusion matrix with assistance" loading="lazy" width="649" height="538" class="figure-img">
+<img src="images/gait-confusion-abnormal.png" alt="Confusion matrix during abnormal walking" loading="lazy" width="647" height="531" class="figure-img">
+</div>
+<figcaption>Real-time confusion matrices (row-normalised) over all subjects. Under the mimicked abnormal gait, shortened strides cause some level walking to be read as ramp ascent.</figcaption>
+</figure>
+<p><strong>Main experimental result</strong></p>
+<video class="gait-video" autoplay="" muted="" loop="" playsinline="" controls="" preload="metadata" poster="images/gait-main-video-poster.png" width="1280" height="720" aria-label="Real-time gait mode detection and control experiment">
+<source src="videos/Experimental_Video_RT_GMD_Control.mp4" type="video/mp4">
+<a href="videos/Experimental_Video_RT_GMD_Control.mp4">Download the experimental video</a>.
+</video>
+<div class="gait-figure-grid gait-charts">
+<figure class="gait-figure figure">
+<img src="images/gait-trajectory-error.png" alt="Bar chart comparing assisted and unassisted swing-phase ankle joint angle RMSE across five walking modes" loading="lazy" width="1065" height="520" class="figure-img">
+<figcaption>Swing-phase ankle joint angle tracking error with and without assistance.</figcaption>
+</figure>
+
+<figure class="gait-figure figure">
+<img src="images/gait-emg-error.png" alt="Bar charts comparing assisted and unassisted dorsiflexor and plantarflexor EMG across five walking modes" loading="lazy" width="1167" height="533" class="figure-img">
+<figcaption>EDL and SOL muscle activity with and without assistance.</figcaption>
+</figure>
+</div>
+<p><strong>Real-life scenarios</strong></p>
+<video class="gait-video" autoplay="" muted="" loop="" playsinline="" controls="" preload="metadata" width="1280" height="720" aria-label="Walking on different terrains">
+<source src="videos/Various_walking_two.mp4" type="video/mp4">
+<a href="videos/Various_walking_two.mp4">Download the walking video</a>.
+</video>
+<p><a href="https://doi.org/10.1109/TRO.2025.3593111" class="gait-paper-link" target="_blank" rel="noopener">Paper</a></p>
+</section>
+<p><strong>Related work</strong></p>
+<ul>
+<li><a href="https://doi.org/10.1109/TRO.2025.3593111">Real-Time LSTM-Driven Dynamic Gait Mode Detection (IEEE T-RO, 2025)</a></li>
+<li><a href="https://doi.org/10.1109/Humanoids53995.2022.10000150">Online Human Intention Detection (Humanoids, 2022)</a></li>
+<li><a href="https://doi.org/10.1016/j.engappai.2022.105702">Fuzzy Convolutional Attention-based GRU Network (EAAI, 2023)</a></li>
+</ul>
+</section>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<section id="wearable-control" class="level4">
+<h4 class="anchored" data-anchor-id="wearable-control">Adaptive control for wearable robots</h4>
+<div class="research-meta">
+<p>Adaptive Mobility Assistance · LISSI · Nonlinear control / Human–robot interaction</p>
+</div>
+<p>A wearable robot must coordinate its assistance with the person who wears it. My research investigates adaptive and nonlinear control for lower-limb robotic assistance, with a particular focus on actuated ankle-foot orthoses.</p>
+<p>My work includes selectively adaptive fuzzy control for ankle assistance. Collaborative studies extend this research to impedance modulation for sit-to-stand movements, explicit model predictive control for knee rehabilitation, and adaptive neural control of ankle-foot orthoses.</p>
 <div class="research-video-placeholder">
 <p><strong>Demo video · Coming soon</strong></p>
-<p>Adaptive exoskeletons — demonstration video to be added.</p>
+<p>Adaptive control for wearable robots — demonstration video to be added.</p>
 </div>
 <p><strong>Related work</strong></p>
 <ul>
 <li><a href="https://doi.org/10.1109/LRA.2022.3191187">Hybrid Half-Gaussian Selectively Adaptive Fuzzy Control (IEEE RA-L, 2022)</a></li>
 <li><a href="https://doi.org/10.1109/TRO.2021.3104244">Impedance Modulation for Sit-to-Stand Movements (IEEE T-RO, 2022)</a></li>
 <li><a href="https://doi.org/10.1109/TMECH.2021.3126674">Assistive Explicit Model Predictive Control (IEEE/ASME T-Mech, 2022)</a></li>
-</ul>
-</section>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<section id="functional-electrical-stimulation-for-mobility-assistance" class="level4">
-<h4 class="anchored" data-anchor-id="functional-electrical-stimulation-for-mobility-assistance">Functional electrical stimulation for mobility assistance</h4>
-<div class="research-meta">
-<p>LISSI · EMG / Functional electrical stimulation</p>
-</div>
-<p>My work on functional electrical stimulation (FES) explores how stimulation can adapt to movement and muscle activity. I have developed adaptive control strategies based on surface EMG, with attention to stimulation energy and muscle fatigue.</p>
-<p>Related research investigates gait phase detection for combined FES–orthosis assistance and knee-guided adaptive stimulation for drop-foot correction. The latter is described in a submitted manuscript and remains under review.</p>
-<div class="research-video-placeholder">
-<p><strong>Demo video · Coming soon</strong></p>
-<p>Adaptive stimulation — demonstration video to be added.</p>
-</div>
-<p><strong>Related work</strong></p>
-<ul>
-<li><a href="https://doi.org/10.1109/ICRA48506.2021.9561497">Gait Phase Detection for Hybrid FES–Orthosis Assistance (ICRA, 2021)</a></li>
-<li>Knee-Guided Phase–Magnitude Decoupled Adaptive Functional Electrical Stimulation for Drop-Foot Correction — submitted to IEEE TNSRE, 2026; equal contribution as first and corresponding author.</li>
+<li><a href="https://doi.org/10.1109/TASE.2026.3718534">Finite-Time Adaptive Neural Output Feedback Control (IEEE TASE, 2026)</a></li>
+<li><a href="https://doi.org/10.1109/ICRA57147.2024.10610584">Funnel-Based L1 Adaptive Fuzzy Control (ICRA, 2024)</a></li>
 </ul>
 </section>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<section id="multi-sensor-gait-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="multi-sensor-gait-analysis">Multi-sensor gait analysis</h4>
+<section id="adaptive-fes" class="level4">
+<h4 class="anchored" data-anchor-id="adaptive-fes">Adaptive FES &amp; hybrid assistance</h4>
 <div class="research-meta">
-<p>LISSI · Sensor fusion / Lower-limb kinematics</p>
+<p>Adaptive Mobility Assistance · LISSI · EMG / Functional electrical stimulation</p>
 </div>
-<p>I have implemented a seven-IMU sensor fusion framework for lower-limb joint analysis in a portable clinical device, with applications to gait assessment and Parkinson’s disease diagnosis.</p>
-<p>My collaborative rehabilitation research also examines walking speed, step length, and lower-limb kinematics in hemiparetic patients over eight weeks of guided self-rehabilitation. This study is currently a submitted manuscript.</p>
+<p>Functional electrical stimulation (FES) provides a way to assist movement by activating muscles. My work investigates adaptive stimulation for foot-drop correction, including the adjustment of stimulation timing and intensity and the use of EMG signals to analyze muscle dynamics.</p>
+<p>Related research examines gait-phase detection for combined FES–orthosis assistance. A submitted manuscript studies knee-guided, phase–magnitude decoupled adaptive stimulation for foot-drop correction and remains under review.</p>
 <div class="research-video-placeholder">
 <p><strong>Demo video · Coming soon</strong></p>
-<p>Wearable gait analysis — demonstration video to be added.</p>
+<p>Adaptive FES and hybrid assistance — demonstration video to be added.</p>
 </div>
 <p><strong>Related work</strong></p>
-<p>Changes in Walking Speed, Step Length, and Lower Limb Kinematics Over Eight Weeks of Guided Self-Rehabilitation Contracts in Hemiparetic Patients: A Prospective Cohort Study — submitted to Journal of Neural Engineering, 2026.</p>
+<ul>
+<li><a href="https://doi.org/10.1109/ICRA48506.2021.9561497">Gait Phase Detection for Hybrid FES–Orthosis Assistance (ICRA, 2021)</a></li>
+<li>Knee-Guided Phase–Magnitude Decoupled Adaptive Functional Electrical Stimulation for Drop-Foot Correction — submitted to IEEE TNSRE, 2026; under review.</li>
+</ul>
 </section>
 </div>
 <div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
-<section id="physics-informed-models-of-human-motion-intent" class="level4">
-<h4 class="anchored" data-anchor-id="physics-informed-models-of-human-motion-intent">Physics-informed models of human motion intent</h4>
+<section id="humanrobot-interaction-for-load-carrying" class="level4">
+<h4 class="anchored" data-anchor-id="humanrobot-interaction-for-load-carrying">Human–robot interaction for load carrying</h4>
 <div class="research-meta">
-<p>KAIST · Postdoctoral research · September 2025–March 2026</p>
+<p>Adaptive Mobility Assistance · Sogang University · Master’s research · March 2017–February 2019</p>
 </div>
-<p>At KAIST, I worked with Prof.&nbsp;Jaegul Choo on physics-informed AI models for human motion intention inference. This research used motion-primitive representations of wearable IMU signals to study human movement intent.</p>
-<p>This direction connects my experience in wearable sensing and robotic control with my interest in physics-based modeling and multimodal learning for understanding and predicting human motion.</p>
+<p>During my master’s research at Sogang University, I developed control methods for lower-limb exoskeletons used in load-carrying tasks. My thesis focused on reducing interaction forces between an external load and the human body through robotic leg control.</p>
+<p>This work established the physical human–robot interaction perspective that continues through my research on wearable assistance: understanding how robotic forces interact with human movement.</p>
 <div class="research-video-placeholder">
 <p><strong>Demo video · Coming soon</strong></p>
-<p>Physics-informed AI — demonstration video to be added.</p>
-</div>
-<p><strong>Related work</strong></p>
-<p><a href="./cv.html">Research background in my CV</a></p>
-</section>
-</div>
-<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
-<section id="interaction-force-control-for-load-carrying" class="level4">
-<h4 class="anchored" data-anchor-id="interaction-force-control-for-load-carrying">Interaction force control for load carrying</h4>
-<div class="research-meta">
-<p>Sogang University · Master’s research · March 2017–February 2019</p>
-</div>
-<p>During my master’s research with Prof.&nbsp;Kyoungchul Kong, I studied interaction force control for lower-limb exoskeletons used in load-carrying tasks. My thesis focused on a robotic leg control algorithm for reducing the interaction force between a load and the human body.</p>
-<p>This work established the human–robot interaction perspective that continues through my research on powered exoskeletons and mobility assistance.</p>
-<div class="research-video-placeholder">
-<p><strong>Demo video · Coming soon</strong></p>
-<p>Load-carrying robots — demonstration video to be added.</p>
+<p>Human–robot interaction for load carrying — demonstration video to be added.</p>
 </div>
 <p><strong>Related work</strong></p>
 <p>Control Algorithm of a Robotic Leg for Reducing Interaction Force Between a Load and the Human Body — Master’s thesis, Sogang University, 2019.</p>
 </section>
 </div>
+<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
+<section id="movement-assessment" class="level4">
+<h4 class="anchored" data-anchor-id="movement-assessment">Wearable assessment of human movement</h4>
+<div class="research-meta">
+<p>Wearable Movement Assessment · LISSI · Wearable sensing / Clinical movement analysis</p>
+</div>
+<p>I develop wearable sensing methods for quantitative movement assessment. My work examines lower-limb gait and forearm movement in separate clinical applications.</p>
+<section id="gait-assessment-after-stroke" class="level5">
+<h5 class="anchored" data-anchor-id="gait-assessment-after-stroke">Gait assessment after stroke</h5>
+<p>In gait research, I have worked on a multi-IMU system and experiments involving people with post-stroke hemiparesis, examining lower-limb kinematics and measurement reliability across walking conditions.</p>
+<p>Related collaborative research examines changes in walking speed, step length, and lower-limb kinematics over eight weeks of guided self-rehabilitation. This cohort study is described in a submitted manuscript and remains under review.</p>
+</section>
+<section id="forearm-movement-assessment" class="level5">
+<h5 class="anchored" data-anchor-id="forearm-movement-assessment">Forearm movement assessment</h5>
+<p>In a separate project, I analyzed IMU signals from a portable alternometer to quantify forearm pronation–supination for the assessment of parkinsonian motor impairment.</p>
+<div class="research-video-placeholder">
+<p><strong>Demo video · Coming soon</strong></p>
+<p>Wearable movement assessment — demonstration video to be added.</p>
+</div>
+<p><strong>Related work</strong></p>
+<p>Changes in Walking Speed, Step Length, and Lower Limb Kinematics Over Eight Weeks of Guided Self-Rehabilitation Contracts in Hemiparetic Patients: A Prospective Cohort Study — submitted to Journal of Neural Engineering, 2026; under review.</p>
+</section>
+</section>
 </div>
 </div>
-<p><a href="./publications.html">View all publications</a> · <a href="./cv.html">View my CV</a></p>
+</div>
 
 
 </section>

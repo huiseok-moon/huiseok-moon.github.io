@@ -47,7 +47,7 @@ h3 {
 }
 
 .navbar .container-fluid {
-  max-width: 940px;
+  max-width: 1000px;
 }
 
 .navbar .navbar-brand {
@@ -340,13 +340,13 @@ main.content:has(.pub-card) h2 {
   color: var(--faint);
 }
 
-/* Research: native Quarto tabs presented as preview cards. */
-.research-page #quarto-content {
-  display: block;
-  width: min(1150px, calc(100% - 2.5rem));
-  margin-inline: auto;
+.pub-project {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.84rem;
 }
 
+/* Research: native Quarto tabs presented as preview cards. */
 .research-tabs > .nav-tabs {
   display: flex;
   flex-wrap: wrap;
@@ -447,6 +447,7 @@ main.content:has(.pub-card) h2 {
 }
 
 .research-kicker,
+.research-theme,
 .research-card-title,
 .research-preview {
   display: block;
@@ -464,6 +465,14 @@ main.content:has(.pub-card) h2 {
   font-size: 1.05rem;
   font-weight: 600;
   line-height: 1.35;
+}
+
+.research-theme {
+  margin-bottom: 0.4rem;
+  color: var(--link);
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.4;
 }
 
 .research-preview,
@@ -493,6 +502,177 @@ main.content:has(.pub-card) h2 {
 
 .research-meta {
   margin: 0.5rem 0 1.25rem;
+}
+
+.gait-study {
+  margin-top: 2.5rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.research-tabs .gait-study h5 {
+  margin: 0 0 0.25rem;
+  font-size: 1.2rem;
+  line-height: 1.35;
+}
+
+.gait-figure {
+  margin: 1.5rem 0;
+}
+
+.gait-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.gait-figure figcaption {
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.gait-torque-methods {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.gait-torque-title {
+  margin: 1.5rem 0 0.75rem;
+  font-size: 1.15rem;
+}
+
+.gait-torque-methods > div {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.gait-torque-methods p:last-child {
+  margin-bottom: 0;
+}
+
+.gait-torque-profiles img {
+  border: 0;
+  border-radius: 0;
+}
+
+.gait-system {
+  display: grid;
+  grid-template-columns: minmax(0, 260px) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.gait-system .gait-figure {
+  margin: 0;
+}
+
+.gait-system img {
+  border: 0;
+  border-radius: 0;
+}
+
+.gait-system-notes ul {
+  margin-bottom: 0;
+}
+
+.gait-system-notes > p {
+  margin-bottom: 0.5rem;
+}
+
+.gait-figure-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.gait-matrices {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gait-charts {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1.5rem 0;
+}
+
+.gait-charts .gait-figure {
+  margin: 0;
+}
+
+.gait-table-wrap {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.gait-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.84rem;
+}
+
+.gait-table caption {
+  caption-side: top;
+  padding: 0 0 0.45rem;
+  color: var(--muted);
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.gait-table th,
+.gait-table td {
+  padding: 0.55rem 0.6rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.gait-table thead th {
+  border-top: 1px solid var(--text);
+  border-bottom-color: var(--text);
+}
+
+.gait-table tbody th {
+  font-weight: 500;
+}
+
+.gait-table th:not(:first-child),
+.gait-table td:not(:first-child) {
+  text-align: right;
+}
+
+.gait-comparison .gait-proposed th,
+.gait-comparison .gait-proposed td {
+  font-weight: 700;
+}
+
+.gait-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0.5rem 0 1.5rem;
+  border-radius: 6px;
+}
+
+.gait-paper-link {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid #c4d4e6;
+  border-radius: 999px;
+  font-size: 0.84rem;
+}
+
+@media (max-width: 640px) {
+  .gait-system,
+  .gait-torque-methods,
+  .gait-matrices,
+  .gait-charts {
+    grid-template-columns: 1fr;
+  }
 }
 
 .research-video-placeholder {

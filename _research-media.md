@@ -1,23 +1,23 @@
 # Research 영상 추가
 
-연구 내용의 출처: `_cv/CV_Moon.typ`, `publications.qmd`, `index.qmd`.
-첫 연구 항목에는 직접 제작한 개념 도해 두 장과 8초 무음 MP4를 사용한다. 실제 실험 영상·사진이 아니며, 신호와 움직임은 설명용이다. 다른 항목은 영상 준비 중 표시를 유지한다.
+연구 내용의 출처: `files/CV_Moon.pdf` (2026년 9월 13일 갱신본), `publications.qmd`. `_cv/CV_Moon.typ`는 현재 PDF와 내용이 달라 최신 연구 내용의 기준으로 사용하지 않는다.
+Real-Time Gait Mode Detection 항목의 파이프라인·혼동행렬과 결과 그래프는 사용자가 제공한 이미지를 사용한다. 메인 실험 결과 `videos/Experimental_Video_RT_GMD_Control.mp4`를 먼저 보여주고, 아래 real-life 시나리오 `videos/Various_walking_two.mp4`를 배치한다. 두 영상은 음소거 상태로 자동 반복 재생한다. 기존 개념 도해와 8초 무음 MP4는 저장소에 보존되어 있지만 현재 페이지에서는 사용하지 않는다. 다른 항목은 영상 준비 중 표시를 유지한다.
 
-재생성: Pillow와 imageio-ffmpeg가 설치된 Python으로 `python _make-intent-media.py`. 웹사이트 실행에는 Python이나 추가 라이브러리가 필요하지 않다.
+기존 개념 영상 재생성: Pillow와 imageio-ffmpeg가 설치된 Python으로 `python _make-intent-media.py`. 웹사이트 실행에는 Python이나 추가 라이브러리가 필요하지 않다.
 
 ## 권장: YouTube 업로드 후 삽입
 
 1. YouTube Studio에 연구 영상을 업로드하고 공개 또는 일부 공개로 설정한다.
    일부 공개는 링크를 아는 사람이 볼 수 있으므로 비공개 저장 방식은 아니다.
 2. 동영상의 퍼가기 허용을 켜고 링크를 복사한다.
-3. `research.qmd`의 해당 `.research-video-placeholder` 블록 전체를 다음으로 바꾼다.
+3. `research.qmd`의 해당 MP4 삽입을 YouTube 영상으로 바꾼다.
    `VIDEO_ID`와 제목은 실제 영상에 맞게 수정한다. 영상을 여러 개 넣어도 된다.
 
 ```markdown
 {{< video https://www.youtube.com/watch?v=VIDEO_ID title="Gait recognition demonstration" >}}
 ```
 
-실제 연구 사진이 생기면 카드 제목의 `.research-thumbnail` 안에 있는 DEMO 표시를 사진으로 교체한다.
+실제 연구 사진이 생기면 카드 제목의 `.research-thumbnail` 안에 있는 참고 이미지 크롭을 사진으로 교체한다.
 예: `[![](images/gait-preview.jpg){alt="Ankle-foot orthosis experiment"}]{.research-thumbnail}`.
 참여자가 등장하는 영상은 공개 동의를 확인한다.
 

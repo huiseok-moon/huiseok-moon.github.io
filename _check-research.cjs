@@ -8,6 +8,8 @@ for (const [supported, reduced] of [[true, false], [false, false], [true, true]]
   const events = {};
   const updates = [];
   const tabs = [0, 1].map(() => ({ style: {}, focus() { this.focused = true; } }));
+  tabs[1].getAttribute = () => 'tabset-1-2';
+  const video = { play() { this.played = true; return Promise.resolve(); } };
   let selected = tabs[0];
   let skipped = 0;
   const heading = { setAttribute() {}, focus() { this.focused = true; } };
@@ -16,20 +18,20 @@ for (const [supported, reduced] of [[true, false], [false, false], [true, true]]
       add: (v) => classes.add(v), contains: (v) => classes.has(v),
       toggle: (v, on) => on ? classes.add(v) : classes.delete(v),
     },
-    querySelector: (s) => s.includes('h4') ? heading : s.includes('.active') ? selected : { setAttribute() {} },
+    querySelector: (s) => s.includes('h4') ? heading : s.includes('.active') ? selected : s.includes('aria-controls') ? tabs[1] : { setAttribute() {} },
     querySelectorAll: () => tabs,
     addEventListener: (type, handler) => { events[type] = handler; },
     scrollIntoView() {},
   };
   const overview = { hidden: true, addEventListener(type, handler) { this.click = handler; }, scrollIntoView() {} };
   const showEvent = (tab) => ({ target: tab, preventDefault() { this.prevented = true; } });
-  const document = { querySelector: (s) => s.startsWith('#') ? overview : research };
+  const document = { querySelector: (s) => s.startsWith('#') ? overview : research, getElementById: () => ({ closest: () => ({ id: 'tabset-1-2' }), querySelectorAll: () => [video] }) };
   if (supported) document.startViewTransition = (update) => {
     updates.push(update);
     return { skipTransition() { skipped++; }, ready: Promise.resolve() };
   };
   vm.runInNewContext(source, {
-    document, matchMedia: () => ({ matches: reduced }),
+    document, location: { hash: '' }, matchMedia: () => ({ matches: reduced }),
     bootstrap: { Tab: { getOrCreateInstance: (tab) => ({ show() {
       const event = showEvent(tab);
       events['show.bs.tab'](event);
@@ -49,6 +51,8 @@ for (const [supported, reduced] of [[true, false], [false, false], [true, true]]
   click(tabs[1]);
   flush();
   assert.equal(selected, tabs[1]);
+  events['shown.bs.tab']({ target: tabs[1] });
+  assert(video.played);
   const keyboardEvent = showEvent(tabs[0]);
   events['show.bs.tab'](keyboardEvent);
   assert(keyboardEvent.prevented);
@@ -59,5 +63,12 @@ for (const [supported, reduced] of [[true, false], [false, false], [true, true]]
   flush();
   assert(!classes.has('research-detail') && overview.hidden && selected.focused);
   if (supported && !reduced) assert(skipped > 0);
+
+  vm.runInNewContext(source, {
+    document, location: { hash: '#gait-intent' }, matchMedia: () => ({ matches: reduced }),
+    bootstrap: { Tab: { getOrCreateInstance: (tab) => ({ show() { selected = tab; } }) } },
+  });
+  flush();
+  assert(classes.has('research-detail') && selected === tabs[1]);
 }
-console.log('PASS: animated/fallback/reduced-motion paths, card and keyboard selection, interrupted return');
+console.log('PASS: animated/fallback/reduced-motion paths, card and keyboard selection, interrupted return, linked project');

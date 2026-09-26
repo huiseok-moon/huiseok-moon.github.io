@@ -1,8 +1,10 @@
 project:
   type: website
+  resources:
+    - images/gait-main-video-poster.png
 
 website:
-  title: "🌖 Huiseok Moon"
+  title: "Huiseok Moon"
   site-url: "https://huiseok-moon.github.io"
   description: "Huiseok Moon is a postdoctoral researcher working on assistive robotics and physical human-robot interaction."
   favicon: images/moon-emoji-icon.png
@@ -44,4 +46,4 @@ format:
     smooth-scroll: true
     toc: false
     grid:
-      body-width: 900px
+      body-width: 960px

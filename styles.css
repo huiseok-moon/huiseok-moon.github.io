@@ -518,11 +518,14 @@ main.content:has(.pub-card) h2 {
 
 .gait-figure {
   margin: 1.5rem 0;
+  min-width: 0;
 }
 
 .gait-figure img {
   display: block;
   width: 100%;
+  max-width: 100%;
+  min-width: 0;
   height: auto;
   border: 1px solid var(--line);
   border-radius: 6px;
@@ -563,7 +566,7 @@ main.content:has(.pub-card) h2 {
 
 .gait-system {
   display: grid;
-  grid-template-columns: minmax(0, 260px) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr);
   gap: 1.5rem;
   align-items: center;
   margin: 1.5rem 0;
@@ -574,6 +577,7 @@ main.content:has(.pub-card) h2 {
 }
 
 .gait-system img {
+  max-width: 260px;
   border: 0;
   border-radius: 0;
 }
@@ -592,11 +596,11 @@ main.content:has(.pub-card) h2 {
 }
 
 .gait-matrices {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
 }
 
 .gait-charts {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
   margin: 1.5rem 0;
 }
 

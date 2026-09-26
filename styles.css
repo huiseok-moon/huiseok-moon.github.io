@@ -140,7 +140,7 @@ main.content {
 }
 
 .publication-actions {
-  margin: -0.8rem 0 2.5rem;
+  margin: -0.8rem 0 1.5rem;
   font-size: 0.9rem;
 }
 
@@ -208,10 +208,14 @@ main.content {
 .hero-photo img {
   display: block;
   width: 240px;
-  height: 240px;
+  max-width: 100%;
+  height: auto;
+  /* Trim about 5% from both the top and bottom of the 3024 × 3895 portrait. */
+  aspect-ratio: 3024 / 3506;
+  object-fit: cover;
+  object-position: center;
   margin: 0;
   border-radius: 6px;
-  object-fit: cover;
 }
 
 .hero-buttons {
@@ -253,11 +257,15 @@ main.content {
   margin-top: 0.4rem;
 }
 
+main.content:has(.pub-card) h2 {
+  margin: 2.25rem 0 0.65rem;
+}
+
 .pub-card {
   display: grid;
   grid-template-columns: 2rem minmax(0, 1fr);
   gap: 1rem;
-  padding: 1.15rem 0;
+  padding: 0.7rem 0;
   border-bottom: 1px solid var(--line);
 }
 
@@ -335,7 +343,7 @@ main.content {
 /* Research: native Quarto tabs presented as preview cards. */
 .research-page #quarto-content {
   display: block;
-  width: min(1100px, calc(100% - 3rem));
+  width: min(1150px, calc(100% - 2.5rem));
   margin-inline: auto;
 }
 
@@ -720,7 +728,6 @@ main.content {
 
   .hero-photo img {
     width: 200px;
-    height: 200px;
   }
 
   .hero-name {
@@ -740,4 +747,33 @@ main.content {
     grid-template-columns: 1fr;
     gap: 0.25rem;
   }
+}
+
+/* A research story combines stills, a short film, and an explanatory diagram. */
+.research-thumbnail-media {
+  padding: 0;
+}
+
+.intent-story {
+  margin: 1.5rem 0 2rem;
+}
+
+.intent-story img,
+.intent-story video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.intent-story figcaption {
+  margin-top: 0.65rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.research-tabs h5 {
+  margin-top: 2rem;
+  font-size: 1.1rem;
 }

@@ -537,6 +537,26 @@ main.content:has(.pub-card) h2 {
   font-size: 0.8rem;
 }
 
+.research-compact-figure img {
+  width: auto;
+  max-height: 480px;
+  margin-inline: auto;
+  border: 0;
+}
+
+.research-compact-figure figcaption {
+  text-align: center;
+}
+
+.fes-system-figure {
+  max-width: 680px;
+  margin-inline: auto;
+}
+
+.fes-system-figure img {
+  border: 0;
+}
+
 .gait-torque-methods {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -744,6 +764,10 @@ main.content:has(.pub-card) h2 {
   grid-template-columns: 230px minmax(0, 1fr);
   gap: 2.5rem;
   align-items: start;
+  scroll-margin-top: 5rem;
+}
+
+.research-tabs .tab-pane [id] {
   scroll-margin-top: 5rem;
 }
 
@@ -960,4 +984,24 @@ main.content:has(.pub-card) h2 {
 .research-tabs h5 {
   margin-top: 2rem;
   font-size: 1.1rem;
+}
+
+.fes-line th:not(:first-child),
+.fes-line td:not(:first-child) {
+  text-align: left;
+}
+
+.fes-line tbody th {
+  width: 35%;
+  font-weight: 400;
+}
+
+.fes-status {
+  display: inline-block;
+  margin-right: 0.4rem;
+  padding: 0.1rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--text);
+  font-size: 0.72rem;
 }

@@ -548,6 +548,27 @@ main.content:has(.pub-card) h2 {
   text-align: center;
 }
 
+.control-demo-video {
+  display: block;
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+  border-radius: 6px;
+}
+
+.empc-comparison {
+  display: grid;
+  grid-template-columns: minmax(0, 210px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.empc-comparison .gait-figure {
+  margin: 0;
+}
+
 .fes-system-figure {
   max-width: 680px;
   margin-inline: auto;
@@ -555,6 +576,19 @@ main.content:has(.pub-card) h2 {
 
 .fes-system-figure img {
   border: 0;
+}
+
+.fes-system-demo {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 1rem;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.fes-system-demo .gait-figure,
+.fes-experiment-figure .gait-video {
+  margin: 0;
 }
 
 .gait-torque-methods {
@@ -596,6 +630,10 @@ main.content:has(.pub-card) h2 {
   margin: 0;
 }
 
+.gait-system .control-demo-video {
+  margin-inline: 0;
+}
+
 .gait-system img {
   max-width: 260px;
   border: 0;
@@ -608,6 +646,45 @@ main.content:has(.pub-card) h2 {
 
 .gait-system-notes > p {
   margin-bottom: 0.5rem;
+}
+
+.sts-videos {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.sts-videos figure {
+  margin: 0;
+  min-width: 0;
+}
+
+.sts-videos figcaption {
+  margin-bottom: 0.4rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.sts-videos video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.sts-plots-crop {
+  aspect-ratio: 980 / 285;
+  overflow: hidden;
+}
+
+.sts-plots-crop img {
+  width: 104.4%;
+  max-width: none;
+  margin-top: -41%;
+  margin-left: -4.4%;
+  border: 0;
+  border-radius: 0;
 }
 
 .gait-figure-grid {
@@ -689,6 +766,32 @@ main.content:has(.pub-card) h2 {
   border-radius: 6px;
 }
 
+.assessment-protocol {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.assessment-protocol .gait-table-wrap,
+.assessment-protocol .gait-figure {
+  margin: 0;
+}
+
+.assessment-protocol .assessment-video-figure {
+  max-width: 280px;
+  margin-inline: auto;
+}
+
+.assessment-video-figure .gait-video {
+  margin-bottom: 0;
+}
+
+.assessment-video-figure figcaption {
+  text-align: center;
+}
+
 .gait-paper-link {
   display: inline-block;
   padding: 0.35rem 0.8rem;
@@ -697,7 +800,25 @@ main.content:has(.pub-card) h2 {
   font-size: 0.84rem;
 }
 
+@media (max-width: 900px) {
+  .assessment-protocol {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 640px) {
+  .fes-system-demo {
+    grid-template-columns: 1fr;
+  }
+
+  .empc-comparison {
+    grid-template-columns: 1fr;
+  }
+
+  .sts-videos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .gait-system,
   .gait-torque-methods,
   .gait-matrices,

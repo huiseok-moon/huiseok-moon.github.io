@@ -20,9 +20,9 @@ Method: IEEE/RSJ IROS, 2018 · Clinical evaluation: research poster
 
 ```{=html}
 <div class="fes-system-demo">
-<figure class="gait-figure fes-system-figure">
-<img src="images/fes-system-flow.png" alt="FES setup showing leg IMUs, tibialis anterior and peroneus brevis electrodes, toe-off and initial-contact detection, knee-angle profile and stimulator" loading="lazy" width="1140" height="1140">
-<figcaption>System flow: IMUs identify the swing interval and knee angle; the resulting profile drives stimulation through electrodes on the tibialis anterior and peroneus brevis.</figcaption>
+<figure class="gait-figure fes-profile-figure">
+<img src="images/fes-knee-profile.png" alt="Poster plot: knee angle above an adaptive stimulation profile, compared with a fixed trapezoidal profile" loading="lazy" width="675" height="456">
+<figcaption>The knee-guided profile reduces stimulation around mid swing and increases it again as the knee re-extends.</figcaption>
 </figure>
 <figure class="gait-figure fes-experiment-figure">
 <video class="gait-video" autoplay muted loop playsinline controls preload="metadata" width="776" height="720" aria-label="Adaptive FES walking experiment with swing, knee angle, and stimulation plots"><source src="videos/FES_exp.mp4?v=cbc678ed" type="video/mp4"><a href="videos/FES_exp.mp4?v=cbc678ed">Download the adaptive FES experiment video</a>.</video>
@@ -46,9 +46,11 @@ The knee angle scales current between calibrated minimum and maximum levels. Cur
 :::
 
 ```{=html}
-<figure class="gait-figure research-compact-figure">
-<img src="images/fes-knee-profile.png" alt="Poster plot: knee angle above an adaptive stimulation profile, compared with a fixed trapezoidal profile" loading="lazy" width="674" height="456">
-<figcaption>The knee-guided profile reduces stimulation around mid swing and increases it again as the knee re-extends.</figcaption>
+<figure class="gait-figure fes-system-figure">
+<a href="images/fes-system-flow.png" target="_blank" rel="noopener" aria-label="Open the FES system diagram at full size">
+<img src="images/fes-system-flow.png" alt="FES setup showing leg IMUs, tibialis anterior and peroneus brevis electrodes, toe-off and initial-contact detection, knee-angle profile and stimulator" loading="lazy" width="1140" height="1140">
+</a>
+<figcaption>System flow: IMUs identify the swing interval and knee angle; the resulting profile drives stimulation through electrodes on the tibialis anterior and peroneus brevis.</figcaption>
 </figure>
 ```
 
@@ -73,7 +75,7 @@ The poster reports 10-m walking tests with three groups of people with hemiplegi
 ```
 
 ```{=html}
-<figure class="gait-figure research-compact-figure">
+<figure class="gait-figure research-compact-figure fes-clinical-figure">
 <img src="images/fes-clinical-dorsiflexion.png" alt="Poster bar chart comparing dorsiflexion area for AFES, placebo, and trapezoidal FES in barefoot and shoe conditions" loading="lazy" width="1296" height="960">
 <figcaption>Dorsiflexion area in the barefoot and shoe conditions.</figcaption>
 </figure>

@@ -2,6 +2,8 @@ project:
   type: website
   resources:
     - images/gait-main-video-poster.png
+    - videos/FES_exp.mp4
+    - videos/HGSA.mp4
 
 website:
   title: "Huiseok Moon"

@@ -11,30 +11,33 @@ if (research && overview) {
   let transition;
   let updating = false;
   let requestedTab;
+  let requestedAnchor;
 
-  const navigate = (tab) => {
+  const navigate = (tab, anchor) => {
     requestedTab = tab;
+    requestedAnchor = anchor;
     transition?.skipTransition();
     const update = () => {
       // Read the latest selection even if an earlier animation was interrupted.
       const target = requestedTab;
+      const destination = requestedAnchor;
       const entering = target && !research.classList.contains('research-detail');
       updating = true;
       if (target) bootstrap.Tab.getOrCreateInstance(target).show();
       updating = false;
       research.classList.toggle('research-detail', Boolean(target));
       overview.hidden = !target;
-      if (entering) {
-        const heading = research.querySelector('.tab-pane.active h4');
+      if (target && (entering || destination)) {
+        const heading = destination?.querySelector('h4, h5, h6') || research.querySelector('.tab-pane.active h4');
         heading.setAttribute('tabindex', '-1');
         heading.focus({ preventScroll: true });
-        overview.scrollIntoView({ block: 'start', behavior: 'instant' });
+        (destination || overview).scrollIntoView({ block: 'start', behavior: 'instant' });
       } else if (!target) {
         research.querySelector('[role="tab"].active').focus({ preventScroll: true });
         research.scrollIntoView({ block: 'start', behavior: 'instant' });
       }
     };
-    if (document.startViewTransition && !reducedMotion.matches) {
+    if (document.startViewTransition && !reducedMotion.matches && !anchor) {
       transition = document.startViewTransition(update);
       // A skipped animation still runs its update callback.
       transition.ready.catch(() => {});
@@ -63,7 +66,13 @@ if (research && overview) {
   });
   overview.addEventListener('click', () => navigate(null));
 
-  const linkedPane = location.hash && document.getElementById(location.hash.slice(1))?.closest('.tab-pane');
-  const linkedTab = linkedPane && research.querySelector(`[role="tab"][aria-controls="${linkedPane.id}"]`);
-  if (linkedTab) navigate(linkedTab);
+  const openLinkedProject = () => {
+    const anchor = location.hash ? document.getElementById(location.hash.slice(1)) : null;
+    const pane = anchor?.closest('.tab-pane');
+    const tab = pane && research.querySelector(`[role="tab"][aria-controls="${pane.id}"]`);
+    if (tab) navigate(tab, anchor);
+  };
+  openLinkedProject();
+  window.addEventListener('hashchange', openLinkedProject);
+  window.addEventListener('load', openLinkedProject, { once: true });
 }

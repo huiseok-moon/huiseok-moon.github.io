@@ -13,6 +13,13 @@ for (const [supported, reduced] of [[true, false], [false, false], [true, true]]
   let selected = tabs[0];
   let skipped = 0;
   const heading = { setAttribute() {}, focus() { this.focused = true; } };
+  const linked = {
+    closest: () => ({ id: 'tabset-1-2' }),
+    querySelector: () => heading,
+    scrollIntoView() { this.scrolled = true; },
+  };
+  const windowEvents = {};
+  const window = { addEventListener: (type, handler) => { windowEvents[type] = handler; } };
   const research = {
     classList: {
       add: (v) => classes.add(v), contains: (v) => classes.has(v),
@@ -25,13 +32,13 @@ for (const [supported, reduced] of [[true, false], [false, false], [true, true]]
   };
   const overview = { hidden: true, addEventListener(type, handler) { this.click = handler; }, scrollIntoView() {} };
   const showEvent = (tab) => ({ target: tab, preventDefault() { this.prevented = true; } });
-  const document = { querySelector: (s) => s.startsWith('#') ? overview : research, getElementById: () => ({ closest: () => ({ id: 'tabset-1-2' }), querySelectorAll: () => [video] }) };
+  const document = { querySelector: (s) => s.startsWith('#') ? overview : research, getElementById: (id) => id === 'control-knee' ? linked : { querySelectorAll: () => [video] } };
   if (supported) document.startViewTransition = (update) => {
     updates.push(update);
     return { skipTransition() { skipped++; }, ready: Promise.resolve() };
   };
   vm.runInNewContext(source, {
-    document, location: { hash: '' }, matchMedia: () => ({ matches: reduced }),
+    document, window, location: { hash: '' }, matchMedia: () => ({ matches: reduced }),
     bootstrap: { Tab: { getOrCreateInstance: (tab) => ({ show() {
       const event = showEvent(tab);
       events['show.bs.tab'](event);
@@ -64,11 +71,15 @@ for (const [supported, reduced] of [[true, false], [false, false], [true, true]]
   assert(!classes.has('research-detail') && overview.hidden && selected.focused);
   if (supported && !reduced) assert(skipped > 0);
 
+  const location = { hash: '#control-knee' };
   vm.runInNewContext(source, {
-    document, location: { hash: '#gait-intent' }, matchMedia: () => ({ matches: reduced }),
+    document, window, location, matchMedia: () => ({ matches: reduced }),
     bootstrap: { Tab: { getOrCreateInstance: (tab) => ({ show() { selected = tab; } }) } },
   });
   flush();
-  assert(classes.has('research-detail') && selected === tabs[1]);
+  assert(classes.has('research-detail') && selected === tabs[1] && linked.scrolled);
+  linked.scrolled = false;
+  windowEvents.hashchange();
+  assert(linked.scrolled);
 }
-console.log('PASS: animated/fallback/reduced-motion paths, card and keyboard selection, interrupted return, linked project');
+console.log('PASS: research navigation');

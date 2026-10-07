@@ -16,7 +16,7 @@ body {
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.65;
+  line-height: 1.34;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -132,6 +132,10 @@ main.content {
   font-size: 1rem;
 }
 
+.research-page .page-intro {
+  max-width: none;
+}
+
 .subtitle-note,
 .publication-count {
   margin-bottom: 2rem;
@@ -190,7 +194,6 @@ main.content {
   margin-bottom: 1.45rem;
   color: var(--text);
   font-size: 0.97rem;
-  line-height: 1.7;
 }
 
 .hero-bio p {
@@ -265,8 +268,12 @@ main.content:has(.pub-card) h2 {
   display: grid;
   grid-template-columns: 2rem minmax(0, 1fr);
   gap: 1rem;
-  padding: 0.7rem 0;
+  padding: 0.55rem 0;
   border-bottom: 1px solid var(--line);
+}
+
+.pub-content > p {
+  margin-bottom: 0;
 }
 
 .pub-index {
@@ -306,7 +313,6 @@ main.content:has(.pub-card) h2 {
   color: var(--text);
   font-size: 0.98rem;
   font-weight: 600;
-  line-height: 1.45;
 }
 
 .pub-title a {
@@ -327,7 +333,6 @@ main.content:has(.pub-card) h2 {
 .pub-venue {
   color: var(--muted);
   font-size: 0.84rem;
-  line-height: 1.5;
 }
 
 .pub-authors strong {
@@ -464,7 +469,6 @@ main.content:has(.pub-card) h2 {
   margin-bottom: 0.4rem;
   font-size: 1.05rem;
   font-weight: 600;
-  line-height: 1.35;
 }
 
 .research-theme {
@@ -472,7 +476,6 @@ main.content:has(.pub-card) h2 {
   color: var(--link);
   font-size: 0.7rem;
   font-weight: 600;
-  line-height: 1.4;
 }
 
 .research-preview,
@@ -480,7 +483,6 @@ main.content:has(.pub-card) h2 {
   color: var(--muted);
   font-size: 0.8rem;
   font-weight: 400;
-  line-height: 1.5;
 }
 
 .research-tabs > .tab-content {
@@ -513,7 +515,6 @@ main.content:has(.pub-card) h2 {
 .research-tabs .gait-study h5 {
   margin: 0 0 0.25rem;
   font-size: 1.2rem;
-  line-height: 1.35;
 }
 
 .gait-figure {
@@ -535,6 +536,60 @@ main.content:has(.pub-card) h2 {
   margin-top: 0.5rem;
   color: var(--muted);
   font-size: 0.8rem;
+}
+
+.research-compact-figure img {
+  width: auto;
+  max-height: 480px;
+  margin-inline: auto;
+  border: 0;
+}
+
+.research-compact-figure figcaption {
+  text-align: center;
+}
+
+.control-demo-video {
+  display: block;
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+  border-radius: 6px;
+}
+
+.empc-comparison {
+  display: grid;
+  grid-template-columns: minmax(0, 210px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.empc-comparison .gait-figure {
+  margin: 0;
+}
+
+.fes-system-figure {
+  max-width: 680px;
+  margin-inline: auto;
+}
+
+.fes-system-figure img {
+  border: 0;
+}
+
+.fes-system-demo {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 1rem;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.fes-system-demo .gait-figure,
+.fes-experiment-figure .gait-video {
+  margin: 0;
 }
 
 .gait-torque-methods {
@@ -576,6 +631,10 @@ main.content:has(.pub-card) h2 {
   margin: 0;
 }
 
+.gait-system .control-demo-video {
+  margin-inline: 0;
+}
+
 .gait-system img {
   max-width: 260px;
   border: 0;
@@ -588,6 +647,45 @@ main.content:has(.pub-card) h2 {
 
 .gait-system-notes > p {
   margin-bottom: 0.5rem;
+}
+
+.sts-videos {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.sts-videos figure {
+  margin: 0;
+  min-width: 0;
+}
+
+.sts-videos figcaption {
+  margin-bottom: 0.4rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.sts-videos video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.sts-plots-crop {
+  aspect-ratio: 980 / 285;
+  overflow: hidden;
+}
+
+.sts-plots-crop img {
+  width: 104.4%;
+  max-width: none;
+  margin-top: -41%;
+  margin-left: -4.4%;
+  border: 0;
+  border-radius: 0;
 }
 
 .gait-figure-grid {
@@ -606,6 +704,13 @@ main.content:has(.pub-card) h2 {
 
 .gait-charts .gait-figure {
   margin: 0;
+}
+
+.gait-charts .gait-figure img {
+  aspect-ratio: 2.1;
+  object-fit: contain;
+  border: 0;
+  border-radius: 0;
 }
 
 .gait-table-wrap {
@@ -662,6 +767,32 @@ main.content:has(.pub-card) h2 {
   border-radius: 6px;
 }
 
+.assessment-protocol {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.assessment-protocol .gait-table-wrap,
+.assessment-protocol .gait-figure {
+  margin: 0;
+}
+
+.assessment-protocol .assessment-video-figure {
+  max-width: 280px;
+  margin-inline: auto;
+}
+
+.assessment-video-figure .gait-video {
+  margin-bottom: 0;
+}
+
+.assessment-video-figure figcaption {
+  text-align: center;
+}
+
 .gait-paper-link {
   display: inline-block;
   padding: 0.35rem 0.8rem;
@@ -670,7 +801,25 @@ main.content:has(.pub-card) h2 {
   font-size: 0.84rem;
 }
 
+@media (max-width: 900px) {
+  .assessment-protocol {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 640px) {
+  .fes-system-demo {
+    grid-template-columns: 1fr;
+  }
+
+  .empc-comparison {
+    grid-template-columns: 1fr;
+  }
+
+  .sts-videos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .gait-system,
   .gait-torque-methods,
   .gait-matrices,
@@ -744,6 +893,10 @@ main.content:has(.pub-card) h2 {
   grid-template-columns: 230px minmax(0, 1fr);
   gap: 2.5rem;
   align-items: start;
+  scroll-margin-top: 5rem;
+}
+
+.research-tabs .tab-pane [id] {
   scroll-margin-top: 5rem;
 }
 
@@ -954,10 +1107,29 @@ main.content:has(.pub-card) h2 {
   margin-top: 0.65rem;
   color: var(--muted);
   font-size: 0.8rem;
-  line-height: 1.5;
 }
 
 .research-tabs h5 {
   margin-top: 2rem;
   font-size: 1.1rem;
+}
+
+.fes-line th:not(:first-child),
+.fes-line td:not(:first-child) {
+  text-align: left;
+}
+
+.fes-line tbody th {
+  width: 35%;
+  font-weight: 400;
+}
+
+.fes-status {
+  display: inline-block;
+  margin-right: 0.4rem;
+  padding: 0.1rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--text);
+  font-size: 0.72rem;
 }

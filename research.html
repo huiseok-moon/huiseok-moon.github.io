@@ -215,7 +215,7 @@ window.Quarto = {
 ← All research
 </button>
 <div class="tabset-margin-container"></div><div class="panel-tabset research-tabs">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href=""><span class="research-thumbnail research-thumbnail-media"><img src="images/gait-reference-pipeline.png" class="img-fluid" alt="Data processing, LSTM estimator and orthosis control pipeline"></span> <span class="research-theme">Human Motion Understanding</span> <span class="research-card-title">Locomotion intention</span> <span class="research-preview">Recognising the walking terrain from two foot IMUs.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href=""><span class="research-thumbnail research-thumbnail-media"><img src="images/robot-ankle-setup.jpg" class="img-fluid" alt="Participant walking with an actuated ankle–foot orthosis"></span> <span class="research-theme">Adaptive Mobility Assistance</span> <span class="research-card-title">Control of Wearable Robots</span> <span class="research-preview">Ankle assistance, sit-to-stand support, and knee rehabilitation.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href=""><span class="research-thumbnail research-thumbnail-media"><img src="images/fes-knee-profile.png" class="img-fluid" alt="Knee angle and knee-guided FES stimulation profiles from the research poster"></span> <span class="research-theme">Adaptive Mobility Assistance</span> <span class="research-card-title">Functional Electrical Stimulation</span> <span class="research-preview">Knee-guided stimulation for foot-drop assistance.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href=""><span class="research-thumbnail research-thumbnail-media"><img src="images/assessment-at10-poster.jpg" class="img-fluid" alt="Participant completing a 10-metre walking assessment in a hospital corridor"></span> <span class="research-theme">Wearable Movement Assessment</span> <span class="research-card-title">Gait assessment after stroke</span> <span class="research-preview">Seven IMUs track walking and joint motion during self-rehabilitation.</span></a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href=""><span class="research-thumbnail research-thumbnail-media"><img src="images/gait-reference-pipeline.png" class="img-fluid" alt="Data processing, LSTM estimator and orthosis control pipeline"></span> <span class="research-theme">Human Motion Understanding</span> <span class="research-card-title">Locomotion intention</span> <span class="research-preview">Recognising the walking terrain from two foot IMUs.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href=""><span class="research-thumbnail research-thumbnail-media"><img src="images/robot-ankle-setup.jpg" class="img-fluid" alt="Participant walking with an actuated ankle–foot orthosis"></span> <span class="research-theme">Adaptive Mobility Assistance</span> <span class="research-card-title">Control of Wearable Robots</span> <span class="research-preview">Ankle assistance, sit-to-stand support, and knee rehabilitation.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href=""><span class="research-thumbnail research-thumbnail-media"><img src="images/fes-knee-profile.png" class="img-fluid" alt="Knee angle and knee-guided FES stimulation profiles from the research poster"></span> <span class="research-theme">Adaptive Mobility Assistance</span> <span class="research-card-title">Functional Electrical Stimulation</span> <span class="research-preview">Latest closed-loop study under review.</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href=""><span class="research-thumbnail research-thumbnail-media"><img src="images/assessment-at10-poster.jpg" class="img-fluid" alt="Participant completing a 10-metre walking assessment in a hospital corridor"></span> <span class="research-theme">Wearable Movement Assessment</span> <span class="research-card-title">Gait assessment after stroke</span> <span class="research-preview">Manuscript under review.</span></a></li></ul>
 <div class="tab-content research-tabs">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="gait-intent" class="level4">
@@ -620,13 +620,9 @@ LSTM (proposed)
 <section id="fes-phase-magnitude" class="level5 gait-study">
 <h5 class="anchored" data-anchor-id="fes-phase-magnitude">Closed-loop FES with phase–magnitude adaptation for drop-foot correction</h5>
 <div class="research-meta">
-<p><span class="fes-status">Under review</span> Manuscript submitted, 2026</p>
+<p><span class="fes-status">Under review</span> 2026</p>
 </div>
 <p>The first AFES profile changes shape within a swing, but its peak intensity and late-swing restoration timing remain fixed from one step to the next. This follow-on method uses the patient’s <strong>unaffected ankle</strong> as a subject-specific reference. IMUs segment each leg’s swing independently; after a valid bilateral pair of swings, the ankle trajectories are normalized to the same 0–100% swing scale and compared. The controller updates two different parameters for the next affected-side swing.</p>
-<figure class="gait-figure figure">
-<img src="images/fes-pmd-architecture.png" alt="Closed-loop FES architecture: bilateral IMUs detect gait phase and ankle motion; phase and magnitude errors separately update the knee-guided stimulation profile for the next affected-side swing" loading="lazy" width="2200" height="1049" class="figure-img">
-<figcaption>Closed-loop architecture. The phase branch adjusts when late-swing stimulation is restored; the magnitude branch adjusts peak intensity. Both updates apply to the next valid affected-side swing.</figcaption>
-</figure>
 <h6 class="gait-torque-title anchored">Two separate adaptation rules</h6>
 <div class="gait-torque-methods">
 <div>
@@ -720,7 +716,7 @@ LSTM (proposed)
 <section id="movement-assessment" class="level4">
 <h4 class="anchored" data-anchor-id="movement-assessment">Wearable gait assessment during self-rehabilitation</h4>
 <div class="research-meta">
-<p>LISSI · Clinical gait analysis · Manuscript under review, 2026</p>
+<p>LISSI · Clinical gait analysis · <span class="fes-status">Under review</span> 2026</p>
 </div>
 <p>How does walking change during guided self-rehabilitation after stroke? In a prospective cohort study, wearable sensors measured gait over eight weeks. The analysis compares participants following a guided self-rehabilitation contract (GSC) with those without one (non-GSC).</p>
 <div class="gait-study">
@@ -784,66 +780,8 @@ LSTM (proposed)
 <a href="images/assessment-joint-angles.png" target="_blank" rel="noopener" aria-label="Open the ankle, knee and hip joint-angle plots at full size">
 <img src="images/assessment-joint-angles.png" alt="Ankle, knee and hip angles over the gait cycle: affected side in red, unaffected side in blue, shaded standard deviations and dashed median toe-off lines" loading="lazy" width="2045" height="550" class="figure-img">
 </a>
-<figcaption>Patient mean across four walking conditions; shaded bands show across-participant SD. Gait-cycle plots show 29 participants; the eight-week comparison reports 26 patients.</figcaption>
+<figcaption>Patient mean across four walking conditions; shaded bands show across-participant SD.</figcaption>
 </figure>
-</section>
-<section id="changes-from-baseline-to-eight-weeks" class="level5">
-<h5 class="anchored" data-anchor-id="changes-from-baseline-to-eight-weeks">Changes from baseline to eight weeks</h5>
-<p>The GSC group gained <strong>0.04 m in step length</strong> while the non-GSC group declined by 0.01 m (between-group <span class="math inline">\(p = 0.017\)</span>). Peak paretic knee flexion was maintained in the GSC group but declined in the non-GSC group (<span class="math inline">\(p = 0.021\)</span>). Walking speed rose by 0.05 m/s in the GSC group; the between-group comparison was <span class="math inline">\(p = 0.052\)</span>.</p>
-<div class="gait-table-wrap">
-
-<table class="gait-table caption-top table">
-<caption>Change from D14 to D56, estimate (SE), all four walking conditions combined</caption>
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th" scope="col">Measure</th>
-<th data-quarto-table-cell-role="th" scope="col">Non-GSC (n = 11)</th>
-<th data-quarto-table-cell-role="th" scope="col">GSC (n = 15)</th>
-<th data-quarto-table-cell-role="th" scope="col">Between-group <em>p</em></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<th data-quarto-table-cell-role="th" scope="row">Walking speed (m/s)</th>
-<td>0.00 (0.01)</td>
-<td>+0.05 (0.01)</td>
-<td>0.052</td>
-</tr>
-<tr class="even">
-<th data-quarto-table-cell-role="th" scope="row">Step length (m)</th>
-<td>−0.01 (0.01)</td>
-<td>+0.04 (0.01)</td>
-<td>0.017</td>
-</tr>
-<tr class="odd">
-<th data-quarto-table-cell-role="th" scope="row">Cadence (steps/s)</th>
-<td>+0.03 (0.02)</td>
-<td>+0.02 (0.02)</td>
-<td>0.434</td>
-</tr>
-<tr class="even">
-<th data-quarto-table-cell-role="th" scope="row">Peak paretic knee flexion (°)</th>
-<td>−1.48 (0.81)</td>
-<td>+0.56 (0.81)</td>
-<td>0.021</td>
-</tr>
-<tr class="odd">
-<th data-quarto-table-cell-role="th" scope="row">Peak paretic hip flexion (°)</th>
-<td>+3.07 (2.18)</td>
-<td>+0.03 (1.31)</td>
-<td>0.029</td>
-</tr>
-<tr class="even">
-<th data-quarto-table-cell-role="th" scope="row">Peak paretic hip extension (°)</th>
-<td>−0.64 (1.55)</td>
-<td>−3.95 (1.36)</td>
-<td>0.227</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-<p>The hip-extension angle shifted by nearly 4° in the GSC group under the study’s sign convention; its between-group comparison was <span class="math inline">\(p = 0.227\)</span>. The cohort comparison cannot isolate the contract’s causal effect.</p>
 </section>
 </div>
 <p><strong>Related work</strong></p>

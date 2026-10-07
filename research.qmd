@@ -8,7 +8,7 @@ format:
     body-classes: research-page
 ---
 
-::: {.page-intro}
+::: {.page-intro style="max-width: none"}
 My research connects human movement understanding with adaptive assistance and clinical movement assessment. I combine wearable sensing, machine learning, and control to recognize movement context, estimate joint moments, and develop assistance through wearable robots and functional electrical stimulation. Across these projects, I study how measurements of human movement can inform mobility assistance and rehabilitation.
 :::
 

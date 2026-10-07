@@ -132,10 +132,6 @@ main.content {
   font-size: 1rem;
 }
 
-.research-page .page-intro {
-  max-width: none;
-}
-
 .subtitle-note,
 .publication-count {
   margin-bottom: 2rem;

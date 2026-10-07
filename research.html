@@ -546,9 +546,9 @@ LSTM (proposed)
 </div>
 <p><strong>Why knee motion matters.</strong> Stimulation needs to lift the foot after toe-off, but knee re-extension near initial contact can stretch the gastrocnemius and oppose ankle dorsiflexion. Keeping stimulation high throughout swing may therefore use current when less is needed. The adaptive profile raises stimulation in initial and terminal swing and relaxes it around peak knee flexion in mid swing.</p>
 <div class="fes-system-demo">
-<figure class="gait-figure fes-system-figure figure">
-<img src="images/fes-system-flow.png" alt="FES setup showing leg IMUs, tibialis anterior and peroneus brevis electrodes, toe-off and initial-contact detection, knee-angle profile and stimulator" loading="lazy" width="1140" height="1140" class="figure-img">
-<figcaption>System flow: IMUs identify the swing interval and knee angle; the resulting profile drives stimulation through electrodes on the tibialis anterior and peroneus brevis.</figcaption>
+<figure class="gait-figure fes-profile-figure figure">
+<img src="images/fes-knee-profile.png" alt="Poster plot: knee angle above an adaptive stimulation profile, compared with a fixed trapezoidal profile" loading="lazy" width="675" height="456" class="figure-img">
+<figcaption>The knee-guided profile reduces stimulation around mid swing and increases it again as the knee re-extends.</figcaption>
 </figure>
 <figure class="gait-figure fes-experiment-figure figure">
 <video class="gait-video" autoplay="" muted="" loop="" playsinline="" controls="" preload="metadata" width="776" height="720" aria-label="Adaptive FES walking experiment with swing, knee angle, and stimulation plots"><source src="videos/FES_exp.mp4?v=cbc678ed" type="video/mp4"><a href="videos/FES_exp.mp4?v=cbc678ed">Download the adaptive FES experiment video</a>.</video>
@@ -566,9 +566,11 @@ LSTM (proposed)
 <p>The knee angle scales current between calibrated minimum and maximum levels. Current falls toward its minimum near peak knee flexion, then rises as the knee re-extends. Short ramps smooth the transitions after TO and IC.</p>
 </div>
 </div>
-<figure class="gait-figure research-compact-figure figure">
-<img src="images/fes-knee-profile.png" alt="Poster plot: knee angle above an adaptive stimulation profile, compared with a fixed trapezoidal profile" loading="lazy" width="674" height="456" class="figure-img">
-<figcaption>The knee-guided profile reduces stimulation around mid swing and increases it again as the knee re-extends.</figcaption>
+<figure class="gait-figure fes-system-figure figure">
+<a href="images/fes-system-flow.png" target="_blank" rel="noopener" aria-label="Open the FES system diagram at full size">
+<img src="images/fes-system-flow.png" alt="FES setup showing leg IMUs, tibialis anterior and peroneus brevis electrodes, toe-off and initial-contact detection, knee-angle profile and stimulator" loading="lazy" width="1140" height="1140" class="figure-img">
+</a>
+<figcaption>System flow: IMUs identify the swing interval and knee angle; the resulting profile drives stimulation through electrodes on the tibialis anterior and peroneus brevis.</figcaption>
 </figure>
 </section>
 <section id="clinical-evaluation" class="level5">
@@ -609,7 +611,7 @@ LSTM (proposed)
 </table>
 
 </div>
-<figure class="gait-figure research-compact-figure figure">
+<figure class="gait-figure research-compact-figure fes-clinical-figure figure">
 <img src="images/fes-clinical-dorsiflexion.png" alt="Poster bar chart comparing dorsiflexion area for AFES, placebo, and trapezoidal FES in barefoot and shoe conditions" loading="lazy" width="1296" height="960" class="figure-img">
 <figcaption>Dorsiflexion area in the barefoot and shoe conditions.</figcaption>
 </figure>

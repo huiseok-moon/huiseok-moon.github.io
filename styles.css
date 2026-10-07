@@ -567,20 +567,29 @@ main.content:has(.pub-card) h2 {
 }
 
 .fes-system-figure {
-  max-width: 680px;
+  max-width: 400px;
   margin-inline: auto;
+}
+
+.fes-profile-figure img {
+  border: 0;
 }
 
 .fes-system-figure img {
   border: 0;
 }
 
+.fes-clinical-figure img {
+  max-height: 360px;
+}
+
 .fes-system-demo {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  grid-template-columns: minmax(0, 1.48fr) minmax(0, 1.08fr);
   gap: 1rem;
-  align-items: center;
-  margin: 1.5rem 0;
+  align-items: start;
+  max-width: 700px;
+  margin: 1.25rem auto;
 }
 
 .fes-system-demo .gait-figure,
@@ -806,6 +815,7 @@ main.content:has(.pub-card) h2 {
 @media (max-width: 640px) {
   .fes-system-demo {
     grid-template-columns: 1fr;
+    max-width: 360px;
   }
 
   .empc-comparison {
